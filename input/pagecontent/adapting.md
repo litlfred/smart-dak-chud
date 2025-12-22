@@ -20,7 +20,8 @@ WHO guidelines articulate and endorse rigorously tested recommendations for heal
 
 **Leadership and Governance**
 - A centralized infrastructure provides Member States the ability to enforce standards for data harmonization, ensuring different systems can "speak the same language".
-Workforce
+
+**Workforce**
 - Member States will ensure that surveillance officers, data publishers, and data analysts are trained to collaborate using the common language of the unified system.
 
 
