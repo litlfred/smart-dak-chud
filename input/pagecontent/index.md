@@ -47,7 +47,7 @@ Aspects that are considered out of the scope of this initial documentation are:
 
 * Real-time or near-real-time data is the range of data mandated for use with WIS2.0. Depending on the needs of the prediction model being used or developed and the data available through WIS2.0 in the specific context, this may require data storage by the model to achieve the desired data elements. Longer time ranges, such as historic data, may be accessible via WIS2.0; however, it is on a case-by-case basis. If historical data is required and not available via WIS2.0, this data should be sought from the nationally designated institutions or other authoritative data providers.
 
-* Beyond the WMO climate and weather data exchange, international data centers such as NCEI (Data Access | National Centers for Environmental Information (NCEI)) and C3S (Climate Data Store), provide access to internationally exchanged data. If the required data is not accessible via WIS2 or a denser spatial scale of the model or product is required – working directly with nationally designated institutions or other data providers for data access should be considered.
+* Beyond the WMO climate and weather data exchange, international data centers such as NCEI (Data Access; National Centers for Environmental Information (NCEI)) and C3S (Climate Data Store), provide access to internationally exchanged data. If the required data is not accessible via WIS2 or a denser spatial scale of the model or product is required – working directly with nationally designated institutions or other data providers for data access should be considered.
 
 * For this use-case, it is assumed that the required data for dengue prediction is accessible via WIS2.0 (or WIS2.0 Node).
 
@@ -58,22 +58,45 @@ Aspects that are considered out of the scope of this initial documentation are:
 * It is assumed that upstream data entering from health facilities contains manual entry errors (e.g., incorrect province names, misspellings). While basic validation is assumed at the source, the unification system acts on the assumption that a secondary automated cleaning phase is required to flag gross inconsistencies before harmonization.
 
 ### L1 Narrative guidelines
-References used in this implementation guide are listed below:
+This DAK focuses on the following health interventions and recommendations related to a CHUD.
 
-- [Heat and health in the WHO European Region: updated evidence for effective prevention. World Health Organization. Regional Office for Europe. 2021](https://iris.who.int/handle/10665/339462);
-- [Updating the evidence related to heat-health action planning: 21-22 November 2018, Bonn, Germany: meeting report. World Health Organization. Regional Office for Europe. 2019](https://iris.who.int/handle/10665/346259);
-- [Improving public health responses to extreme weather/heat-waves: EuroHEAT: technical summary. World Health Organization. Regional Office for Europe. 2009](https://iris.who.int/handle/10665/107935);
-- [Report of a scoping meeting for the selection of indicators to monitor the impact of extreme heat on maternal, newborn and child health: Geneva, Switzerland, 24-25 April 2023. World Health Organization. 2024](https://iris.who.int/handle/10665/378102);
-- [Public health advice on preventing health effects of heat: new and updated information for different audiences. World Health Organization. Regional Office for Europe. 2011](https://iris.who.int/handle/10665/341580);
-- [EuroHEAT: improving public health responses to extreme weather/heat-waves: summary for policy-makers. World Health Organization. Regional Office for Europe. 2009](https://iris.who.int/handle/10665/107934);
-- [Heat-health action plans: guidance. World Health Organization. Regional Office for Europe. 2009](https://iris.who.int/handle/10665/107888);
-- [Heat-waves: risks and responses. World Health Organization. Regional Office for Europe. 2004](https://iris.who.int/handle/10665/107552).
+#### WHO universal health coverage interventions referenced in this DAK
+
+The key interventions for a Climate and Health data Unification for Dengue Surveillance (CHUD) system referenced in this DAK, as defined in the WHO universal health coverage list of essential interventions and WHO guidelines and guidance documents, are the following:
+
+TBC
+
+#### Digital health interventions covered in this DAK
+
+Table 2 lists the digital health interventions incorporated into this DAK, extracted from the WHO Classification of Digital Interventions, Services and Applications in Health (3):
+
+#### Table 2. Digital health interventions incorporated into the DAK for a heat-health alert system
+
+| DHI Category | DHIs |
+|--------------|------|
+| 2.5 Healthcare provider communication | 2.5.3 Transmit routine news and workflow notifications to healthcare provider(s)<br>2.5.4 Transmit non-routine health event alerts to healthcare provider(s) |
+| 2.7 Scheduling and activity planning for healthcare providers | 2.7.1 Identify persons in need of services |
+| 3.7 Facility management | 3.7.1 List health facilities and related information |
+| 4.1 Data Management | 4.1.2 Data storage and aggregation |
+| 4.3 Geo spatial information management | 4.3.2 Map location of health event<br>4.3.5 Map health and health indicator data to geographic data |
+| 4.4 Data exchange and interoperability | 4.4.2 Standards-compliant interoperability |
+
+#### WHO guidelines, recommendations and guidance
+
+The DAKs are intended to reflect health recommendations and content that has already been published in WHO guidelines and guidance documents. The health content and interventions for this DAK are based on the following WHO documents:
+
+| Document | Document |
+|----------|----------|
+| [Early Warning and Response System (EWARS) for Dengue Outbreaks](https://iris.who.int/server/api/core/bitstreams/4d13ec19-9669-4c3a-a2d0-9ac649316e8d/content) | [Dengue: Guidelines for Diagnosis, Treatment, Prevention and Control](https://iris.who.int/server/api/core/bitstreams/b1db05d8-0e97-469e-b529-464dca6de540/content) |
+| [Early Warning and Response System (EWARS) - Dengue Edition](https://iris.who.int/server/api/core/bitstreams/714eb93b-a435-4ab1-a489-c403568cadda/content) | |
 
 Other, non-WHO, references used in this implementation guide are listed below:
-- [User guide Weather-health alerting system. UK Health Security Agency. Met Office. 2025](https://assets.publishing.service.gov.uk/media/67f3aeaed3f1efd2ce2ab897/WHA_User_Guide.pdf);
-- [Treatment and Prevention of Heat-Related Illness. New England Journal of Medicine. Sorensen Cecilia, Hess Jeremy. 2022. doi: 10.1056/NEJMcp2210623](https://doi.org/10.1056/NEJMcp2210623);
-- [Heat Alert and Response Systems to Protect Health: Best Practices Guidebook. Health Canada, Water, Air and Climate Change Bureau Healthy Environments and Consumer Safety Branch. 2012](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/pubs/climat/response-intervention/response-intervention-eng.pdf);
-- [Common Alerting Protocol Message Broker for Last-Mile Hazard Warning System in Sri Lanka: An Essential Component. SSRN Electronic Journal. 10.2139/ssrn.1568001. 2007](https://www.researchgate.net/publication/228242993_Common_Alerting_Protocol_Message_Broker_for_Last-Mile_Hazard_Warning_System_in_Sri_Lanka_An_Essential_Component).
+* [WMO-No. 1131](https://library.wmo.int/idurl/4/51447)
+* [WMO-No. 1060](https://library.wmo.int/idurl/4/68731)
+* Guide to the WMO Information System, Volume II. WMO Information System 2.0. [WMO-No. 1061](https://library.wmo.int/idurl/4/69130)
+* Climate Data Management System Specifications. [WMO-No. 1131](https://library.wmo.int/idurl/4/51447)
+* [WMO-No. 1281](https://library.wmo.int/records/item/57850-world-meteorological-congress)
+* Guide to the WMO Information System, Volume II. WMO Information System 2.0. [WMO-No. 1061](https://library.wmo.int/idurl/4/69130)
 
 ### L2 Operational guidelines
 
