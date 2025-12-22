@@ -1,19 +1,8 @@
 The following standards and profiles are referenced in this implementation guide:
 
-* Integrating the Healthcare Enterprise (IHE):
+* HL7 FHIR: HL7 FHIR (Health Level 7 International Fast Healthcare Interoperability Resources) is a modern standard for exchanging healthcare information electronically. It aims to make it easier for different health IT systems to work together by using web technologies and a modular approach.
 
-  * [Audit Trail and Node Authentication (ATNA) Profile](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html)
 
-  * [Sharing Valuesets and Concept Maps (SVCM) Profile](https://profiles.ihe.net/ITI/SVCM/index.html)
+* WMO WIS 2.0: The WMO Information System 2.0 (WIS 2.0) is the global infrastructure for data exchange in the 21st century. It allows the "Data Integration Layer" to discover, access, and retrieve authoritative climate data (e.g., temperature, rainfall) from National Meteorological Services. 
 
-  * [Mobile Care Services Discovery (mCSD) Profile](https://profiles.ihe.net/ITI/mCSD/index.html)
-
-* The International Patient Summary (IPS):
-
-  * [Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) IPS Implementation Guide, published by HL7 International - Patient Care Work Group](http://hl7.org/fhir/uv/ips/index.html)
-
-* World Health Organization (WHO):
-
-  * [WHO International Classification of Diseases 11th Revision (ICD-11)](https://icd.who.int/en)
-
-  * [WHO Family of International Classifications](https://www.who.int/standards/classifications)
+* WMO Unified Data Policy: This policy framework ensures broad, free, and unrestricted access to core data. It is a critical dependency for CHUD, as it provides the legal and normative basis for the free exchange of essential climate variables required for predictive modeling.

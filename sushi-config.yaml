@@ -1,8 +1,8 @@
-id: smart.who.int.dak-empty # Replace "empty" with the health domain abbreviation
-canonical: http://smart.who.int/dak-empty # Replace "empty" with the health domain abbreviation
-name: DAKEmpty # Replace "empty" with the health domain abbreviation
-title: SMART DAK Empty # Replace "empty" with the health domain abbreviation
-description: An empty Digital Adaptation Kit (DAK) Implementation Guide to be used as a starting point for publishing SMART DAK content # Update the description
+id: smart.who.int.dak-chud # Replace "empty" with the health domain abbreviation
+canonical: http://smart.who.int/dak-chud # Replace "empty" with the health domain abbreviation
+name: DAKChud # Replace "empty" with the health domain abbreviation
+title: SMART DAK CHUD # Replace "empty" with the health domain abbreviation
+description: A Digital Adaptation Kit (DAK) Implementation Guide for Climate and Health data Unification for Dengue surveillance (CHUD)
 status: draft # draft | active | retired | unknown. The status should be set to "active" for a release candidate, in a branch dedicated for the release candidate.
 version: 0.1.0 # Update the version according to the assigned version number for the release. 
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
