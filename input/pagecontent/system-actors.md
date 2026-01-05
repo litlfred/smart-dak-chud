@@ -2,6 +2,8 @@ This page lists and describes digital services relevant for a CHUD system, deriv
 
 
 Digital Services for a CHUD
+
+
 | Digital Service | Description |
 |-----------------|-------------|
 | Climate Data Service (WIS 2.0) | A standardized service (e.g., WMO Information System) that provides discoverable, accessible, and authoritative meteorological data (historical and forecast). Acts as the primary "Data Publisher" for environmental variables. |
