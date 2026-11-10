@@ -92,10 +92,10 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
 <meta name="fa-beans-src" content="../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../build.json"><link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=34ea92e5aa62"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script>
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script>
 <script src="../../../assets/js/vendor/qrcode.js" defer></script>
 <script src="../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../assets/js/kg-render.js" defer></script><script src="../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script><script src="../../../assets/js/edit-links.js?v=8940e9749c31" defer></script><script src="../../../assets/js/work-plan.js" defer></script><script src="../../../assets/js/process-index.js" defer></script><style>
+<script src="../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../assets/js/work-plan.js" defer></script><script src="../../../assets/js/process-index.js" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -286,10 +286,8 @@
 <button type="button" class="pt-mark" data-task="Task_Seed" style="left:38.7%;top:21.19%" aria-expanded="false" aria-label="About step: Seed both repositories" title="About: Seed both repositories">i</button>
 <button type="button" class="pt-mark" data-task="Task_Repoint" style="left:46.03%;top:70.86%" aria-expanded="false" aria-label="About step: Re-point: livesAt, seam, mount or subscription" title="About: Re-point: livesAt, seam, mount or subscription">i</button>
 <button type="button" class="pt-mark" data-task="Task_FreshClone" style="left:53.35%;top:40.51%" aria-expanded="false" aria-label="About step: Verify on a fresh clone" title="About: Verify on a fresh clone">i</button>
-<a class="pt-go" href="upstream-version-adoption.html" style="left:64.96%;top:77.15%;width:1%;height:1.59%" aria-label="Open subprocess: Parent consumes, additively" title="Open subprocess: Parent consumes, additively"></a>
 <button type="button" class="pt-mark" data-task="Task_Consume" style="left:67.99%;top:70.86%" aria-expanded="false" aria-label="About step: Parent consumes, additively" title="About: Parent consumes, additively">i</button>
 <button type="button" class="pt-mark" data-task="Task_Release" style="left:75.31%;top:87.42%" aria-expanded="false" aria-label="About step: First release" title="About: First release">i</button>
-<a class="pt-go" href="publish-verification.html" style="left:79.6%;top:46.8%;width:1%;height:1.59%" aria-label="Open subprocess: Every identifier dereferences" title="Open subprocess: Every identifier dereferences"></a>
 <button type="button" class="pt-mark" data-task="Task_Verify" style="left:82.64%;top:40.51%" aria-expanded="false" aria-label="About step: Every identifier dereferences" title="About: Every identifier dereferences">i</button>
 </div>
 <div class="pt-panel" role="dialog" aria-label="Task details" hidden=""></div>
@@ -510,7 +508,7 @@
 
 <ul>
   <li><strong>Called by:</strong> <a href="kg-separation.html">A knowledge graph leaves for its own repositories</a>, <a href="sub-kg-lifecycle.html">A sub-KG is staged in place, then leaves for its own repository</a></li>
-  <li><strong>Calls:</strong> <a href="publish-verification.html">Verify the export before it is deployed</a>, <a href="upstream-version-adoption.html">Adopting an upstream version bump</a></li>
+  <li><strong>Calls:</strong> <code class="language-plaintext highlighter-rouge">Process_PublishVerification</code> (not loadable here), <code class="language-plaintext highlighter-rouge">Process_UpstreamAdoption</code> (not loadable here)</li>
   <li><strong>Presented on:</strong> no docs page section shows this diagram</li>
   <li><strong>Running instances:</strong> none recorded</li>
 </ul>
@@ -601,7 +599,7 @@
     <tr>
       <td><a id="step-Task_Repoint"></a><strong>Re-point: livesAt, seam, mount or subscription</strong><br /><code class="language-plaintext highlighter-rouge">Task_Repoint</code></td>
       <td>Platform authoring agent</td>
-      <td><a href="../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"><code class="language-plaintext highlighter-rouge">sub-kg-lifecycle</code></a><br /><a href="../../../en/cat-harness/processes/skills/upstream-version-adoption.html"><code class="language-plaintext highlighter-rouge">upstream-version-adoption</code></a></td>
+      <td><a href="../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"><code class="language-plaintext highlighter-rouge">sub-kg-lifecycle</code></a><br /><code class="language-plaintext highlighter-rouge">upstream-version-adoption</code></td>
       <td>In the new repository <code class="language-plaintext highlighter-rouge">livesAt</code> goes (absent means it sits at the root of <code class="language-plaintext highlighter-rouge">repository</code>) and <code class="language-plaintext highlighter-rouge">platform.ts</code> points at where the platform now is. The host consumes it as a remote mount (a <code class="language-plaintext highlighter-rouge">source.remote</code> instance in its root <code class="language-plaintext highlighter-rouge">index.config.json</code>) if it imports its code, or a subscription if it only reads its content, pinned to a commit while staging. Additive: the host keeps its copy.</td>
     </tr>
     <tr>
@@ -613,19 +611,19 @@
     <tr>
       <td><a id="step-Task_Consume"></a><strong>Parent consumes, additively</strong><br /><code class="language-plaintext highlighter-rouge">Task_Consume</code></td>
       <td>Platform authoring agent</td>
-      <td>calls <a href="upstream-version-adoption.html">Adopting an upstream version bump</a><br /><a href="../../../en/cat-harness/processes/skills/upstream-version-adoption.html"><code class="language-plaintext highlighter-rouge">upstream-version-adoption</code></a></td>
+      <td>calls <code class="language-plaintext highlighter-rouge">Process_UpstreamAdoption</code><br /><code class="language-plaintext highlighter-rouge">upstream-version-adoption</code></td>
       <td>The parent pins the pair (a commit while staging, a version once released) — a code dependency as a <code class="language-plaintext highlighter-rouge">source.remote</code> instance in its root <code class="language-plaintext highlighter-rouge">index.config.json</code> (remote-mount skill), never a submodule — repoints its imports, and keeps its own copy until it is green with the dependency declared.</td>
     </tr>
     <tr>
       <td><a id="step-Task_Release"></a><strong>First release</strong><br /><code class="language-plaintext highlighter-rouge">Task_Release</code></td>
       <td>Publication manager</td>
-      <td><a href="../../../en/cat-harness/processes/skills/package-release.html"><code class="language-plaintext highlighter-rouge">package-release</code></a></td>
+      <td><code class="language-plaintext highlighter-rouge">package-release</code></td>
       <td>Tag each repository, publish /v&lt;major&gt;/. From here the two are versioned independently; a tools release lists the content majors it supports.</td>
     </tr>
     <tr>
       <td><a id="step-Task_Verify"></a><strong>Every identifier dereferences</strong><br /><code class="language-plaintext highlighter-rouge">Task_Verify</code></td>
       <td>Build pipeline</td>
-      <td>calls <a href="publish-verification.html">Verify the export before it is deployed</a><br /><a href="../../../en/cat-harness/processes/skills/publish-verification.html"><code class="language-plaintext highlighter-rouge">publish-verification</code></a></td>
+      <td>calls <code class="language-plaintext highlighter-rouge">Process_PublishVerification</code><br /><code class="language-plaintext highlighter-rouge">publish-verification</code></td>
       <td>After the release is live, every published identifier resolves to the file it names.</td>
     </tr>
   </tbody>

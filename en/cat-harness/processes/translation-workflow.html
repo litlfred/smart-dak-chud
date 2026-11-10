@@ -92,10 +92,10 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
 <meta name="fa-beans-src" content="../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../build.json"><link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=34ea92e5aa62"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script>
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script>
 <script src="../../../assets/js/vendor/qrcode.js" defer></script>
 <script src="../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../assets/js/kg-render.js" defer></script><script src="../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script><script src="../../../assets/js/edit-links.js?v=8940e9749c31" defer></script><script src="../../../assets/js/work-plan.js" defer></script><script src="../../../assets/js/process-index.js" defer></script><style>
+<script src="../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../assets/js/work-plan.js" defer></script><script src="../../../assets/js/process-index.js" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -291,7 +291,6 @@
 <button type="button" class="pt-mark" data-task="Task_PoInject" style="left:41.48%;top:12.64%" aria-expanded="false" aria-label="About step: Inject translations (PO → Markdown)" title="About: Inject translations (PO → Markdown)">i</button>
 <button type="button" class="pt-mark" data-task="Task_RoundTripQA" style="left:50.88%;top:12.64%" aria-expanded="false" aria-label="About step: Round-trip translation QA (back-translate)" title="About: Round-trip translation QA (back-translate)">i</button>
 <button type="button" class="pt-mark" data-task="Task_GlossaryCheck" style="left:60.28%;top:12.64%" aria-expanded="false" aria-label="About step: Check glossary terms (translation:glossary:check)" title="About: Check glossary terms (translation:glossary:check)">i</button>
-<a class="pt-go" href="adjudication.html" style="left:63.95%;top:63.34%;width:1.41%;height:3.74%" aria-label="Open subprocess: Adjudicate the flagged passage (human)" title="Open subprocess: Adjudicate the flagged passage (human)"></a>
 <button type="button" class="pt-mark" data-task="Task_Adjudicate" style="left:68.21%;top:48.52%" aria-expanded="false" aria-label="About step: Adjudicate the flagged passage (human)" title="About: Adjudicate the flagged passage (human)">i</button>
 <button type="button" class="pt-mark" data-task="Task_EditTranslation" style="left:41.48%;top:48.52%" aria-expanded="false" aria-label="About step: Edit the flagged passage and re-inject" title="About: Edit the flagged passage and re-inject">i</button>
 <button type="button" class="pt-mark" data-task="Task_WriteUnofficial" style="left:77.32%;top:12.64%" aria-expanded="false" aria-label="About step: Write status.json (unofficial)" title="About: Write status.json (unofficial)">i</button>
@@ -517,7 +516,7 @@
 
 <ul>
   <li><strong>Called by:</strong> no call activity names this process</li>
-  <li><strong>Calls:</strong> <a href="adjudication.html">Adjudication</a></li>
+  <li><strong>Calls:</strong> <code class="language-plaintext highlighter-rouge">Process_Adjudication</code> (not loadable here)</li>
   <li><strong>Presented on:</strong> no docs page section shows this diagram</li>
   <li><strong>Running instances:</strong> none recorded</li>
 </ul>
@@ -616,7 +615,7 @@
     <tr>
       <td><a id="step-Task_Adjudicate"></a><strong>Adjudicate the flagged passage (human)</strong><br /><code class="language-plaintext highlighter-rouge">Task_Adjudicate</code></td>
       <td>Human reviewer / adjudicator</td>
-      <td>calls <a href="adjudication.html">Adjudication</a><br /><a href="../../../en/cat-harness/processes/skills/translation-manager.html"><code class="language-plaintext highlighter-rouge">translation-manager</code></a><br /><a href="../../../en/cat-harness/processes/skills/adjudication.html"><code class="language-plaintext highlighter-rouge">adjudication</code></a></td>
+      <td>calls <code class="language-plaintext highlighter-rouge">Process_Adjudication</code><br /><a href="../../../en/cat-harness/processes/skills/translation-manager.html"><code class="language-plaintext highlighter-rouge">translation-manager</code></a><br /><code class="language-plaintext highlighter-rouge">adjudication</code></td>
       <td>A human SME or editor reviews the flagged passage.<br />They may:<br />- Accept the translation as-is (false positive)<br />- Edit the translation and re-run QA<br />- Reject and request re-translation<br />The round trip establishes that two readings differ. Which one is<br />right is a human call.</td>
     </tr>
     <tr>

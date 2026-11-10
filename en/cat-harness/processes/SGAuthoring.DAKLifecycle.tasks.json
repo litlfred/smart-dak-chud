@@ -109,8 +109,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -121,12 +120,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -157,8 +154,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -169,12 +165,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -199,8 +193,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -211,12 +204,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -241,8 +232,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -253,12 +243,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -273,8 +261,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/smart-base/process/Process_Planning/lane/Lane_Planning",
    "skills": [
     {
-     "name": "release-epic-planning",
-     "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+     "name": "release-epic-planning"
     }
    ],
    "role": {
@@ -283,8 +270,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -295,12 +281,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -325,8 +309,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -337,12 +320,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }
@@ -357,8 +338,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/smart-base/process/Process_Planning/lane/Lane_Planning",
    "skills": [
     {
-     "name": "todo-manager",
-     "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     "name": "todo-manager"
     }
    ],
    "role": {
@@ -367,8 +347,7 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "decision-methodology-selector",
@@ -379,12 +358,10 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning",
-      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
+      "name": "release-epic-planning"
      },
      {
-      "name": "release-lifecycle",
-      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
+      "name": "release-lifecycle"
      }
     ]
    }

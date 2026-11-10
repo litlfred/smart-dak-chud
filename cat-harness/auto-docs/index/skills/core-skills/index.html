@@ -92,10 +92,10 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
 <meta name="fa-beans-src" content="../../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../../build.json"><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=34ea92e5aa62"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script>
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script>
 <script src="../../../../../assets/js/vendor/qrcode.js" defer></script>
 <script src="../../../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../../../assets/js/kg-render.js" defer></script><script src="../../../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=cb9e7e1bb264" defer></script><script src="../../../../../assets/js/edit-links.js?v=8940e9749c31" defer></script><script src="../../../../../assets/js/work-plan.js" defer></script><script src="../../../../../assets/js/process-index.js" defer></script><style>
+<script src="../../../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../../../assets/js/work-plan.js" defer></script><script src="../../../../../assets/js/process-index.js" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -347,11 +347,9 @@
 <li><strong>core-skills</strong> <span class="p">folio-assistant-core/skills</span> <span class="n" data-da-count="index/skills/core-skills" data-da-count-state="pending">…</span></li>
 <li><a href="../fhir-ig-skills/">fhir-ig-skills</a> <span class="p">fhir-harness/skills</span> <span class="n" data-da-count="index/skills/fhir-ig-skills" data-da-count-state="pending">…</span></li>
 <li><a href="../library-skills/">library-skills</a> <span class="p">cat-harness/library/skills</span> <span class="n" data-da-count="index/skills/library-skills" data-da-count-state="pending">…</span></li>
-<li><a href="../sdlc-skills/">sdlc-skills</a> <span class="p">cat-harness/sdlc/skills</span> <span class="n" data-da-count="index/skills/sdlc-skills" data-da-count-state="pending">…</span></li>
 <li><a href="../skills/">skills</a> <span class="p">cat-harness/skills</span> <span class="n" data-da-count="index/skills/skills" data-da-count-state="pending">…</span></li>
 <li><a href="../smart-base-skills/">smart-base-skills</a> <span class="p">smart-base/skills</span> <span class="n" data-da-count="index/skills/smart-base-skills" data-da-count-state="pending">…</span></li>
 <li><a href="../who-iris-skills/">who-iris-skills</a> <span class="p">who-iris/skills</span> <span class="n" data-da-count="index/skills/who-iris-skills" data-da-count-state="pending">…</span></li>
-<li><a href="../work-plan-skills/">work-plan-skills</a> <span class="p">cat-harness/work-plan/skills</span> <span class="n" data-da-count="index/skills/work-plan-skills" data-da-count-state="pending">…</span></li>
 </ul>
 
 <div class="fa-table-filter">
@@ -419,30 +417,6 @@
   <td><span class="none">no description in the artefact</span></td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/dsa-catalogue-status.md"><code>dsa-catalogue-status</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/dsa-catalogue-status.md</span></td>
-  <td>Set the life-cycle status (<code>adms:status</code>, W3C DCAT 3 §6.4.30) on a Data Sharing Agreement's DCAT 3 catalogue record when the agreement is amended, renewed, terminated, or expires, while keeping all published versions re…</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/dsa-checksum.md"><code>dsa-checksum</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/dsa-checksum.md</span></td>
-  <td>Compute and record the SHA-256 cryptographic digest of a signed Data Sharing Agreement's legal text as a W3C DCAT 3 <code>spdx:checksum</code> (<code>spdx:Checksum</code> with <code>spdx:checksumAlgorithm_sha256</code> and 64-character lowercase hex `s…</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/dsa-dcat-record.md"><code>dsa-dcat-record</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/dsa-dcat-record.md</span></td>
-  <td>Write the W3C DCAT 3 <code>dcat:Resource</code> and <code>dcat:Distribution</code> catalogue record for a Data Sharing Agreement (<code>dcat:downloadURL</code>, <code>spdx:checksum</code>, <code>odrl:hasPolicy</code>) and link versions with <code>dcat:version</code> and `dcat:previous…</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/dsa-odrl-source.md"><code>dsa-odrl-source</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/dsa-odrl-source.md</span></td>
-  <td>Bind a computable Data Sharing Agreement's W3C ODRL 2.2 <code>Agreement</code> to its signed legal text distribution using DCMI Metadata Terms <code>dcterms:source</code>, naming the exact <code>dcat:Distribution</code> whose <code>spdx:checksum</code> is checked…</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/folio-board-diagram-interchange.md"><code>folio-board-diagram-interchange</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/folio-board-diagram-interchange.md</span></td>
-  <td>The content-folio half of the harness's board-diagram-interchange skill: binds processes/ui/board-place-note.bpmn and board-relocate.bpmn, folio board filters over pages and block kinds, and note-to-board arrow directio…</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/folio-board-windows.md"><code>folio-board-windows</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/folio-board-windows.md</span></td>
-  <td>The content-folio half of the harness's board-windows skill: binds processes/ui/board-open-close.bpmn, folio-glass pinning (todo/&lt;id&gt; and landing/&lt;slot&gt;), and content-type card chrome ([x], [linksrc], [edit]).</td>
-</tr>
-<tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/content/folio-document-adapter/folio-content-lifecycle.md"><code>folio-content-lifecycle</code></a><br><span class="p">folio-assistant-core/skills/content/folio-document-adapter/folio-content-lifecycle.md</span></td>
   <td>The content-folio half of the content-lifecycle skills (the harness's content-feedback, content-review, content-test, content-validate and evidence-appraisal; this layer's content-plan, content-author, content-publish a…</td>
 </tr>
@@ -503,10 +477,6 @@
   <td>Render a catalogue's Dublin Core records in the two standard forms an outside reader can use: Dublin Core XML, which a harvester reads, and JSON-LD bound to DCMI Metadata Terms.</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/catalogue/oxigraph-catalogue-search.md"><code>oxigraph-catalogue-search</code></a><br><span class="p">folio-assistant-core/skills/library/catalogue/oxigraph-catalogue-search.md</span></td>
-  <td>How to compile, partition, distribute via CDN, and query digital library catalogue and Qualified Dublin Core metadata using Oxigraph in-memory WebAssembly on the static edge.</td>
-</tr>
-<tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/cataloguing/archiving-arxiv.md"><code>archiving-arxiv</code></a><br><span class="p">folio-assistant-core/skills/library/cataloguing/archiving-arxiv.md</span></td>
   <td>Materializing a paper from arXiv — why the version suffix is part of the identity rather than a detail, what to keep beside the PDF, and which facts must be read from the published API rather than recalled.</td>
 </tr>
@@ -517,10 +487,6 @@
 <tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/cataloguing/bib-human-review.md"><code>bib-human-review</code></a><br><span class="p">folio-assistant-core/skills/library/cataloguing/bib-human-review.md</span></td>
   <td>Human-validated bibliography workflow.</td>
-</tr>
-<tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/cataloguing/bib-photo-ingestion-watcher.md"><code>bib-photo-ingestion-watcher</code></a><br><span class="p">folio-assistant-core/skills/library/cataloguing/bib-photo-ingestion-watcher.md</span></td>
-  <td>Integration-watcher for bib physical-review issues.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/cataloguing/bib-qa.md"><code>bib-qa</code></a><br><span class="p">folio-assistant-core/skills/library/cataloguing/bib-qa.md</span></td>
@@ -543,16 +509,12 @@
   <td>Semantic Ontologist — scans narrative text for ambiguous terms, generates a formal glossary/registry, and produces a mapping linking narrative strings to formal identifiers.</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/ingestion/audio-transcription.md"><code>audio-transcription</code></a><br><span class="p">folio-assistant-core/skills/library/ingestion/audio-transcription.md</span></td>
-  <td>Turn recorded speech (a meeting recording, a video with audio, an interview) into a transcript the library can cite, and choose WHICH open-source recogniser to run for the job: whisper.cpp by default, faster-whisper, Wh…</td>
-</tr>
-<tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/ingestion/document-intake.md"><code>document-intake</code></a><br><span class="p">folio-assistant-core/skills/library/ingestion/document-intake.md</span></td>
   <td>Process uploaded documents (PDFs, scans, LaTeX, structured/normative guidelines, etc.) from uploads/ into structured content objects.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/ingestion/figure-rebuild.md"><code>figure-rebuild</code></a><br><span class="p">folio-assistant-core/skills/library/ingestion/figure-rebuild.md</span></td>
-  <td>Turn a source publication's figures into computable diagrams when a folio is built from its L1 entry.</td>
+  <td>Turn a figure into a computable diagram: every figure of a source publication when a folio is built from its L1 entry, and any hand-drawn figure in a folio, an IG or a demonstrator that is redrawn from a source.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/folio-assistant-core/blob/main/skills/library/ingestion/l1-coverage.md"><code>l1-coverage</code></a><br><span class="p">folio-assistant-core/skills/library/ingestion/l1-coverage.md</span></td>

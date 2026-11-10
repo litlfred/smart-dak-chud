@@ -107,8 +107,7 @@
     "title": "Build pipeline",
     "skills": [
      {
-      "name": "ci-health",
-      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+      "name": "ci-health"
      },
      {
       "name": "compiled-artefact-cache",
@@ -123,8 +122,7 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "feature-staging",
-      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+      "name": "feature-staging"
      },
      {
       "name": "harness-projections",
@@ -135,20 +133,16 @@
       "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
      },
      {
-      "name": "platform-gates",
-      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+      "name": "platform-gates"
      },
      {
-      "name": "prepare-merge",
-      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+      "name": "prepare-merge"
      },
      {
-      "name": "publish-verification",
-      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+      "name": "publish-verification"
      },
      {
-      "name": "qa-reports",
-      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+      "name": "qa-reports"
      },
      {
       "name": "remote-mount",
@@ -163,20 +157,17 @@
       "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
      },
      {
-      "name": "todo-manager",
-      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+      "name": "todo-manager"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "upstream-version-adoption",
-      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+      "name": "upstream-version-adoption"
      },
      {
-      "name": "watch",
-      "href": "../../../en/cat-harness/processes/skills/watch.html"
+      "name": "watch"
      }
     ]
    }

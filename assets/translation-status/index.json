@@ -1040,7 +1040,7 @@
             "findings": 0
           },
           "files": [],
-          "templates": 8,
+          "templates": 10,
           "catalogues": 0,
           "entries": 0,
           "translated": 0,
@@ -1056,7 +1056,7 @@
             "findings": 0
           },
           "files": [],
-          "templates": 8,
+          "templates": 10,
           "catalogues": 0,
           "entries": 0,
           "translated": 0,
@@ -1072,7 +1072,7 @@
             "findings": 0
           },
           "files": [],
-          "templates": 8,
+          "templates": 10,
           "catalogues": 0,
           "entries": 0,
           "translated": 0,
@@ -1088,7 +1088,7 @@
             "findings": 0
           },
           "files": [],
-          "templates": 8,
+          "templates": 10,
           "catalogues": 0,
           "entries": 0,
           "translated": 0,
@@ -1104,7 +1104,7 @@
             "findings": 0
           },
           "files": [],
-          "templates": 8,
+          "templates": 10,
           "catalogues": 0,
           "entries": 0,
           "translated": 0,
@@ -1135,16 +1135,16 @@
             },
             {
               "path": "site/iris-site.po",
-              "entries": 116,
-              "translated": 116,
+              "entries": 158,
+              "translated": 158,
               "fuzzy": 0,
               "untranslated": 0
             }
           ],
           "templates": 6,
           "catalogues": 2,
-          "entries": 120,
-          "translated": 120,
+          "entries": 162,
+          "translated": 162,
           "fuzzy": 0,
           "untranslated": 0,
           "unreadable": []
@@ -1166,16 +1166,16 @@
             },
             {
               "path": "site/iris-site.po",
-              "entries": 116,
-              "translated": 116,
+              "entries": 158,
+              "translated": 158,
               "fuzzy": 0,
               "untranslated": 0
             }
           ],
           "templates": 6,
           "catalogues": 2,
-          "entries": 120,
-          "translated": 120,
+          "entries": 162,
+          "translated": 162,
           "fuzzy": 0,
           "untranslated": 0,
           "unreadable": []
@@ -1197,16 +1197,16 @@
             },
             {
               "path": "site/iris-site.po",
-              "entries": 116,
-              "translated": 116,
+              "entries": 158,
+              "translated": 158,
               "fuzzy": 0,
               "untranslated": 0
             }
           ],
           "templates": 6,
           "catalogues": 2,
-          "entries": 120,
-          "translated": 120,
+          "entries": 162,
+          "translated": 162,
           "fuzzy": 0,
           "untranslated": 0,
           "unreadable": []
@@ -1228,16 +1228,16 @@
             },
             {
               "path": "site/iris-site.po",
-              "entries": 116,
-              "translated": 116,
+              "entries": 158,
+              "translated": 158,
               "fuzzy": 0,
               "untranslated": 0
             }
           ],
           "templates": 6,
           "catalogues": 2,
-          "entries": 120,
-          "translated": 120,
+          "entries": 162,
+          "translated": 162,
           "fuzzy": 0,
           "untranslated": 0,
           "unreadable": []
@@ -1259,16 +1259,16 @@
             },
             {
               "path": "site/iris-site.po",
-              "entries": 116,
-              "translated": 116,
+              "entries": 158,
+              "translated": 158,
               "fuzzy": 0,
               "untranslated": 0
             }
           ],
           "templates": 6,
           "catalogues": 2,
-          "entries": 120,
-          "translated": 120,
+          "entries": 162,
+          "translated": 162,
           "fuzzy": 0,
           "untranslated": 0,
           "unreadable": []

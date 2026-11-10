@@ -87,8 +87,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     }
    ],
    "role": {
@@ -97,8 +96,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -117,12 +115,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }
@@ -137,8 +133,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     }
    ],
    "role": {
@@ -147,8 +142,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -167,12 +161,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }
@@ -187,8 +179,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     }
    ],
    "role": {
@@ -197,8 +188,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -217,12 +207,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }
@@ -237,8 +225,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     }
    ],
    "role": {
@@ -247,8 +234,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -267,12 +253,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }
@@ -287,18 +271,14 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     },
     {
-     "name": "adjudication",
-     "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+     "name": "adjudication"
     }
    ],
    "calls": {
-    "name": "Criterion adjudication",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_CriterionAdjudication",
-    "diagram": "criterion-adjudication.html"
+    "name": "Process_CriterionAdjudication"
    },
    "role": {
     "name": "narrative-reviewer",
@@ -306,8 +286,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -326,12 +305,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }
@@ -346,8 +323,7 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_VoiceReview/lane/Lane_NarrativeReviewer",
    "skills": [
     {
-     "name": "voice-overlay-review",
-     "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+     "name": "voice-overlay-review"
     }
    ],
    "role": {
@@ -356,8 +332,7 @@
     "title": "Narrative reviewer",
     "skills": [
      {
-      "name": "adjudication",
-      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
+      "name": "adjudication"
      },
      {
       "name": "content-feedback",
@@ -376,12 +351,10 @@
       "href": "../../../en/cat-harness/processes/skills/uses-editorial-review.html"
      },
      {
-      "name": "voice-editorial-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-editorial-review.html"
+      "name": "voice-editorial-review"
      },
      {
-      "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "name": "voice-overlay-review"
      }
     ]
    }

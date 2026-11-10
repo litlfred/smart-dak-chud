@@ -27,6 +27,18 @@
    }
   },
   {
+   "id": "Task_SizeReview",
+   "name": "Review the site's size",
+   "left": 72.61,
+   "top": 34.24,
+   "box": {
+    "left": 66.3,
+    "top": 49.36,
+    "width": 2.09,
+    "height": 3.82
+   }
+  },
+  {
    "id": "Task_Dispatch",
    "name": "Dispatch AST refresh",
    "left": 41.74,
@@ -89,8 +101,7 @@
     "title": "Build pipeline",
     "skills": [
      {
-      "name": "ci-health",
-      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+      "name": "ci-health"
      },
      {
       "name": "compiled-artefact-cache",
@@ -105,8 +116,7 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "feature-staging",
-      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+      "name": "feature-staging"
      },
      {
       "name": "harness-projections",
@@ -117,20 +127,16 @@
       "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
      },
      {
-      "name": "platform-gates",
-      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+      "name": "platform-gates"
      },
      {
-      "name": "prepare-merge",
-      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+      "name": "prepare-merge"
      },
      {
-      "name": "publish-verification",
-      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+      "name": "publish-verification"
      },
      {
-      "name": "qa-reports",
-      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+      "name": "qa-reports"
      },
      {
       "name": "remote-mount",
@@ -145,20 +151,17 @@
       "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
      },
      {
-      "name": "todo-manager",
-      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+      "name": "todo-manager"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "upstream-version-adoption",
-      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+      "name": "upstream-version-adoption"
      },
      {
-      "name": "watch",
-      "href": "../../../en/cat-harness/processes/skills/watch.html"
+      "name": "watch"
      }
     ]
    }
@@ -187,8 +190,7 @@
     "title": "Build pipeline",
     "skills": [
      {
-      "name": "ci-health",
-      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
+      "name": "ci-health"
      },
      {
       "name": "compiled-artefact-cache",
@@ -203,8 +205,7 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "feature-staging",
-      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+      "name": "feature-staging"
      },
      {
       "name": "harness-projections",
@@ -215,20 +216,16 @@
       "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
      },
      {
-      "name": "platform-gates",
-      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
+      "name": "platform-gates"
      },
      {
-      "name": "prepare-merge",
-      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
+      "name": "prepare-merge"
      },
      {
-      "name": "publish-verification",
-      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+      "name": "publish-verification"
      },
      {
-      "name": "qa-reports",
-      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
+      "name": "qa-reports"
      },
      {
       "name": "remote-mount",
@@ -243,20 +240,102 @@
       "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
      },
      {
-      "name": "todo-manager",
-      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+      "name": "todo-manager"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "upstream-version-adoption",
-      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
+      "name": "upstream-version-adoption"
      },
      {
-      "name": "watch",
-      "href": "../../../en/cat-harness/processes/skills/watch.html"
+      "name": "watch"
+     }
+    ]
+   }
+  },
+  "Task_SizeReview": {
+   "id": "Task_SizeReview",
+   "name": "Review the site's size",
+   "type": "bpmn:Task",
+   "href": "https://litlfred.github.io/folio-assistant/fhir-harness/process/Process_IgAstCache/node/Task_SizeReview",
+   "stepHref": "ig-ast-cache.html#step-Task_SizeReview",
+   "lane": "Site build (agent, stage-local)",
+   "laneHref": "https://litlfred.github.io/folio-assistant/fhir-harness/process/Process_IgAstCache/lane/Lane_Site",
+   "skills": [
+    {
+     "name": "ig-publication",
+     "href": "../../../en/cat-harness/processes/skills/ig-publication.html"
+    }
+   ],
+   "role": {
+    "name": "build-pipeline",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/build-pipeline",
+    "title": "Build pipeline",
+    "skills": [
+     {
+      "name": "ci-health"
+     },
+     {
+      "name": "compiled-artefact-cache",
+      "href": "../../../en/cat-harness/processes/skills/compiled-artefact-cache.html"
+     },
+     {
+      "name": "content-test",
+      "href": "../../../en/cat-harness/processes/skills/content-test.html"
+     },
+     {
+      "name": "content-validate",
+      "href": "../../../en/cat-harness/processes/skills/content-validate.html"
+     },
+     {
+      "name": "feature-staging"
+     },
+     {
+      "name": "harness-projections",
+      "href": "../../../en/cat-harness/processes/skills/harness-projections.html"
+     },
+     {
+      "name": "kg-separation",
+      "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
+     },
+     {
+      "name": "platform-gates"
+     },
+     {
+      "name": "prepare-merge"
+     },
+     {
+      "name": "publish-verification"
+     },
+     {
+      "name": "qa-reports"
+     },
+     {
+      "name": "remote-mount",
+      "href": "../../../en/cat-harness/processes/skills/remote-mount.html"
+     },
+     {
+      "name": "render-kg-to-cdn",
+      "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
+     },
+     {
+      "name": "sub-kg-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
+     },
+     {
+      "name": "todo-manager"
+     },
+     {
+      "name": "translation-manager",
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+     },
+     {
+      "name": "upstream-version-adoption"
+     },
+     {
+      "name": "watch"
      }
     ]
    }
@@ -285,32 +364,27 @@
       "href": "../../../en/cat-harness/processes/skills/content-review.html"
      },
      {
-      "name": "decision-audit",
-      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
+      "name": "decision-audit"
      },
      {
       "name": "instance-publication",
       "href": "../../../en/cat-harness/processes/skills/instance-publication.html"
      },
      {
-      "name": "package-release",
-      "href": "../../../en/cat-harness/processes/skills/package-release.html"
+      "name": "package-release"
      },
      {
-      "name": "publish-verification",
-      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
+      "name": "publish-verification"
      },
      {
-      "name": "qa-report-signing",
-      "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
+      "name": "qa-report-signing"
      },
      {
       "name": "render-kg-to-cdn",
       "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
      },
      {
-      "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "name": "staging-review"
      }
     ]
    }
