@@ -1,0 +1,69 @@
+{
+  "$schema": "folio-fhir-artifact-index/v2",
+  "id": "smart-dak-chud",
+  "title": "smart.who.int.dak-chud — artefact index (from the IG Publisher AST cache)",
+  "packageId": "smart.who.int.dak-chud",
+  "version": "0.1.0",
+  "canonicalBase": "http://smart.who.int/dak-chud",
+  "source": {
+    "kind": "output",
+    "of": "output-ast",
+    "revision": "c481b5b80a472d1805ea48e46a966fd9a282341a",
+    "readAt": "2026-11-10"
+  },
+  "provenance": {},
+  "sidecarApi": "unknown",
+  "count": 1,
+  "artifacts": [
+    {
+      "key": "ImplementationGuide/smart.who.int.dak-chud",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.who.int.dak-chud",
+      "name": "DAKChud",
+      "title": "SMART DAK CHUD",
+      "description": "A Digital Adaptation Kit (DAK) Implementation Guide for Climate and Health data Unification for Dengue surveillance (CHUD)",
+      "canonical": "http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud",
+      "version": "0.1.0",
+      "profiles": [
+        "SMARTImplementationGuide"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json"
+        },
+        "localPath": "output-ast/resources/ImplementationGuide/smart.who.int.dak-chud--11614be4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "c481b5b80a472d1805ea48e46a966fd9a282341a",
+          "inputDigest": "f4652bc29cae7af27d3311741e6389085afc8bbf33e5f9cf6eca9f26e74cc75d"
+        },
+        "materializedAt": "2026-11-10T20:24:41.571459621Z"
+      }
+    }
+  ]
+}

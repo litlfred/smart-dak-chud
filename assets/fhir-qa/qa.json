@@ -1,0 +1,20 @@
+{
+  "url": "http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud",
+  "name": "DAKChud",
+  "title": "SMART DAK CHUD",
+  "description": "A Digital Adaptation Kit (DAK) Implementation Guide for Climate and Health data Unification for Dengue surveillance (CHUD)",
+  "status": "draft",
+  "package-id": "smart.who.int.dak-chud",
+  "ig-ver": "0.1.0",
+  "date": "Tue, 10 Nov, 2026 20:23:19 +0000",
+  "dateISO8601": "2026-11-10T20:23:19+00:00",
+  "errs": 4,
+  "warnings": 17,
+  "hints": 1,
+  "broken-links": 0,
+  "suppressed-hints": 0,
+  "suppressed-warnings": 0,
+  "version": "4.0.1",
+  "tool": "6.0.0-snapshot1 (3)",
+  "maxMemory": 1736875616
+}

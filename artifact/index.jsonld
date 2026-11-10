@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "fhir": "http://hl7.org/fhir/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "$schema": "folio-ig-artifact-index-jsonld/v1",
+  "@id": "index.jsonld",
+  "@type": "fhir:ImplementationGuide",
+  "dcterms:identifier": "smart.who.int.dak-chud",
+  "schema:version": "0.1.0",
+  "schema:sameAs": {
+    "@id": "http://smart.who.int/dak-chud"
+  },
+  "dcterms:title": "SMART DAK CHUD",
+  "schema:numberOfItems": 1,
+  "schema:hasPart": [
+    {
+      "@id": "ImplementationGuide-smart.who.int.dak-chud.jsonld",
+      "@type": "fhir:ImplementationGuide",
+      "dcterms:identifier": "ImplementationGuide/smart.who.int.dak-chud",
+      "dcterms:title": "SMART DAK CHUD",
+      "dcterms:description": "A Digital Adaptation Kit (DAK) Implementation Guide for Climate and Health data Unification for Dengue surveillance (CHUD)",
+      "schema:sameAs": {
+        "@id": "http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud"
+      }
+    }
+  ]
+}
