@@ -422,9 +422,13 @@ graph, unless a build passes <code class="language-plaintext highlighter-rouge">
 <code class="language-plaintext highlighter-rouge">ig-artifact-jsonld.ts</code> from the index (kind
 <code class="language-plaintext highlighter-rouge">ig-artifact-jsonld</code>; QA <code class="language-plaintext highlighter-rouge">ig-artifact-jsonld.ts check</code> over the built site).
 It uses the FHIR RDF class, dcterms, schema.org and PROV, and mints nothing.
-The page names the node as <code class="language-plaintext highlighter-rouge">alternate</code>.</li>
+The page names the node as <code class="language-plaintext highlighter-rouge">alternate</code>. Its encodings list the reduced
+<code class="language-plaintext highlighter-rouge">&lt;Type&gt;-&lt;id&gt;.json</code> at the site root first (<code class="language-plaintext highlighter-rouge">local</code>), then the full copy in
+the AST cache by raw URL (<code class="language-plaintext highlighter-rouge">mirror</code>), then the IG’s published file
+(<code class="language-plaintext highlighter-rouge">upstream</code>); <code class="language-plaintext highlighter-rouge">artifact/index.jsonld</code> names each root file on its entry
+(<code class="language-plaintext highlighter-rouge">schema:contentUrl</code>; fhir-harness#359).</li>
   <li><strong>One shared renderer.</strong> <code class="language-plaintext highlighter-rouge">assets/ig-artifact.js</code> fetches the node, then
-the resource’s local copy, draws the description, facts, identity table and
+the resource’s full copy (the <code class="language-plaintext highlighter-rouge">mirror</code>, else the <code class="language-plaintext highlighter-rouge">local</code> one), draws the description, facts, identity table and
 elements, concepts or includes, and hands the narrative and JSON to
 <code class="language-plaintext highlighter-rouge">ast-resource.js</code>. The page carries only its title, key and a <code class="language-plaintext highlighter-rouge">&lt;noscript&gt;</code>
 link to the node and resource.</li>

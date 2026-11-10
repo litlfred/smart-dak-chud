@@ -281,11 +281,11 @@
 
 <p>Candidate terms extracted from every BPMN task and call activity: <code class="language-plaintext highlighter-rouge">name</code> as the label, its own <code class="language-plaintext highlighter-rouge">&lt;documentation&gt;</code> as the definition, the element id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 352 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 51 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 224 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 161 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 352 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 56 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 224 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 161 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 3 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/bpmn-activities/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 282 terms and is 221 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 284 terms and is 224 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -300,7 +300,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">282</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">284</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-0-9">0–9</a> <a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a></nav>
 <h2 id="letter-0-9">
@@ -1169,7 +1169,7 @@ Browse in place, emit a KgAsset snippet <span class="fa-gloss-status">candidate,
 Build and publish the site from the AST <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Runs the site route's steps via <code>stage-local.ts</code> → <code>build-instance-site.ts</code>: <code>ig-site:sidecars</code> (IG API sidecars, if the landing layer has the step), <code>ig-site:compose</code> (artefact index and thin pages from the AST, the IG composed at the root), <code>ig-site:openapi</code> (if the IG holds OpenAPI pages), <code>ig-site:publisher-pages</code> (the AST's resources as <code>&lt;Type&gt;-&lt;id&gt;.json</code> at the root, the build stamp), and last <code>ig-site:bar</code> (the IG's slim bar on pages written after <code>publisher-pages</code>). Published at the root from the default branch, as a preview otherwise.</p>
+<p>Runs the site route's steps via <code>stage-local.ts</code> → <code>build-instance-site.ts</code>: <code>ig-site:sidecars</code> (IG API sidecars, if the landing layer has the step), <code>ig-site:compose</code> (artefact index and thin pages from the AST, the IG composed at the root), <code>ig-site:openapi</code> (if the IG holds OpenAPI pages), <code>ig-site:publisher-pages</code> (the AST's resources as <code>&lt;Type&gt;-&lt;id&gt;.json</code> at the root, the build stamp), and last <code>ig-site:bar</code> (the IG's slim bar on pages written after <code>publisher-pages</code>). Published at the root from the default branch, as a preview otherwise. When the restore recorded the cache commit, the site reads the AST from that commit by raw URL rather than copying it: the artefact pages draw each full resource there, the IG API sidecars are read from its <code>ig-api/</code> (fhir-harness#344), and the artefact index from its <code>fhir-artifact-index/index.json</code>, which the site points at with <code>fhir-artifact-index/index.ref.json</code> instead of serving (#358). The root <code>&lt;Type&gt;-&lt;id&gt;.json</code> copies are then reduced (minified, no narrative, no ELM data; #359), and the JSON-LD graph (<code>artifact/*.jsonld</code>) names each root file first and the cache copy as its mirror. The full resources are the cache commit's and the release's <code>package.tgz</code>.</p>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-ast-cache.bpmn"><code>fhir-harness/processes/content/ig-ast-cache.bpmn#Task_BuildSite</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_editing.task_buildgates" data-fa-state="extracted" data-fa-gloss="">
@@ -1262,6 +1262,13 @@ Build the public comment release <span class="fa-gloss-status">candidate, extrac
 <dd>
 <p>Freeze the draft as &quot;Draft for Public Comment Release vX&quot;: a PDF with fixed line numbers and a site copy under a permanent PC/&lt;version&gt;/ path (not branches/, never deleted on merge). Every channel cites this release's pages, lines and block ids. Line numbers run continuously through the document. Freeze from a FULL build: dispatch the preview workflow for the branch with build_type: full first, because a preview borrows main's search index and slices; pc:release freeze refuses a preview build. Run <code>bun run cat pc:pdf</code> for the line-numbered PDF and its line map, then <code>bun run cat pc:release freeze</code> for the write-once copy under PC/&lt;version&gt;/. Skill: document-publishing.</p>
 <p class="fa-gloss-meta">BPMN activities of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/processes/content/public-comment-release.bpmn"><code>folio-assistant-core/processes/content/public-comment-release.bpmn#Task_BuildPcRelease</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-bpmn-activities--process_igrelease.task_releasebuild" data-fa-state="extracted" data-fa-gloss="">
+Build the tag in full and make the draft release <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>ig-release.yml</code> (Tool <code>ig-release</code>): <code>ig-ast-refresh.yml</code> with <code>force</code> and <code>release</code> (never incremental), then <code>ig-release.ts assets</code> gathers <code>package.tgz</code> (and <code>package.r4.tgz</code>, <code>package.r4b.tgz</code>), <code>ast-data.zip</code> (the AST, Libraries with their ELM) and <code>SHA256SUMS</code>, and <code>ig-release.ts draft</code> makes or refreshes the GitHub draft for the tag. A tag with a published release is refused.</p>
+<p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-release.bpmn"><code>fhir-harness/processes/content/ig-release.bpmn#Task_ReleaseBuild</code></a></p>
 </dd>
 <dt id="smart-base--kg-bpmn-activities--process_dthauthoring.call_bpmn" data-fa-state="extracted" data-fa-gloss="">
 Business processes · BPMN [bpmn-authoring] <span class="fa-gloss-status">candidate, extracted</span>
@@ -1356,6 +1363,13 @@ Check the base AST against the inputs <span class="fa-gloss-status">candidate, e
 <dd>
 <p><code>ig-ast.ts validity &lt;base&gt; --ig &lt;root&gt;</code>: folio-assistant-core's compiledValidity on the manifest's inputs, with the input digest recomputed by the same algorithm as the Java writer. Exit 0 valid, 1 stale-inputs (names which input), 2 cannot-tell. Run against the BASE revision's checkout.</p>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-ast-delta-review.bpmn"><code>fhir-harness/processes/content/ig-ast-delta-review.bpmn#Task_Validity</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-bpmn-activities--process_igrelease.task_check" data-fa-state="extracted" data-fa-gloss="">
+Check the current version's tag and release <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>bun run fhir-harness/scripts/ig-release.ts check --ig . --repo &lt;owner/repo&gt;</code> (Tool <code>ig-release</code>). Prints one notice per finding: <code>version X is untagged: the owner tags commit &lt;sha&gt; with vX</code>, or <code>tag vX has no release: run &quot;IG release (draft)&quot; (ig-release.yml) by hand with tag vX</code>, or that a draft waits for the owner. Exits 0 always; never tags and never releases.</p>
+<p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-release.bpmn"><code>fhir-harness/processes/content/ig-release.bpmn#Task_Check</code></a></p>
 </dd>
 <dt id="bootstrap--kg-bpmn-activities--process_completeinitialization.a_checkdocuments" data-fa-state="extracted" data-fa-gloss="">
 Check the JSON Schemas and JSON-LD are at their IRIs <span class="fa-gloss-status">candidate, extracted</span>
@@ -2043,7 +2057,7 @@ Deploy the rendering <span class="fa-gloss-status">candidate, extracted</span>
 Deploy the site <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Deploy the site built from main or a release. Deploying is release-management, after a human authorised the release — an agent never records that authorisation. Report the published URL only once it answers: a returned deploy is not a serving site.</p>
+<p>Deploy the site built from main or a release. Deploying is release-management, after a human authorised the release — an agent never records that authorisation. A release's files are not deployed to the site: a <code>v*</code> tag makes a GitHub draft release carrying them (<code>ig-release.yml</code>; skill <code>ig-binary-artefacts</code> §&quot;Releasing&quot;), which the owner publishes. Report the published URL only once it answers: a returned deploy is not a serving site.</p>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-incremental-build.bpmn"><code>fhir-harness/processes/content/ig-incremental-build.bpmn#Task_Deploy</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_contentchangereviewstage.task_deploystaging" data-fa-state="extracted" data-fa-gloss="">

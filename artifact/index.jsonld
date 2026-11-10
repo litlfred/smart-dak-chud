@@ -25,6 +25,9 @@
       "dcterms:description": "A Digital Adaptation Kit (DAK) Implementation Guide for Climate and Health data Unification for Dengue surveillance (CHUD)",
       "schema:sameAs": {
         "@id": "http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-smart.who.int.dak-chud.json"
       }
     }
   ]

@@ -729,10 +729,29 @@
       ],
       "skos:definition": [
         {
-          "@value": "`local`: a copy this site serves; `upstream`: the file where the IG publishes it."
+          "@value": "`local`: a copy this site serves (the reduced `<Type>-<id>.json` at the site root, listed first); `mirror`: the full copy in the IG's AST cache, by raw URL pinned to the cache commit; `upstream`: the file where the IG publishes it."
         }
       ],
       "dcterms:source": "fhir-harness/schemas/ig-artifact-jsonld.ts#IgArtifactEncodingSchema.dcterms:source",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-schema-fields/ig-artifact-jsonld.igartifactindexentryschema.schema-contenturl",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "IgArtifactIndexEntrySchema.schema:contentUrl"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The resource this site serves at its root, `<Type>-<id>.json` (the node's first `local` encoding), so a harvester finds every file from this one list."
+        }
+      ],
+      "dcterms:source": "fhir-harness/schemas/ig-artifact-jsonld.ts#IgArtifactIndexEntrySchema.schema:contentUrl",
       "skos:note": "candidate"
     },
     {

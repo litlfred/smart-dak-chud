@@ -76317,10 +76317,10 @@
         },
         {
           "name": "dcterms:source",
-          "type": "z.enum([\"local\", \"upstream\"])",
+          "type": "z.enum([\"local\", \"mirror\", \"upstream\"])",
           "optional": false,
           "array": false,
-          "doc": "`local`: a copy this site serves; `upstream`: the file where the IG publishes it."
+          "doc": "`local`: a copy this site serves (the reduced `<Type>-<id>.json` at the"
         }
       ],
       "extendsNames": [],
@@ -76412,6 +76412,13 @@
           "type": "IgSubjectSchema.optional()",
           "optional": true,
           "array": false
+        },
+        {
+          "name": "schema:contentUrl",
+          "type": "IdRef.optional()",
+          "optional": true,
+          "array": false,
+          "doc": "The resource this site serves at its root, `<Type>-<id>.json` (the node's first `local` encoding), so a harvester finds every file from this one list."
         }
       ],
       "extendsNames": [],
@@ -103058,6 +103065,14 @@
       "via": "schema:contentUrl",
       "kind": "field",
       "optional": false,
+      "array": false
+    },
+    {
+      "from": "fhir-harness/schemas/ig-artifact-jsonld.ts#IgArtifactIndexEntrySchema",
+      "to": "fhir-harness/schemas/ig-artifact-jsonld.ts#IdRef",
+      "via": "schema:contentUrl",
+      "kind": "field",
+      "optional": true,
       "array": false
     },
     {

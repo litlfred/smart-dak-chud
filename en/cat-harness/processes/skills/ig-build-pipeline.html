@@ -809,11 +809,27 @@ where no sidecar is served.</li>
 </ul>
 
 <p><strong>What the site serves from the AST</strong>: each resource once, under the
-Publisher’s name <code class="language-plaintext highlighter-rouge">&lt;Type&gt;-&lt;id&gt;.json</code> at the root (the thin pages’ data,
-<code class="language-plaintext highlighter-rouge">gen-ig-pages --compiled-data .</code>, and the narrative’s links; no <code class="language-plaintext highlighter-rouge">ast-data/</code>
-mirror, owner 2026-11-08), the
-artefact index at <code class="language-plaintext highlighter-rouge">fhir-artifact-index/index.json</code>, and the AST as
-<code class="language-plaintext highlighter-rouge">site.data</code> for the IG’s own pages. The grouping of the IG’s committed
+Publisher’s name <code class="language-plaintext highlighter-rouge">&lt;Type&gt;-&lt;id&gt;.json</code> at the root, as FHIR’s convention and
+the IG Publisher have it (owner, 2026-11-10, card “C”; fhir-harness#359; no
+<code class="language-plaintext highlighter-rouge">ast-data/</code> mirror, owner 2026-11-08); the artefact index, or the pointer to
+the cache’s copy (above); and the AST as <code class="language-plaintext highlighter-rouge">site.data</code> for the IG’s own pages.
+When <code class="language-plaintext highlighter-rouge">ast</code> recorded the cache commit, the pages read each resource IN FULL by
+raw URL at that commit, and the root copy is <strong>reduced</strong>
+(<code class="language-plaintext highlighter-rouge">ig-repo-site.ts</code> <code class="language-plaintext highlighter-rouge">reduceForSite</code>): minified, without <code class="language-plaintext highlighter-rouge">text</code> (the pages
+render the narrative from the full copy), and each Library attachment whose
+contentType names <code class="language-plaintext highlighter-rouge">elm</code> without its <code class="language-plaintext highlighter-rouge">data</code>, its <code class="language-plaintext highlighter-rouge">url</code> set to the full
+resource in the cache; the CQL stays. Measured on one IG of 756 resources: 47 MB
+verbatim, 13 MB reduced. The JSON-LD graph names the root file first (each
+node’s <code class="language-plaintext highlighter-rouge">local</code> encoding, each <code class="language-plaintext highlighter-rouge">artifact/index.jsonld</code> entry’s
+<code class="language-plaintext highlighter-rouge">schema:contentUrl</code>) and the cache copy second (<code class="language-plaintext highlighter-rouge">mirror</code>); <code class="language-plaintext highlighter-rouge">ig-artifact-jsonld.ts
+check</code> holds every local file to the built site. The full copy is the cache
+commit’s and the release’s <code class="language-plaintext highlighter-rouge">package.tgz</code> (<a href="ig-binary-artefacts.html"><code class="language-plaintext highlighter-rouge">ig-binary-artefacts</code></a>).
+The root name is read from the resource (<code class="language-plaintext highlighter-rouge">resourceType</code>, <code class="language-plaintext highlighter-rouge">id</code>), not the
+cache file’s name; two names that differ only by case are warned about, as
+they clash on a case-insensitive disk for the Publisher too.
+<code class="language-plaintext highlighter-rouge">SITE_ROOT_RESOURCES=0</code> serves no root copy when the pages read by URL;
+without a cache commit (or with <code class="language-plaintext highlighter-rouge">SITE_AST_BY_URL=0</code>) the root copy is the
+pages’ own and is served whole. The grouping of the IG’s committed
 <code class="language-plaintext highlighter-rouge">fhir-artifact-index/index.json</code> is kept when it holds one, since the AST
 stops before the Publisher assigns categories.</p>
 

@@ -21,10 +21,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-chud/5047a32640cb01792bd8048be20815e10a26e596/resources/ImplementationGuide/smart.who.int.dak-chud--11614be4.json"
+        "@id": "../ImplementationGuide-smart.who.int.dak-chud.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-dak-chud/5047a32640cb01792bd8048be20815e10a26e596/resources/ImplementationGuide/smart.who.int.dak-chud--11614be4.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {

@@ -281,11 +281,11 @@
 
 <p>Candidate terms extracted from every BPMN task and call activity: <code class="language-plaintext highlighter-rouge">name</code> as the label, its own <code class="language-plaintext highlighter-rouge">&lt;documentation&gt;</code> as the definition, the element id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 352 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 51 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 224 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 161 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap 38 (<a href="../../../../../assets/glossary/bootstrap--kg-bpmn-activities.skos.jsonld">SKOS</a>) · bootstrap-tools 7 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-bpmn-activities.skos.jsonld">SKOS</a>) · cat-harness 352 (<a href="../../../../../assets/glossary/cat-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · fhir-harness 56 (<a href="../../../../../assets/glossary/fhir-harness--kg-bpmn-activities.skos.jsonld">SKOS</a>) · folio-assistant-core 224 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-bpmn-activities.skos.jsonld">SKOS</a>) · smart-base 161 (<a href="../../../../../assets/glossary/smart-base--kg-bpmn-activities.skos.jsonld">SKOS</a>) · who-iris 34 (<a href="../../../../../assets/glossary/who-iris--kg-bpmn-activities.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 3 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/bpmn-activities/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 317 terms and is 245 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 319 terms and is 247 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -300,7 +300,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">317</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">319</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-T">T</a> <a href="#letter-U">U</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a></nav>
 <h2 id="letter-R">
@@ -1523,6 +1523,13 @@ Run IG Publisher build <span class="fa-gloss-status">candidate, extracted</span>
 <p><em>The asset carries no description.</em></p>
 <p class="fa-gloss-meta">BPMN activities of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn"><code>smart-base/processes/content/SGAuthoring.DAKLifecycle.bpmn#Task_RunBuild</code></a></p>
 </dd>
+<dt id="fhir-harness--kg-bpmn-activities--process_igrelease.task_runrelease" data-fa-state="extracted" data-fa-gloss="">
+Run IG release (draft) by hand for the tag <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Actions → &quot;IG release (draft)&quot; → Run workflow, input <code>tag</code> = <code>v&lt;version&gt;</code>. For a tag pushed before the IG carried the caller, or whose run failed.</p>
+<p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-release.bpmn"><code>fhir-harness/processes/content/ig-release.bpmn#Task_RunRelease</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_crdm_signoff.a_recordkg" data-fa-state="extracted" data-fa-gloss="">
 Run placement, file a bean <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1740,7 +1747,7 @@ Seed both repositories <span class="fa-gloss-status">candidate, extracted</span>
 Seed the cache branch <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p><code>ig-cache.sh seed --ig-root . --push</code>: one commit holding the AST, the Publisher's expansions and <code>txcache/</code>, its subject recording the package, counts, Publisher version and source commit. Refused when the candidate is under 90% of the incumbent's resources or edges (the no-shrink gate).</p>
+<p><code>ig-cache.sh seed --ig-root . --push</code>: one commit holding the AST, the Publisher's expansions and <code>txcache/</code>, the IG API generated over that AST (<code>ig-api/</code>, <code>ig-api-cache.ts</code>) and the artefact index built from that tree (<code>fhir-artifact-index/index.json</code>, <code>ig-index-cache.ts</code>), which the site reads by raw URL; its subject recording the package, counts, Publisher version and source commit. Refused when the candidate is under 90% of the incumbent's resources or edges (the no-shrink gate).</p>
 <p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-ast-cache.bpmn"><code>fhir-harness/processes/content/ig-ast-cache.bpmn#Task_Seed</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-bpmn-activities--process_igincremental.task_seed" data-fa-state="extracted" data-fa-gloss="">
@@ -2096,6 +2103,13 @@ Synthesise, cite to a location, and say what was not found <span class="fa-gloss
 </h2>
     
 <dl class="fa-gloss">
+<dt id="fhir-harness--kg-bpmn-activities--process_igrelease.task_tag" data-fa-state="extracted" data-fa-gloss="">
+Tag the IG's current version <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The owner tags the commit that set the version with <code>v&lt;version&gt;</code> (for example <code>v0.2.0</code>) and pushes the tag. A <code>releaseLabel</code> of <code>ci-build</code>, <code>ballot</code> or <code>draft</code>, or a version with a suffix, makes it a pre-release (<code>ig-release.ts kind</code>). <code>ig-release.ts check</code> names the commit: the newest one whose diff of <code>sushi-config.yaml</code> sets that version, else HEAD.</p>
+<p class="fa-gloss-meta">BPMN activities of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/processes/content/ig-release.bpmn"><code>fhir-harness/processes/content/ig-release.bpmn#Task_Tag</code></a></p>
+</dd>
 <dt id="cat-harness--kg-bpmn-activities--process_sessionstatemachine.a_readturn" data-fa-state="extracted" data-fa-gloss="">
 Take in the turn <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
