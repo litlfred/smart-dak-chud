@@ -8,7 +8,7 @@
     "mode" : "milestone",    
     "path" : "http://smart.who.int/dak-[health domain abbreviation]/v0.9.9",
     "ci-build": "http://worldhealthorganization.github.io/smart-dak-[health domain abbreviation]", 
-    "first": true, /*Note: this tag is set to “true” only for the first release, including the pre-release version. The subsequent releases will use “first”: false */
+    "first": true,
     "status" : "draft",
     "sequence" : "Releases"
   }
