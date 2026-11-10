@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "60d9b473c1a9797b21db65a1f2b0abe1645c897c",
+          "ref": "49118332fb66ea355a3ee9429fd2e8031ff27a39",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "60d9b473c1a9797b21db65a1f2b0abe1645c897c",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "49118332fb66ea355a3ee9429fd2e8031ff27a39",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "33ebe87f691e9a72e308bec8390e2882b5b7ff73",
+          "ref": "4bb03f64dadd2e984b3c847c27c21f11737acffb",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -80,8 +80,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "33ebe87f691e9a72e308bec8390e2882b5b7ff73",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "4bb03f64dadd2e984b3c847c27c21f11737acffb",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
+          "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
+          "ref": "05f5525758184b4be66e7f1a4cd84107b210ec47",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,8 +130,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "05f5525758184b4be66e7f1a4cd84107b210ec47",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
+          "ref": "209b7702c024cd592189a50fff3cef0d6e1615f3",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "209b7702c024cd592189a50fff3cef0d6e1615f3",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+          "ref": "3ef7ce3db54f709bc559fb458fa5b6e4fb6baa78",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "3ef7ce3db54f709bc559fb458fa5b6e4fb6baa78",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
+          "ref": "77fdde8e222a52e0d8a4d7a92086a8b18810f8c6",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -205,8 +205,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
-              "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
+              "ref": "77fdde8e222a52e0d8a4d7a92086a8b18810f8c6",
+              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
             }
           }
         }
