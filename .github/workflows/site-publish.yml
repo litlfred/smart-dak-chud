@@ -72,7 +72,7 @@ jobs:
   # workflow of its own for it).
   ast:
     if: ${{ !inputs.plan }}
-    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@main
+    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@03f86731245b97aacf046b5fc178814ead4cc2c8 # index.lock.json
     with:
       # The branch being published. On the default branch the run seeds the
       # shared cache. On any other branch the cache is a no-op when the branch
