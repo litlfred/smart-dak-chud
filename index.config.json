@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "168b99206e0efe661ac71987cfaaffeb308ec76b",
+          "ref": "60d9b473c1a9797b21db65a1f2b0abe1645c897c",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,7 +43,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "168b99206e0efe661ac71987cfaaffeb308ec76b",
+              "ref": "60d9b473c1a9797b21db65a1f2b0abe1645c897c",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "a378a59bec81f26a159449795d7ba823ff3a5c71",
+          "ref": "33ebe87f691e9a72e308bec8390e2882b5b7ff73",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -80,7 +80,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "a378a59bec81f26a159449795d7ba823ff3a5c71",
+              "ref": "33ebe87f691e9a72e308bec8390e2882b5b7ff73",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "b0150c28d8f166490b53e099338739dfe1102c95",
+          "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,7 +102,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "b0150c28d8f166490b53e099338739dfe1102c95",
+              "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
+          "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -130,7 +130,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "62fe7e771c39686f206b95e04e2590eadd2915ce",
+              "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "44f49b72babcaa5db257ef84be7963fc868a7456",
+          "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,7 +158,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "44f49b72babcaa5db257ef84be7963fc868a7456",
+              "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "2b251af566ffe21a705eda0c397c3da8e9bf2a96",
+          "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,7 +183,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "2b251af566ffe21a705eda0c397c3da8e9bf2a96",
+              "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
+          "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -205,7 +205,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "c90ef456067a874fd7017a370232908ba62e9fcd",
+              "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "076173fe036f16300e8e2767dd35ab81411b46ab",
+          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -230,7 +230,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "076173fe036f16300e8e2767dd35ab81411b46ab",
+              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
               "evidence": "Owner litlfred, 2026-11-10, project thread 'Harness the 10 new WHO forks': card Q-JTD-2 option A, harness the 10 new WHO forks (index.config.json and index.lock.json mounting smart-base, set up as smart-hiv, and a gh-pages site)."
             }
           }
