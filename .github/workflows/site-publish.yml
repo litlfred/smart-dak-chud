@@ -111,6 +111,16 @@ jobs:
           for d in $(python3 -c "import json;print(' '.join(sorted({i['path'] for i in json.load(open('index.lock.json'))['instances']})))"); do
             [ -f "$d/package.json" ] && (cd "$d" && bun install --no-save)
           done
+          # fhir-harness imports `@litlfred/cat-harness-tools/...` by package name,
+          # and this repository has no root workspace to resolve it. Link each
+          # mounted package into the root node_modules, as fhir-harness's own
+          # ig-ast-refresh.yml does (the ast job above).
+          mkdir -p node_modules/@litlfred
+          for f in */package.json; do
+            d=${f%/package.json}
+            n=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('name',''))" "$f")
+            case "$n" in @litlfred/*) ln -sfn "../../$d" "node_modules/$n" ;; esac
+          done
 
       - uses: ruby/setup-ruby@v1
         with:
