@@ -92,7 +92,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
+          "ref": "03f86731245b97aacf046b5fc178814ead4cc2c8",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -102,8 +102,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
-              "evidence": "Owner litlfred, 2026-11-10 21:20Z, project thread 'Harness the 10 new WHO forks': card 'Allow me to run the platform re-pinner to update the forks' pins?' option A, re-pin the IG forks to the current core, cat-harness (209b770+) and cat-harness-tools (3ef7ce3+) mains, as a cross-layer set."
+              "ref": "03f86731245b97aacf046b5fc178814ead4cc2c8",
+              "evidence": "Owner litlfred, 2026-11-10 23:26:55Z, project thread 'Harness the 10 new WHO forks': card 'Allow the re-pinner again to add the Contents card to the forks?' option A 'Yes, re-pin fhir-harness'. fhir-harness moves forward to main so the forks carry #355 (qa.json) and #362 (Contents card)."
             }
           }
         }
