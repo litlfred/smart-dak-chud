@@ -1,0 +1,15 @@
+{
+  "$schema" : "ig-ast-dependencies/v1",
+  "authority" : "cache",
+  "edges" : 1,
+  "resolvedInIg" : 0,
+  "dependencies" : [{
+    "source" : "http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0",
+    "kind" : "meta.profile",
+    "target" : "SMARTImplementationGuide",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : "ImplementationGuide.meta.profile",
+    "origin" : "ast-export"
+  }]
+}

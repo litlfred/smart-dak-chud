@@ -1,0 +1,385 @@
+{
+  "$schema" : "ig-ast-pages/v1",
+  "authority" : "cache",
+  "fragments" : {
+    "ImplementationGuide-smart.who.int.dak-chud-contained-index.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-history.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-ip-statements.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-json-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-maturity.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-status.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-ttl-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-validate.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-validation.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "ImplementationGuide-smart.who.int.dak-chud-xml-html.xhtml" : {
+      "source" : "fsh-generated/resources/ImplementationGuide-smart.who.int.dak-chud.json",
+      "resources" : ["http://smart.who.int/dak-chud/ImplementationGuide/smart.who.int.dak-chud|0.1.0"]
+    },
+    "adapting.md" : {
+      "source" : "input/pagecontent/adapting.md",
+      "resources" : []
+    },
+    "artifacts.xml" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : []
+    },
+    "business-processes.md" : {
+      "source" : "input/pagecontent/business-processes.md",
+      "resources" : []
+    },
+    "business-requirements.md" : {
+      "source" : "input/pagecontent/business-requirements.md",
+      "resources" : []
+    },
+    "changes.md" : {
+      "source" : "input/pagecontent/changes.md",
+      "resources" : []
+    },
+    "codings.md" : {
+      "source" : "input/pagecontent/codings.md",
+      "resources" : []
+    },
+    "concepts.md" : {
+      "source" : "input/pagecontent/concepts.md",
+      "resources" : []
+    },
+    "data-models-and-exchange.md" : {
+      "source" : "input/pagecontent/data-models-and-exchange.md",
+      "resources" : []
+    },
+    "decision-logic.md" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : []
+    },
+    "dependencies.md" : {
+      "source" : "input/pagecontent/dependencies.md",
+      "resources" : []
+    },
+    "deployment.md" : {
+      "source" : "input/pagecontent/deployment.md",
+      "resources" : []
+    },
+    "dictionary.md" : {
+      "source" : "input/pagecontent/dictionary.md",
+      "resources" : []
+    },
+    "downloads.md" : {
+      "source" : "input/pagecontent/downloads.md",
+      "resources" : []
+    },
+    "feedback.md" : {
+      "source" : "input/pagecontent/feedback.md",
+      "resources" : []
+    },
+    "functional-requirements.md" : {
+      "source" : "input/pagecontent/functional-requirements.md",
+      "resources" : []
+    },
+    "index.md" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : []
+    },
+    "indicators-measures.md" : {
+      "source" : "input/pagecontent/indicators-measures.md",
+      "resources" : []
+    },
+    "indicators.md" : {
+      "source" : "input/pagecontent/indicators.md",
+      "resources" : []
+    },
+    "indices.md" : {
+      "source" : "input/pagecontent/indices.md",
+      "resources" : []
+    },
+    "license.md" : {
+      "source" : "input/pagecontent/license.md",
+      "resources" : []
+    },
+    "maps.md" : {
+      "source" : "input/pagecontent/maps.md",
+      "resources" : []
+    },
+    "menu.xml" : {
+      "source" : "fsh-generated/includes/menu.xml",
+      "resources" : []
+    },
+    "non-functional-requirements.md" : {
+      "source" : "input/pagecontent/non-functional-requirements.md",
+      "resources" : []
+    },
+    "personas.md" : {
+      "source" : "input/pagecontent/personas.md",
+      "resources" : []
+    },
+    "reference-implementations.md" : {
+      "source" : "input/pagecontent/reference-implementations.md",
+      "resources" : []
+    },
+    "references.md" : {
+      "source" : "input/pagecontent/references.md",
+      "resources" : []
+    },
+    "scenarios.md" : {
+      "source" : "input/pagecontent/scenarios.md",
+      "resources" : []
+    },
+    "scheduling-logic.md" : {
+      "source" : "input/pagecontent/scheduling-logic.md",
+      "resources" : []
+    },
+    "security-privacy.md" : {
+      "source" : "input/pagecontent/security-privacy.md",
+      "resources" : []
+    },
+    "sequence-diagrams.md" : {
+      "source" : "input/pagecontent/sequence-diagrams.md",
+      "resources" : []
+    },
+    "system-actors.md" : {
+      "source" : "input/pagecontent/system-actors.md",
+      "resources" : []
+    },
+    "system-requirements.md" : {
+      "source" : "input/pagecontent/system-requirements.md",
+      "resources" : []
+    },
+    "test-data.md" : {
+      "source" : "input/pagecontent/test-data.md",
+      "resources" : []
+    },
+    "testing.md" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : []
+    },
+    "transactions.md" : {
+      "source" : "input/pagecontent/transactions.md",
+      "resources" : []
+    },
+    "trust_domain.md" : {
+      "source" : "input/pagecontent/trust_domain.md",
+      "resources" : []
+    },
+    "trust_domain_policy.md" : {
+      "source" : "input/pagecontent/trust_domain_policy.md",
+      "resources" : []
+    },
+    "trust_domain_specifications.md" : {
+      "source" : "input/pagecontent/trust_domain_specifications.md",
+      "resources" : []
+    },
+    "trust_domain_use_cases.md" : {
+      "source" : "input/pagecontent/trust_domain_use_cases.md",
+      "resources" : []
+    }
+  },
+  "pages" : {
+    "adapting.html" : {
+      "source" : "input/pagecontent/adapting.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "artifacts.html" : {
+      "source" : "temp/pages/_includes/artifacts.xml",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "business-processes.html" : {
+      "source" : "input/pagecontent/business-processes.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "business-requirements.html" : {
+      "source" : "input/pagecontent/business-requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "changes.html" : {
+      "source" : "input/pagecontent/changes.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "codings.html" : {
+      "source" : "input/pagecontent/codings.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "concepts.html" : {
+      "source" : "input/pagecontent/concepts.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "data-models-and-exchange.html" : {
+      "source" : "input/pagecontent/data-models-and-exchange.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "decision-logic.html" : {
+      "source" : "input/pagecontent/decision-logic.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "dependencies.html" : {
+      "source" : "input/pagecontent/dependencies.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "deployment.html" : {
+      "source" : "input/pagecontent/deployment.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "dictionary.html" : {
+      "source" : "input/pagecontent/dictionary.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "downloads.html" : {
+      "source" : "input/pagecontent/downloads.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "functional-requirements.html" : {
+      "source" : "input/pagecontent/functional-requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "index.html" : {
+      "source" : "input/pagecontent/index.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "indicators-measures.html" : {
+      "source" : "input/pagecontent/indicators-measures.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "indicators.html" : {
+      "source" : "input/pagecontent/indicators.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "indices.html" : {
+      "source" : "input/pagecontent/indices.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "license.html" : {
+      "source" : "input/pagecontent/license.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "maps.html" : {
+      "source" : "input/pagecontent/maps.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "non-functional-requirements.html" : {
+      "source" : "input/pagecontent/non-functional-requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "personas.html" : {
+      "source" : "input/pagecontent/personas.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "reference-implementations.html" : {
+      "source" : "input/pagecontent/reference-implementations.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "references.html" : {
+      "source" : "input/pagecontent/references.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "scenarios.html" : {
+      "source" : "input/pagecontent/scenarios.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "scheduling-logic.html" : {
+      "source" : "input/pagecontent/scheduling-logic.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "searchform.html" : {
+      "fragments" : []
+    },
+    "security-privacy.html" : {
+      "source" : "input/pagecontent/security-privacy.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "sequence-diagrams.html" : {
+      "source" : "input/pagecontent/sequence-diagrams.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "system-actors.html" : {
+      "source" : "input/pagecontent/system-actors.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "system-requirements.html" : {
+      "source" : "input/pagecontent/system-requirements.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "test-data.html" : {
+      "source" : "input/pagecontent/test-data.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "testing.html" : {
+      "source" : "input/pagecontent/testing.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "toc.html" : {
+      "fragments" : ["menu.xml"]
+    },
+    "transactions.html" : {
+      "source" : "input/pagecontent/transactions.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    },
+    "trust_domain.html" : {
+      "source" : "input/pagecontent/trust_domain.md",
+      "resources" : [],
+      "fragments" : ["menu.xml"]
+    }
+  },
+  "unresolvedIncludes" : 7
+}
