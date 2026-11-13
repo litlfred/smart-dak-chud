@@ -249,6 +249,13 @@
   "site": {
     "landing": "smart-base"
   },
+  "enableSubgraphs": [
+    "folio-assistant-core.collab",
+    "smart-base.collab",
+    "fhir-harness.collab",
+    "smart-base.L2-collab",
+    "smart-base.L3-collab"
+  ],
   "contentTypes": {
     "ig": {
       "_comment": "What this repository is, per the content types its layers register: fhir-harness's `ig` content type. `include` is everything the harness reads in this repository, and nothing else is read: every `input/` entry and the IG's own build files. Set up as litlfred/smart-hiv's (owner card Q-JTD-2 A, 2026-11-10).",
