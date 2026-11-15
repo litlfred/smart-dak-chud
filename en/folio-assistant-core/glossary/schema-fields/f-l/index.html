@@ -86,16 +86,15 @@
     "pagesWithTranslations": 0,
     "complete": false
   },
-  "statusSrc":"../../../../../assets/translation-status/index.json"
+  "statusSrc":"../../../../../assets/translation-status/index.json",
+  "reviewSrc":"../../../../../assets/translation-status/review.json"
 }</script><script type="application/json" id="fa-navbar-row" data-fa-row-src="harness-data"></script><script type="application/json" id="fa-site-links">{"kg":"https://litlfred.github.io/folio-assistant/smart-base/","jsonld":"https://litlfred.github.io/folio-assistant/smart-base/smart-base.jsonld","source":"https://github.com/litlfred/smart-dak-chud"}</script><meta name="fa-site-index-src" content="../../../../../assets/harness/site.json">
 <meta name="fa-todo-src" content="../../../../../assets/todos/index.json"><meta name="fa-todo-graph" content="../../../../../todos.jsonld"><meta name="fa-zoom-src" content="../../../../../assets/semantic-zoom.json"><meta name="fa-tiles" content="" data-fa-src="harness-data">
-<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
+<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
-<meta name="fa-beans-src" content="../../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../../build.json"><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script>
-<script src="../../../../../assets/js/vendor/qrcode.js" defer></script>
-<script src="../../../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../../../assets/js/kg-render.js" defer></script><script src="../../../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../../../assets/js/work-plan.js" defer></script><script src="../../../../../assets/js/process-index.js" defer></script><style>
+<meta name="fa-beans-src" content="../../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../../build.json"><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=263225e79ed9">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script><script src="../../../../../assets/js/kg-render.js" defer></script><script src="../../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -281,16 +280,16 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2481 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 149 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 207 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 33 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2554 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 162 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 208 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 50 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 609 terms and is 357 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 635 terms and is 374 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -300,7 +299,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">609</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">635</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-H">H</a> <a href="#letter-I">I</a> <a href="#letter-J">J</a> <a href="#letter-K">K</a> <a href="#letter-L">L</a></nav>
 <h2 id="letter-F">
@@ -465,6 +464,48 @@ FhirChangeSchema.spec <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>The base standard's page.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#FhirChangeSchema.spec</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepackageschema.tarball" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePackageSchema.tarball <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>packages.fhir.org's URL for the exact version.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema.tarball</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepinsobject.note" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePinsObject.note <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What a reviewer needs to re-check the pins by hand.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject.note</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.counts" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.counts <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>read</code> only.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.counts</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.definitions" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.definitions <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>read</code> only, and never empty. An <code>unread</code> release has NO <code>definitions</code>: unread is not empty.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.definitions</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.reason" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.reason <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>unread</code> only: why the package could not be read.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.reason</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.selection" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.selection <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The rule &#123;@link isCoreDefinition} applies, in words.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.selection</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--device-screen.fieldsblockschema.columns" data-fa-state="extracted" data-fa-gloss="">
 FieldsBlockSchema.columns <span class="fa-gloss-status">candidate, extracted</span>
@@ -746,6 +787,13 @@ FolioContribution.root <span class="fa-gloss-status">candidate, extracted</span>
 <p>The contributing layer's root directory, absolute.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/contributions.ts"><code>cat-harness-tools/schemas/content/contributions.ts#FolioContribution.root</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-footnotes.footnotecallschema.context" data-fa-state="extracted" data-fa-gloss="">
+FootnoteCallSchema.context <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Up to 60 characters before the mark, so a reader can find it on the page.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-footnotes.ts"><code>cat-harness-tools/schemas/content/document-footnotes.ts#FootnoteCallSchema.context</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--formal-ref.formalrefresolution.basename" data-fa-state="extracted" data-fa-gloss="">
 FormalRefResolution.basename <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -808,6 +856,13 @@ FormerName.retiredOn <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>ISO date (YYYY-MM-DD) the name was retired.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/role-graph.ts"><code>cat-harness-tools/schemas/process/role-graph.ts#FormerName.retiredOn</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--fsh.fshfile.path" data-fa-state="extracted" data-fa-gloss="">
+FshFile.path <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Path relative to the smart-base repository root.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/schemas/fsh.ts"><code>smart-base/L1/schemas/fsh.ts#FshFile.path</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--fsh-guts.fshgutsnodeschema.bean" data-fa-state="extracted" data-fa-gloss="">
 FshGutsNodeSchema.bean <span class="fa-gloss-status">candidate, extracted</span>
@@ -1393,6 +1448,13 @@ GraphTypologyDef.published <span class="fa-gloss-status">candidate, extracted</s
 <p><code>false</code> keeps the kind out of every PUBLISHED graph: not one edge of a published artefact may lead to it (<code>isPublishedGraphTypology</code>). Absent means published. Was <code>UNPUBLISHED_GRAPH_TYPOLOGIES</code> in cat-harness.ts (sod4 #5).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-registry.ts"><code>cat-harness-tools/schemas/kg/graph-typology-registry.ts#GraphTypologyDef.published</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--graph-typology-registry.graphtypologydef.publishedbybuild" data-fa-state="extracted" data-fa-gloss="">
+GraphTypologyDef.publishedByBuild <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Is a directory of this kind SOURCE that a build Tool turns into pages at publish, so the directory itself is never copied to the site?</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-registry.ts"><code>cat-harness-tools/schemas/kg/graph-typology-registry.ts#GraphTypologyDef.publishedByBuild</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--graph-typology-registry.graphtypologydef.recordswork" data-fa-state="extracted" data-fa-gloss="">
 GraphTypologyDef.recordsWork <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1420,6 +1482,13 @@ GraphTypologyDef.schema <span class="fa-gloss-status">candidate, extracted</span
 <dd>
 <p>Where the shape of a node in this graph is defined — a repo-relative module path, or a <code>$schema</code> tag the files themselves carry.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-registry.ts"><code>cat-harness-tools/schemas/kg/graph-typology-registry.ts#GraphTypologyDef.schema</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--graph-typology-registry.graphtypologydef.serialised" data-fa-state="extracted" data-fa-gloss="">
+GraphTypologyDef.serialised <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Whether a directory of this kind owes json, jsonld and schema.json at its URL (check:subgraph-coverage). Absent: owed unless <code>holds</code> is <code>state</code>. <code>false</code> for kinds whose files are not graph nodes: code, built pages, fixtures. Owner Q-SER-1 C / Q-SER-2 A, 2026-11-12: not all directories need to be harnessed.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-registry.ts"><code>cat-harness-tools/schemas/kg/graph-typology-registry.ts#GraphTypologyDef.serialised</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--graph-typology-registry.graphtypologydef.shownonpublishedpages" data-fa-state="extracted" data-fa-gloss="">
 GraphTypologyDef.shownOnPublishedPages <span class="fa-gloss-status">candidate, extracted</span>
@@ -1505,12 +1574,26 @@ GraphTypologyNodeSchema.published <span class="fa-gloss-status">candidate, extra
 <p><code>false</code>: never part of a published graph (sod4 #5).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-node.ts"><code>cat-harness-tools/schemas/kg/graph-typology-node.ts#GraphTypologyNodeSchema.published</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--graph-typology-node.graphtypologynodeschema.publishedbybuild" data-fa-state="extracted" data-fa-gloss="">
+GraphTypologyNodeSchema.publishedByBuild <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Its directories are source a build Tool publishes at its own route, so the mount pass never copies them.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-node.ts"><code>cat-harness-tools/schemas/kg/graph-typology-node.ts#GraphTypologyNodeSchema.publishedByBuild</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--graph-typology-node.graphtypologynodeschema.rationale" data-fa-state="extracted" data-fa-gloss="">
 GraphTypologyNodeSchema.rationale <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>WHY the kind sits in its layer and renders as it does: what a code comment said on a listed kind. Not read by any reader.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-node.ts"><code>cat-harness-tools/schemas/kg/graph-typology-node.ts#GraphTypologyNodeSchema.rationale</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--graph-typology-node.graphtypologynodeschema.serialised" data-fa-state="extracted" data-fa-gloss="">
+GraphTypologyNodeSchema.serialised <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Whether a directory of this kind owes json, jsonld and schema.json at its URL (check:subgraph-coverage). Absent: owed unless <code>holds</code> is <code>state</code>. <code>false</code> for kinds whose files are not graph nodes: code, built pages, fixtures. Owner Q-SER-1 C / Q-SER-2 A, 2026-11-12: not all directories need to be harnessed.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/graph-typology-node.ts"><code>cat-harness-tools/schemas/kg/graph-typology-node.ts#GraphTypologyNodeSchema.serialised</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--graph-typology-node.graphtypologynodeschema.shownonpublishedpages" data-fa-state="extracted" data-fa-gloss="">
 GraphTypologyNodeSchema.shownOnPublishedPages <span class="fa-gloss-status">candidate, extracted</span>
@@ -1843,6 +1926,27 @@ HealthThresholdSchema.value <span class="fa-gloss-status">candidate, extracted</
 <dd>
 <p>The limit itself.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/sdlc/health-report.ts"><code>cat-harness-tools/schemas/sdlc/health-report.ts#HealthThresholdSchema.value</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--layers.heldlayer.dir" data-fa-state="extracted" data-fa-gloss="">
+HeldLayer.dir <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The schemas directory that holds it, relative to the repository root.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/schemas/layers.ts"><code>smart-base/L1/schemas/layers.ts#HeldLayer.dir</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--layers.heldlayer.file" data-fa-state="extracted" data-fa-gloss="">
+HeldLayer.file <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The source file, relative to the repository root, for generated banners.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/schemas/layers.ts"><code>smart-base/L1/schemas/layers.ts#HeldLayer.file</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--layers.heldlayer.key" data-fa-state="extracted" data-fa-gloss="">
+HeldLayer.key <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The layer's id as a document names it: <code>l1</code>, <code>l1-library</code>, <code>l2-bpmn</code>, …</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/schemas/layers.ts"><code>smart-base/L1/schemas/layers.ts#HeldLayer.key</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--role-graph.holdercandidate.createdat" data-fa-state="extracted" data-fa-gloss="">
 HolderCandidate.createdAt <span class="fa-gloss-status">candidate, extracted</span>
@@ -2281,6 +2385,20 @@ IgSection.include <span class="fa-gloss-status">candidate, extracted</span>
 <p>Repository-relative POSIX paths. A trailing <code>/</code> marks a directory.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-content-type.ts"><code>fhir-harness/schemas/ig-content-type.ts#IgSection.include</code></a></p>
 </dd>
+<dt id="fhir-harness--kg-schema-fields--ig-content-type.igsection.trustedscripts" data-fa-state="extracted" data-fa-gloss="">
+IgSection.trustedScripts <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Same-site scripts the IG's own pages load, as each page's script <code>src</code> writes them (owner, 2026-11-12, cards Q-TRP-3 and Q-RAIL-2). The injection gate (<code>scripts/ig-content-qa.ts</code>) accepts, on a page and only there, a script element whose <code>src</code> is on this list and that has no body; every other script, and any script in a resource's narrative or markdown, is still refused. Absent means none.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-content-type.ts"><code>fhir-harness/schemas/ig-content-type.ts#IgSection.trustedScripts</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--ig-content-type.igsection.trustedsvgs" data-fa-state="extracted" data-fa-gloss="">
+IgSection.trustedSvgs <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Same-site SVG drawings the IG's own pages embed with <code>&lt;object&gt;</code>, as each element's <code>data</code> writes them, so the drawing's links work (owner, 2026-11-12: the onboarding diagrams' drill-down). The injection gate accepts, on a page and only there, an <code>&lt;object&gt;</code> opening tag whose <code>data</code> is on this list, whose <code>type</code> (if any) is <code>image/svg+xml</code>, and whose other attributes are presentational (<code>style</code>, <code>width</code>, <code>height</code>, <code>class</code>, <code>id</code>, <code>title</code>, <code>role</code>, <code>aria-*</code>). The element's body is still scanned. Absent means none.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-content-type.ts"><code>fhir-harness/schemas/ig-content-type.ts#IgSection.trustedSvgs</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-schema-fields--fhir-artifact-index.igsourceschema.of" data-fa-state="extracted" data-fa-gloss="">
 IgSourceSchema.of <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -2518,6 +2636,20 @@ IndexSiteSchema.landing <span class="fa-gloss-status">candidate, extracted</span
 <dd>
 <p>An instance name, or &#123;@link HUB_LANDING}. Must name an instance this file lists.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/index-config.ts"><code>cat-harness-tools/schemas/kg/index-config.ts#IndexSiteSchema.landing</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--index-config.indexsiteschema.publishafter" data-fa-state="extracted" data-fa-gloss="">
+IndexSiteSchema.publishAfter <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Workflow files under <code>.github/workflows/</code> whose run on the SAME commit the push-to-main publish waits for, before it builds (cat-harness-tools#1879). An IG's site is built from its AST cache, which its <code>ig-ast-refresh.yml</code> seeds on the same push. A publish that starts first finds the cache stale and is refused. A workflow that did not run on that commit is not waited for.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/index-config.ts"><code>cat-harness-tools/schemas/kg/index-config.ts#IndexSiteSchema.publishAfter</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--index-config.indexsiteschema.publisher" data-fa-state="extracted" data-fa-gloss="">
+IndexSiteSchema.publisher <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Which site publisher <code>stage-local.ts</code> uses for this checkout when no <code>--publisher</code> is given: <code>folio</code>, or the kind of a publisher a mounted layer declares (<code>ig</code>, an IG layer's <code>site-publisher-ig</code>). Absent: the declared <code>site.build</code> recipe, else the publisher the repository's own workflows call, as before. It exists for a repository that has both, such as a DAK whose instance declares a folio recipe while its site is the IG (smart-trust-demo). Agents had to remember <code>--publisher ig</code> for that repository, and the shared <code>folio-site-publish.yml</code> that runs on every push to main had no way of knowing it (owner, 2026-11-11: &quot;i want that it publishes once merge to main, update QA reports etc.&quot;; cat-harness-tools#1879).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/index-config.ts"><code>cat-harness-tools/schemas/kg/index-config.ts#IndexSiteSchema.publisher</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--index-config.indexsiteschema.sharedassets" data-fa-state="extracted" data-fa-gloss="">
 IndexSiteSchema.sharedAssets <span class="fa-gloss-status">candidate, extracted</span>
@@ -3977,6 +4109,13 @@ LayerRatchet.keep <span class="fa-gloss-status">candidate, extracted</span>
 <p>What the writer leaves in the baseline (what it held and still owns unkinded, plus <code>fresh</code> when accepted).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/node-kind-index.ts"><code>cat-harness-tools/schemas/kg/node-kind-index.ts#LayerRatchet.keep</code></a></p>
 </dd>
+<dt id="smart-base--kg-schema-fields--ontology.layerspec.profilenote" data-fa-state="extracted" data-fa-gloss="">
+LayerSpec.profileNote <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>L3's note on profiles (smart-kg l3.json <code>profileNote</code>).</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/schemas/ontology.ts"><code>smart-base/L1/schemas/ontology.ts#LayerSpec.profileNote</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--kg-node.layoutpick.substituted" data-fa-state="extracted" data-fa-gloss="">
 LayoutPick.substituted <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -4187,6 +4326,20 @@ LedgerRead.note <span class="fa-gloss-status">candidate, extracted</span>
 <p>One line for the caller to print: which home answered.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/bib-attestations.ts"><code>cat-harness-tools/schemas/library/bib-attestations.ts#LedgerRead.note</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.librarydocumentviewschema.coverage" data-fa-state="extracted" data-fa-gloss="">
+LibraryDocumentViewSchema.coverage <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What was extracted, kind by kind — found, none in the text, or not extracted (owner, 2026-11-14).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryDocumentViewSchema.coverage</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.librarydocumentviewschema.images" data-fa-state="extracted" data-fa-gloss="">
+LibraryDocumentViewSchema.images <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The entry's KEPT figures (role <code>figure</code>, a WebP on disk), each with every language's description. Absent when it keeps none.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryDocumentViewSchema.images</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--site-indexes.librarydocumentviewschema.links" data-fa-state="extracted" data-fa-gloss="">
 LibraryDocumentViewSchema.links <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -4208,6 +4361,13 @@ LibraryDocumentViewSchema.pagesCovered <span class="fa-gloss-status">candidate, 
 <p>When <code>pages</code> is unknown, the last page a section reaches.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryDocumentViewSchema.pagesCovered</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.librarydocumentviewschema.tables" data-fa-state="extracted" data-fa-gloss="">
+LibraryDocumentViewSchema.tables <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The entry's transcribed tables (<code>tabular.csvw.json</code>), cells inline. Absent when it has none.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryDocumentViewSchema.tables</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--site-indexes.librarydocumentviewschema.variant" data-fa-state="extracted" data-fa-gloss="">
 LibraryDocumentViewSchema.variant <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -4228,6 +4388,27 @@ LibraryIndexEntrySchema.extractedTitle <span class="fa-gloss-status">candidate, 
 <dd>
 <p>The manifest's extracted title, only when a catalogue title replaced it (bean <code>gnqa</code>).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryIndexEntrySchema.extractedTitle</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.libraryindexentryschema.figures" data-fa-state="extracted" data-fa-gloss="">
+LibraryIndexEntrySchema.figures <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Kept figures, raster and vector (role <code>figure</code>). Optional so an index built before it still reads.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryIndexEntrySchema.figures</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.libraryindexentryschema.images" data-fa-state="extracted" data-fa-gloss="">
+LibraryIndexEntrySchema.images <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Raster images placed (<code>images.json</code>), every role.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryIndexEntrySchema.images</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--site-indexes.libraryindexentryschema.lang" data-fa-state="extracted" data-fa-gloss="">
+LibraryIndexEntrySchema.lang <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The title's language and the titles of the entry's held language editions, by language (owner, 2026-11-13). GENERATED by <code>gen-library-viz</code> (<code>listingTitles</code>); absent when not known.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/ui/site-indexes.ts"><code>cat-harness-tools/schemas/ui/site-indexes.ts#LibraryIndexEntrySchema.lang</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--site-indexes.libraryindexentryschema.links" data-fa-state="extracted" data-fa-gloss="">
 LibraryIndexEntrySchema.links <span class="fa-gloss-status">candidate, extracted</span>

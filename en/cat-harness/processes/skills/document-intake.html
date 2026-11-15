@@ -86,16 +86,15 @@
     "pagesWithTranslations": 0,
     "complete": false
   },
-  "statusSrc":"../../../../assets/translation-status/index.json"
+  "statusSrc":"../../../../assets/translation-status/index.json",
+  "reviewSrc":"../../../../assets/translation-status/review.json"
 }</script><script type="application/json" id="fa-navbar-row" data-fa-row-src="harness-data"></script><script type="application/json" id="fa-site-links">{"kg":"https://litlfred.github.io/folio-assistant/smart-base/","jsonld":"https://litlfred.github.io/folio-assistant/smart-base/smart-base.jsonld","source":"https://github.com/litlfred/smart-dak-chud"}</script><meta name="fa-site-index-src" content="../../../../assets/harness/site.json">
 <meta name="fa-todo-src" content="../../../../assets/todos/index.json"><meta name="fa-todo-graph" content="../../../../todos.jsonld"><meta name="fa-zoom-src" content="../../../../assets/semantic-zoom.json"><meta name="fa-tiles" content="" data-fa-src="harness-data">
-<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
+<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
-<meta name="fa-beans-src" content="../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../build.json"><link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script>
-<script src="../../../../assets/js/vendor/qrcode.js" defer></script>
-<script src="../../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../../assets/js/work-plan.js" defer></script><script src="../../../../assets/js/process-index.js" defer></script><style>
+<meta name="fa-beans-src" content="../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../build.json"><link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=263225e79ed9">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -274,7 +273,7 @@
 
 <p><strong>Skill <code class="language-plaintext highlighter-rouge">document-intake</code>:</strong> Process uploaded documents (PDFs, scans, LaTeX, structured/normative guidelines, etc.) from uploads/ into structured content objects. Handles OCR extraction, environment detection, structural analysis, and content-object generation. Supports multi-stage pipelines: raw upload → extracted text → structured blocks → .ts/.md content objects.</p>
 
-<p><strong>Named by:</strong> <a href="../getting-started.html">Getting started</a>, <a href="../evidence-retrieval.html">Evidence for a recommendation</a>, <a href="../ingest-build-l1-kg.html">Ingestion subprocess — build the L1 knowledge graph</a>, <a href="../ingest-derive-content.html">Ingestion subprocess — derive content from the assets</a>, <a href="../ingest-extract-structure.html">Ingestion subprocess — extract structure</a>, <a href="../ingest-l1-completeness-gate.html">Ingestion subprocess — the L1 completeness gate</a>, <a href="../l1-document-ingestion.html">L1 document ingestion — a document to the L1 source knowledge graph</a></p>
+<p><strong>Named by:</strong> <a href="../getting-started.html">Getting started</a>, <a href="../evidence-retrieval.html">Evidence for a recommendation</a>, <a href="../l1-document-ingestion.html">L1 document ingestion — a document to the L1 source knowledge graph</a>, <a href="../ingest-build-l1-kg.html">Ingestion subprocess — build the L1 knowledge graph</a>, <a href="../ingest-derive-content.html">Ingestion subprocess — derive content from the assets</a>, <a href="../ingest-extract-structure.html">Ingestion subprocess — extract structure</a>, <a href="../ingest-l1-completeness-gate.html">Ingestion subprocess — the L1 completeness gate</a></p>
 
 <blockquote>
   <p><strong>Bib human-review integration.</strong> Track per-upload ingestion
@@ -848,6 +847,68 @@ believe it ran.</p>
 <p><strong>Output</strong>: <code class="language-plaintext highlighter-rouge">extracted-blocks.json</code> — array of detected blocks with
 provisional kinds, titles, and content; <code class="language-plaintext highlighter-rouge">tables.json</code> for the layout-bearing
 parts that do not survive as text.</p>
+<h4 id="figures-and-captioned-tables-describe-keep-transcribe">
+  
+  
+    <a href="#figures-and-captioned-tables-describe-keep-transcribe" class="anchor-heading" aria-labelledby="figures-and-captioned-tables-describe-keep-transcribe"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Figures and captioned tables: describe, keep, transcribe
+  
+  
+</h4>
+    
+
+<p>Owner, 2026-11-11: “actually extract the figures”, “and any tables too”,
+“need summaries in all 6 UN”, and “make sure all kg extractions happen as part
+of skills and processes”. This is the method the image and table tasks of
+<code class="language-plaintext highlighter-rouge">processes/library/ingest-derive-content.bpmn</code> point at. It applies
+to every PDF entry, including one catalogued by reference whose PDF is not held.</p>
+
+<p><strong>1. Judge and describe every extracted image.</strong> <code class="language-plaintext highlighter-rouge">pdf-images.py</code>
+and <code class="language-plaintext highlighter-rouge">pdf-vector-figures.py</code> give each image a geometry role only; geometry
+cannot tell a chart from a logo or a 2-pixel fragment of a cover. An agent
+opens every image (and every <code class="language-plaintext highlighter-rouge">vfig-</code> render) and records, in the library’s
+<code class="language-plaintext highlighter-rouge">image-verdicts.json</code>:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">role</code>: <code class="language-plaintext highlighter-rouge">figure</code> (carries content), <code class="language-plaintext highlighter-rouge">logo</code>, or <code class="language-plaintext highlighter-rouge">decorative</code> (ornament,
+background, blank, or a fragment too small to mean anything);</li>
+  <li><code class="language-plaintext highlighter-rouge">saw</code>: the reason for the role;</li>
+  <li><code class="language-plaintext highlighter-rouge">draft</code>: the English description, from the image and its caption only. No
+number that cannot be read, no interpretation beyond the image;</li>
+  <li><code class="language-plaintext highlighter-rouge">translations</code>: the same in <code class="language-plaintext highlighter-rouge">ar</code>, <code class="language-plaintext highlighter-rouge">zh</code>, <code class="language-plaintext highlighter-rouge">es</code>, <code class="language-plaintext highlighter-rouge">fr</code>, <code class="language-plaintext highlighter-rouge">ru</code>, so every figure has
+all six UN languages (cat-harness-tools#1841). Each becomes its own <code class="language-plaintext highlighter-rouge">draft</code>
+narrative; only a person confirms one (<code class="language-plaintext highlighter-rouge">bun run cat narratives</code>);</li>
+  <li><code class="language-plaintext highlighter-rouge">shows</code> on a <code class="language-plaintext highlighter-rouge">vfig-</code> that renders a declared figure or table.</li>
+</ul>
+
+<p>Put the inspector in <code class="language-plaintext highlighter-rouge">attribution.&lt;doc-id&gt;</code>. Images with identical bytes reuse
+one verdict. Apply with <code class="language-plaintext highlighter-rouge">apply-image-verdicts.ts</code>.</p>
+
+<p><strong>2. Keep the figures, small.</strong> Only images judged <code class="language-plaintext highlighter-rouge">figure</code> are
+kept, as WebP at quality 80 with the long side at most 1600 px (card Q-FIG-1 =
+A): about a seventh of the PNG bytes. Logos (the WHO emblem ruling of
+2026-09-21 still holds), decorative fragments and page scans are not kept. The
+sidecar’s <code class="language-plaintext highlighter-rouge">file</code> names the <code class="language-plaintext highlighter-rouge">.webp</code>. An image <code class="language-plaintext highlighter-rouge">pdf-images.py</code> cannot decode is
+re-rendered from its placed rectangle on the page, never silently dropped.
+Check the size before committing and flag it on the merge card.</p>
+
+<p><strong>3. Transcribe each captioned table.</strong> <code class="language-plaintext highlighter-rouge">pdf-tables.py</code>
+finds grids by geometry and, on WHO layouts, reports many false tables. For
+every table the structure declares (<code class="language-plaintext highlighter-rouge">structure.json</code> <code class="language-plaintext highlighter-rouge">figures</code>, kind <code class="language-plaintext highlighter-rouge">table</code>),
+an agent reads the rendered page (and the next, for a continued table), checks
+cell text against the text layer, and writes it as CSVW (card Q-FIG-2 = A):</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">library/&lt;entry&gt;/tables/&lt;label&gt;.csv</code>, header row first;</li>
+  <li><code class="language-plaintext highlighter-rouge">library/&lt;entry&gt;/tables.csvw.json</code>, <code class="language-plaintext highlighter-rouge">folio-tabular-csvw/v1</code>, one table per
+CSV: <code class="language-plaintext highlighter-rouge">fac:group</code> for a two-row header, <code class="language-plaintext highlighter-rouge">fac:merged</code> for spanning cells (A1,
+in CSV rows), plus <code class="language-plaintext highlighter-rouge">fac:label</code>, <code class="language-plaintext highlighter-rouge">fac:caption</code>, <code class="language-plaintext highlighter-rouge">fac:pages</code>, <code class="language-plaintext highlighter-rouge">fac:lang</code> (the
+cells keep the document’s language), <code class="language-plaintext highlighter-rouge">fac:notes</code> (footnotes), and
+<code class="language-plaintext highlighter-rouge">fac:narrative</code>: a description of the table in all six UN languages, as
+<code class="language-plaintext highlighter-rouge">draft</code>.</li>
+</ul>
+
+<p>A caption that points at something that is not a table (a box of prose, a
+list) is recorded as not a table, with the reason.</p>
 <h3 id="stage-4-mapping--mapped">
   
   

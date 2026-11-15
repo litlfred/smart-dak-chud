@@ -86,16 +86,15 @@
     "pagesWithTranslations": 0,
     "complete": false
   },
-  "statusSrc":"../../../assets/translation-status/index.json"
+  "statusSrc":"../../../assets/translation-status/index.json",
+  "reviewSrc":"../../../assets/translation-status/review.json"
 }</script><script type="application/json" id="fa-navbar-row" data-fa-row-src="harness-data"></script><script type="application/json" id="fa-site-links">{"kg":"https://litlfred.github.io/folio-assistant/smart-base/","jsonld":"https://litlfred.github.io/folio-assistant/smart-base/smart-base.jsonld","source":"https://github.com/litlfred/smart-dak-chud"}</script><meta name="fa-site-index-src" content="../../../assets/harness/site.json">
 <meta name="fa-todo-src" content="../../../assets/todos/index.json"><meta name="fa-todo-graph" content="../../../todos.jsonld"><meta name="fa-zoom-src" content="../../../assets/semantic-zoom.json"><meta name="fa-tiles" content="" data-fa-src="harness-data">
-<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
+<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
-<meta name="fa-beans-src" content="../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../build.json"><link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script>
-<script src="../../../assets/js/vendor/qrcode.js" defer></script>
-<script src="../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../assets/js/kg-render.js" defer></script><script src="../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../assets/js/work-plan.js" defer></script><script src="../../../assets/js/process-index.js" defer></script><style>
+<link rel="alternate" type="application/ld+json" href="https://litlfred.github.io/folio-assistant/cat-harness/process/Process_KgToPortal.jsonld"><meta name="fa-beans-src" content="../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../build.json"><link rel="stylesheet" href="../../../assets/css/navbar-row.css?v=263225e79ed9">
+<link rel="stylesheet" href="../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../assets/js/harness-data.js" defer></script><script src="../../../assets/js/kg-render.js" defer></script><script src="../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -291,16 +290,16 @@ the reader”, and the canonical URL stays the origin’s either way.</p>
 <div class="pt-diagram" data-panel="kg-to-portal.tasks.json">
 <img src="../../../assets/img/workflows/kg-to-portal.svg" alt="BPMN diagram: KG to public portal" />
 <div class="pt-layer">
-<button type="button" class="pt-mark" data-task="D_Constraints" style="left:18.79%;top:56.71%" aria-expanded="false" aria-label="About step: State the constraints, with denominators" title="About: State the constraints, with denominators">i</button>
-<button type="button" class="pt-mark" data-task="E_Scope" style="left:30.35%;top:42.75%" aria-expanded="false" aria-label="About step: Decide what may leave the repository" title="About: Decide what may leave the repository">i</button>
-<button type="button" class="pt-mark" data-task="A_Select" style="left:29.48%;top:1.83%" aria-expanded="false" aria-label="About step: Cut the subgraph that leaves" title="About: Cut the subgraph that leaves">i</button>
-<button type="button" class="pt-mark" data-task="A_Serialize" style="left:40.46%;top:1.83%" aria-expanded="false" aria-label="About step: Serialize to JSON-LD" title="About: Serialize to JSON-LD">i</button>
-<button type="button" class="pt-mark" data-task="A_Package" style="left:52.31%;top:3.76%" aria-expanded="false" aria-label="About step: Package with digests" title="About: Package with digests">i</button>
-<button type="button" class="pt-mark" data-task="S_Sign" style="left:68.21%;top:22.72%" aria-expanded="false" aria-label="About step: Sign the package and/or each asset" title="About: Sign the package and/or each asset">i</button>
-<button type="button" class="pt-mark" data-task="E_HumanEyes" style="left:69.08%;top:42.75%" aria-expanded="false" aria-label="About step: Human eyes on the rendered artefact" title="About: Human eyes on the rendered artefact">i</button>
-<button type="button" class="pt-mark" data-task="D_Undetermined" style="left:88.73%;top:56.71%" aria-expanded="false" aria-label="About step: Record the decision as still open" title="About: Record the decision as still open">i</button>
-<button type="button" class="pt-mark" data-task="A_Distribute" style="left:77.17%;top:69.82%" aria-expanded="false" aria-label="About step: Publish to the origin (a cache may front it)" title="About: Publish to the origin (a cache may front it)">i</button>
-<button type="button" class="pt-mark" data-task="P_Verify" style="left:77.17%;top:85.28%" aria-expanded="false" aria-label="About step: Verify what arrived against what was signed" title="About: Verify what arrived against what was signed">i</button>
+<button type="button" class="pt-mark" data-task="D_Constraints" style="left:21.17%;top:51.18%" aria-expanded="false" aria-label="About step: State the constraints, with denominators" title="About: State the constraints, with denominators">i</button>
+<button type="button" class="pt-mark" data-task="E_Scope" style="left:21.17%;top:34.71%" aria-expanded="false" aria-label="About step: Decide what may leave the repository" title="About: Decide what may leave the repository">i</button>
+<button type="button" class="pt-mark" data-task="A_Select" style="left:21.17%;top:1.76%" aria-expanded="false" aria-label="About step: Cut the subgraph that leaves" title="About: Cut the subgraph that leaves">i</button>
+<button type="button" class="pt-mark" data-task="A_Serialize" style="left:33.58%;top:1.76%" aria-expanded="false" aria-label="About step: Serialize to JSON-LD" title="About: Serialize to JSON-LD">i</button>
+<button type="button" class="pt-mark" data-task="A_Package" style="left:46.72%;top:1.76%" aria-expanded="false" aria-label="About step: Package with digests" title="About: Package with digests">i</button>
+<button type="button" class="pt-mark" data-task="S_Sign" style="left:67.88%;top:18.24%" aria-expanded="false" aria-label="About step: Sign the package and/or each asset" title="About: Sign the package and/or each asset">i</button>
+<button type="button" class="pt-mark" data-task="E_HumanEyes" style="left:67.88%;top:34.71%" aria-expanded="false" aria-label="About step: Human eyes on the rendered artefact" title="About: Human eyes on the rendered artefact">i</button>
+<button type="button" class="pt-mark" data-task="D_Undetermined" style="left:83.21%;top:51.18%" aria-expanded="false" aria-label="About step: Record the decision as still open" title="About: Record the decision as still open">i</button>
+<button type="button" class="pt-mark" data-task="A_Distribute" style="left:67.88%;top:67.65%" aria-expanded="false" aria-label="About step: Publish to the origin (a cache may front it)" title="About: Publish to the origin (a cache may front it)">i</button>
+<button type="button" class="pt-mark" data-task="P_Verify" style="left:67.88%;top:84.12%" aria-expanded="false" aria-label="About step: Verify what arrived against what was signed" title="About: Verify what arrived against what was signed">i</button>
 </div>
 <div class="pt-panel" role="dialog" aria-label="Task details" hidden=""></div>
 </div>
@@ -635,13 +634,13 @@ the reader”, and the canonical URL stays the origin’s either way.</p>
     <tr>
       <td><a id="step-E_HumanEyes"></a><strong>Human eyes on the rendered artefact</strong><br /><code class="language-plaintext highlighter-rouge">E_HumanEyes</code></td>
       <td>Editorial</td>
-      <td><code class="language-plaintext highlighter-rouge">continual-progress</code></td>
-      <td>Easy to drop because merging to main looks like an approval. It is not: merging approves the CHANGE, and this approves what a reader will actually see. A description cannot stand in for it (<code class="language-plaintext highlighter-rouge">continual-progress</code>).</td>
+      <td><a href="../../../en/cat-harness/processes/skills/continual-progress.html"><code class="language-plaintext highlighter-rouge">continual-progress</code></a></td>
+      <td>Easy to drop because merging to main looks like an approval. It is not: merging approves the CHANGE, and this approves what a reader will actually see. A description cannot stand in for it (<a href="../../../en/cat-harness/processes/skills/continual-progress.html"><code class="language-plaintext highlighter-rouge">continual-progress</code></a>).</td>
     </tr>
     <tr>
       <td><a id="step-D_Undetermined"></a><strong>Record the decision as still open</strong><br /><code class="language-plaintext highlighter-rouge">D_Undetermined</code></td>
       <td>Deployment owner</td>
-      <td><code class="language-plaintext highlighter-rouge">decision-audit</code></td>
+      <td><a href="../../../en/cat-harness/processes/skills/decision-audit.html"><code class="language-plaintext highlighter-rouge">decision-audit</code></a></td>
       <td>An undetermined decision is DATA, not silence. It is recorded with what it waits on and what would settle it, so the next session can tell “nobody has chosen” from “somebody chose and did not write it down” — the same third state bean-blocking keeps for a block with no expiry.</td>
     </tr>
     <tr>

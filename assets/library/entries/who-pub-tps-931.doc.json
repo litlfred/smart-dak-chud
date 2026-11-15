@@ -24,7 +24,10 @@
       },
       "keywords": [],
       "extract": "Abies WHO/PUB/TPS/93.1 (EES Cpe N Re, } \\S7 WN ——— World Health Organization Geneva 1993",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-001"
+      ]
     },
     {
       "id": "page-002",
@@ -50,16 +53,19 @@
           "heading": false
         },
         {
-          "term": "ise",
+          "term": "ize",
           "heading": false
         },
         {
-          "term": "ize",
+          "term": "paragraphing",
           "heading": false
         }
       ],
       "extract": "Contents 1. Introduction 2. Spelling Medical and scientific terminology Country and place names Syllabification Hyphenation Capitalization Words ending in -ize, -ise and -yse Alphabetical arrangement 3. Punctuation Full point (period) Comma Semicolon Colon Parenthesis Dashes Brackets Question mark Further reading 4, Italics Titles of books and journals Foreign words and expressions Variables in mathematical",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-002"
+      ]
     },
     {
       "id": "page-003",
@@ -81,7 +87,7 @@
           "heading": false
         },
         {
-          "term": "abbreviations",
+          "term": "style",
           "heading": false
         },
         {
@@ -89,12 +95,15 @@
           "heading": false
         },
         {
-          "term": "style",
+          "term": "abbreviations",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual 9. Reference lists and bibliographies Bibliographies References Bibliographic style List style Typographical style 10. Manuscript mark-up and layout Manuscript mark-up Tables Lists 1]. Abbreviations and symbols Structure of abbreviations and symbols Abbreviations in common use Names of organizations Units of measurement Abbreviations used in the medical sciences Units of currency Compass",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-003"
+      ]
     },
     {
       "id": "page-004",
@@ -128,12 +137,15 @@
           "heading": false
         },
         {
-          "term": "court",
+          "term": "statute",
           "heading": false
         }
       ],
       "extract": "Contents 15. Non-discriminatory language The importance of non-discriminatory language Non-sexist language — a cumbersome solution? The occasional exception Avoiding other types of discrimination Further reading 16. Politically and legally sensitive topics Political and geographical designations Trade marks and manufacturers’ names 17, Technical reports Title of the report and expert group List of participants Main",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-004"
+      ]
     },
     {
       "id": "page-005",
@@ -151,7 +163,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-005"
+      ]
     },
     {
       "id": "page-006",
@@ -177,11 +192,11 @@
           "heading": false
         },
         {
-          "term": "editors",
+          "term": "manual",
           "heading": false
         },
         {
-          "term": "manual",
+          "term": "editors",
           "heading": false
         },
         {
@@ -189,16 +204,19 @@
           "heading": false
         },
         {
-          "term": "york",
+          "term": "style",
           "heading": false
         },
         {
-          "term": "publications",
+          "term": "york",
           "heading": false
         }
       ],
       "extract": "]. Introduction This style manual is intended primarily for use by WHO editors working in English. Its main purpose is to ensure that the language used in WHO publications is clear and correct and that the scientific and other special nomenclature and terminology, abbreviations and sym- bols are reasonably consistent and follow established international precedents. Editors should treat the manual as a work of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-006"
+      ]
     },
     {
       "id": "page-007",
@@ -216,7 +234,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-007"
+      ]
     },
     {
       "id": "page-008",
@@ -246,6 +267,10 @@
           "heading": false
         },
         {
+          "term": "tyre",
+          "heading": false
+        },
+        {
           "term": "disease names",
           "heading": false
         },
@@ -254,20 +279,19 @@
           "heading": false
         },
         {
-          "term": "tyre",
-          "heading": false
-        },
-        {
           "term": "reproduced",
           "heading": false
         },
         {
-          "term": "british",
+          "term": "nomenclature",
           "heading": false
         }
       ],
       "extract": "2. Spelling This section is a general guide to spelling used in WHO publications, and also gives guidelines on hyphenation and capitalization. It is not intended to be comprehensive, but to cover the main areas, such as scientific and medical terminology, and names of places and organiza- tions, where confusion and uncertainty may arise. Within WHO, British rather than American spelling is normally used. The general",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-008"
+      ]
     },
     {
       "id": "page-009",
@@ -289,11 +313,11 @@
           "heading": false
         },
         {
-          "term": "down syndrome",
+          "term": "medical terminology",
           "heading": false
         },
         {
-          "term": "medical terminology",
+          "term": "down syndrome",
           "heading": false
         },
         {
@@ -301,11 +325,11 @@
           "heading": false
         },
         {
-          "term": "collins",
+          "term": "syllabification",
           "heading": false
         },
         {
-          "term": "syllabification",
+          "term": "hyphenation",
           "heading": false
         },
         {
@@ -318,7 +342,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual Eponymous names give no information about the nature of the disease and different names may be used in different countries. They should be avoided whenever possible. The Saxon genitive (’s) is not necessary when using an eponymous name; e.g. Crohn disease, not Crohn’s disease, and Down syndrome, not Down’s syndrome. For general reference, Butterworths medical dictionary, 2nd ed. (Critchley",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-009"
+      ]
     },
     {
       "id": "page-010",
@@ -344,10 +371,6 @@
           "heading": false
         },
         {
-          "term": "mistaken",
-          "heading": false
-        },
-        {
           "term": "nouns",
           "heading": false
         },
@@ -356,20 +379,27 @@
           "heading": false
         },
         {
-          "term": "car",
-          "heading": false
-        },
-        {
-          "term": "little",
+          "term": "mistaken",
           "heading": false
         },
         {
           "term": "compound",
           "heading": false
+        },
+        {
+          "term": "adj",
+          "heading": false
+        },
+        {
+          "term": "word",
+          "heading": false
         }
       ],
       "extract": "Hyphenation Hyphensare used to connect words that are more closely linked to each other than to the surrounding syntax. Unfortunately there are no hard and fast rules about their use. Certain conventions exist, but if there is a choice it is better to introduce hyphens only to avoid ambiguity. There is an overall tendency to use hyphens less than in the past and a few general rules are applicable, as follows. Hyphen",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-010"
+      ]
     },
     {
       "id": "page-011",
@@ -392,7 +422,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual WHO usage The following is a list of hyphenated terms that appear commonly in WHO publications: above-mentioned after-care after-effect air-conditioning anti-gas-gangrene anti-infective anti-inflammatory blood-grouping blood-meal blood-typing boiling-point book-keeper bottle-feed (vb) bottle-feeding breast-milk substitute by-law by-product case-finding case-load case-study check-up (n.)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-011"
+      ]
     },
     {
       "id": "page-012",
@@ -410,24 +443,27 @@
       },
       "keywords": [
         {
-          "term": "work-hours months",
-          "heading": false
-        },
-        {
           "term": "adj",
           "heading": false
         },
         {
-          "term": "again",
+          "term": "work-hours months",
           "heading": false
         },
         {
           "term": "south-east",
           "heading": false
+        },
+        {
+          "term": "again",
+          "heading": false
         }
       ],
       "extract": "last-mentioned life-support (adj.) long-distance (adj.) long-sighted (adj.) long-sightedness (n.) long-term (adj.) louse-borne low-cost (adj.) lump-sum reimbursement lying-in hospital (n.) man-hours/months, etc. (prefer work-hours/months, etc.) man-made needle-stick (n. & adj.) non-profit-making non-self-governing non-wage-earning north-east, north-eastern north-west, north-western one-third out-of-date (adj.)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-012"
+      ]
     },
     {
       "id": "page-013",
@@ -449,11 +485,11 @@
           "heading": false
         },
         {
-          "term": "initial capital",
+          "term": "capitalized",
           "heading": false
         },
         {
-          "term": "capitalized",
+          "term": "initial capital",
           "heading": false
         },
         {
@@ -461,11 +497,11 @@
           "heading": false
         },
         {
-          "term": "titles",
+          "term": "world health",
           "heading": false
         },
         {
-          "term": "journal",
+          "term": "titles",
           "heading": false
         },
         {
@@ -473,12 +509,15 @@
           "heading": false
         },
         {
-          "term": "regional",
+          "term": "words",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Capitalization Too many capital letters break the flow of the eye across a sentence and down acolumn of type. However, proper names, titles and institutions require capitals. Descriptive appellations, such as administrative posts, do not, unless the result would appear odd or confusing. The trade names of drugs and other proprietary products, e.g. Pyrex and Vaseline (petroleum jelly",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-013"
+      ]
     },
     {
       "id": "page-014",
@@ -504,11 +543,11 @@
           "heading": false
         },
         {
-          "term": "university press",
+          "term": "yse",
           "heading": false
         },
         {
-          "term": "yse",
+          "term": "university press",
           "heading": false
         },
         {
@@ -516,16 +555,19 @@
           "heading": false
         },
         {
-          "term": "oxford",
+          "term": "words",
           "heading": false
         },
         {
-          "term": "words",
+          "term": "oxford",
           "heading": false
         }
       ],
       "extract": "The following words and expressions do not normally require capitali- zation: commission, committee (unless specifically identified) decision (e.g. ... in decision EB62(4) ...) health for all headquarters (WHO) member (of the committee, etc.), but Member (State) names of seasons ordinal numbers referring to sessions of the Board (e.g. sixty-third session of the Executive Board) primary health care programme (except",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-014"
+      ]
     },
     {
       "id": "page-015",
@@ -547,20 +589,23 @@
           "heading": false
         },
         {
+          "term": "particle",
+          "heading": false
+        },
+        {
           "term": "names",
           "heading": false
         },
         {
           "term": "alphabetical",
           "heading": false
-        },
-        {
-          "term": "letter",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Alphabetical arrangement In lists of names and addresses, indexes, alphabetical reference lists, etc., the following general rules should be followed: ¢ When the first component of a family name is a particle such as “de”, “Le”, “al-”, “Van” or “von”, the first letter of the particle should normally be used for alphabetization, unless established usage or another specific reason dictates",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-015"
+      ]
     },
     {
       "id": "page-016",
@@ -590,10 +635,6 @@
           "heading": false
         },
         {
-          "term": "ending",
-          "heading": false
-        },
-        {
           "term": "mark",
           "heading": false
         },
@@ -602,16 +643,23 @@
           "heading": false
         },
         {
-          "term": "thought",
+          "term": "running",
           "heading": false
         },
         {
-          "term": "appear",
+          "term": "ending",
+          "heading": false
+        },
+        {
+          "term": "thought",
           "heading": false
         }
       ],
       "extract": "3. Punctuation This is a large subject where personal taste and common sense are more important than any rules. Appropriate punctuation will ease reading and clarify meaning, and this should be its purpose. A well written running text should require only the minimum of punctuation in order to read clearly and sensibly. If much punctuation is required, it is probably a good indication that the texthas been badly",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-016"
+      ]
     },
     {
       "id": "page-017",
@@ -629,15 +677,15 @@
       },
       "keywords": [
         {
-          "term": "clauses",
-          "heading": false
-        },
-        {
           "term": "comma",
           "heading": false
         },
         {
           "term": "semicolon",
+          "heading": false
+        },
+        {
+          "term": "clauses",
           "heading": false
         },
         {
@@ -662,7 +710,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual For an explanation of the correct use of the full point in quotations see section 6. Comma Correct usage of the comma is often a question of judgement. Commas are now used much less frequently than in the past, and their main purpose is to indicate a pause or to avoid ambiguity. In a list of three or more items, a comma should in general be consistently inserted or omitted before the final",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-017"
+      ]
     },
     {
       "id": "page-018",
@@ -688,7 +739,7 @@
           "heading": false
         },
         {
-          "term": "rule",
+          "term": "hypotension",
           "heading": false
         },
         {
@@ -700,12 +751,19 @@
           "heading": false
         },
         {
+          "term": "rule",
+          "heading": false
+        },
+        {
           "term": "avoided",
           "heading": false
         }
       ],
       "extract": "1. To mark the antithesis between two statements more sharply than a semicolon. 2. To introduce a list or series — never followed by a dash. 3. To indicate that the second statement is an explanation or amplification of the first. Parenthesis A parenthesis can be marked off by commas, dashes or brackets, depending upon the closeness of its relationship to the sentence. Parentheses should be used sparingly since they",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-018"
+      ]
     },
     {
       "id": "page-019",
@@ -731,24 +789,27 @@
           "heading": false
         },
         {
+          "term": "signifies",
+          "heading": false
+        },
+        {
           "term": "word",
-          "heading": false
-        },
-        {
-          "term": "introduce",
-          "heading": false
-        },
-        {
-          "term": "parentheses",
           "heading": false
         },
         {
           "term": "sentence",
           "heading": false
+        },
+        {
+          "term": "parentheses",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual In the above examples a solidus (oblique stroke) would convey the same meaning, e.g. oil/water interface. The en rule signifies “to” in the following: 12-24 September pp. 5-55 London-Brighton race. However, if the word “from” is used, e.g. from 1850 to 1895, then the en rule is inappropriate and “to” must be used. For typographical reasons, a spaced en rule is sometimes used — as in this",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-019"
+      ]
     },
     {
       "id": "page-020",
@@ -778,20 +839,23 @@
           "heading": false
         },
         {
+          "term": "punctuation",
+          "heading": false
+        },
+        {
           "term": "chicago",
           "heading": false
         },
         {
-          "term": "publishers",
-          "heading": false
-        },
-        {
-          "term": "punctuation",
+          "term": "style",
           "heading": false
         }
       ],
       "extract": "Question mark Question marks are necessary at the end of direct but not of indirect questions. Requests in question form for the sake of politeness, e.g. would you kindly tefl me whether..., usually have question marks, although they are not strictly necessary. Further reading Many excellent examples of correct usage of the above punctuation marks, and much more besides, are to be found in the following: Butcher J.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-020"
+      ]
     },
     {
       "id": "page-021",
@@ -809,7 +873,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-021"
+      ]
     },
     {
       "id": "page-022",
@@ -843,10 +910,6 @@
           "heading": false
         },
         {
-          "term": "pro",
-          "heading": false
-        },
-        {
           "term": "italics",
           "heading": false
         },
@@ -857,10 +920,17 @@
         {
           "term": "journals",
           "heading": false
+        },
+        {
+          "term": "titles",
+          "heading": false
         }
       ],
       "extract": "4. Italics Italic type in printed publications is indicated in typescript by under- lining. Italics are used in WHO publications in the following ways: for the titles of books, journals and documents; for foreign words and expressions not in common use (including Latin species and genus names); for variables in mathematical expressions; for certain letters, prefixes and terms in scientific use; (sparingly) for words",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-022"
+      ]
     },
     {
       "id": "page-023",
@@ -886,12 +956,15 @@
           "heading": false
         },
         {
-          "term": "italics",
+          "term": "scientific",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Variables in mathematical expressions See “Mathematics and statistics”, section 13. Scientific terms See “Scientific terminology”, section 14. Words requiring special emphasis Use italics sparingly to indicate emphasis. af)",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-023"
+      ]
     },
     {
       "id": "page-024",
@@ -917,7 +990,7 @@
           "heading": false
         },
         {
-          "term": "insertion",
+          "term": "text",
           "heading": false
         },
         {
@@ -925,15 +998,15 @@
           "heading": true
         },
         {
-          "term": "placed",
-          "heading": false
-        },
-        {
-          "term": "text",
-          "heading": false
-        },
-        {
           "term": "punctuation",
+          "heading": false
+        },
+        {
+          "term": "insertion",
+          "heading": false
+        },
+        {
+          "term": "sentence",
           "heading": false
         },
         {
@@ -942,7 +1015,10 @@
         }
       ],
       "extract": "5. Footnotes Footnotes are used to give explanatory or supplementary details when insertion in the text itself is not advisable, because the insertion would break the continuity of the text unduly, because of the length of the passage, or because the details were added by someone other than the author. Such details might include references, explanations of unfa- miliar terms, last-minute additions or editor’s notes.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-024"
+      ]
     },
     {
       "id": "page-025",
@@ -973,7 +1049,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual Ifa footnote refers to a quotation, the reference mark should be placed after the final quotation marks. Editor’s notes Notes supplied by an editor, translator or compiler in a work including original notes by the author must be differentiated from the original notes. Such notes may be numbered in sequence with the author’s notes. Paragraphing and style The paragraphing of footnotes should",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-025"
+      ]
     },
     {
       "id": "page-026",
@@ -999,14 +1078,6 @@
           "heading": false
         },
         {
-          "term": "inserted",
-          "heading": false
-        },
-        {
-          "term": "oxford",
-          "heading": false
-        },
-        {
           "term": "words",
           "heading": false
         },
@@ -1015,16 +1086,27 @@
           "heading": false
         },
         {
+          "term": "enclosed",
+          "heading": false
+        },
+        {
           "term": "sentence",
           "heading": false
         },
         {
-          "term": "original",
+          "term": "inserted",
+          "heading": false
+        },
+        {
+          "term": "oxford",
           "heading": false
         }
       ],
       "extract": "6. Quotations All quotations from printed material should correspond exactly to the original in wording, spelling, punctuation, use of capital letters, etc. When part of the original text is omitted from a quotation, the passage in question should be replaced by three spaced dots. When three points are used at the end of an incomplete sentence a fourth full point should not be added. However, where the sentence is",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-026"
+      ]
     },
     {
       "id": "page-027",
@@ -1042,7 +1124,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-027"
+      ]
     },
     {
       "id": "page-028",
@@ -1068,7 +1153,7 @@
           "heading": false
         },
         {
-          "term": "russian",
+          "term": "abd",
           "heading": false
         },
         {
@@ -1076,11 +1161,7 @@
           "heading": false
         },
         {
-          "term": "iso",
-          "heading": false
-        },
-        {
-          "term": "familiar",
+          "term": "russian",
           "heading": false
         },
         {
@@ -1088,12 +1169,19 @@
           "heading": false
         },
         {
-          "term": "places",
+          "term": "iso",
+          "heading": false
+        },
+        {
+          "term": "readers",
           "heading": false
         }
       ],
       "extract": "7. Transliteration It is usual to transliterate Arabic and Russian from their original alphabets to the Latin alphabet, and to transcribe Chinese into Latin characters, ie. to romanize the language. Editors should consult the Office of Language Services (TRA) if they are in any doubt about the transliteration of particular words or phrases. Arabic The system of transliteration used by the United Nations is given in",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-028"
+      ]
     },
     {
       "id": "page-029",
@@ -1111,24 +1199,27 @@
       },
       "keywords": [
         {
-          "term": "chinese",
-          "heading": false
-        },
-        {
           "term": "spelling",
           "heading": false
         },
         {
-          "term": "older",
+          "term": "chinese",
           "heading": false
         },
         {
           "term": "tps",
           "heading": false
+        },
+        {
+          "term": "hyphenated",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual expresses a preference for a particular spelling of his or her name, this should be respected, and an already-published spelling should not be changed without good reason. Chinese The romanization system called pinyin, introduced by the Chinese in the 1950s, has now largely supplanted the older Wade-Giles system. Pinyin should be used in all WHO publications; accents are not generally",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-029"
+      ]
     },
     {
       "id": "page-030",
@@ -1150,6 +1241,14 @@
           "heading": false
         },
         {
+          "term": "health organization",
+          "heading": false
+        },
+        {
+          "term": "world health",
+          "heading": false
+        },
+        {
           "term": "title page",
           "heading": false
         },
@@ -1158,19 +1257,11 @@
           "heading": false
         },
         {
-          "term": "world",
+          "term": "publication",
           "heading": false
         },
         {
           "term": "tions",
-          "heading": false
-        },
-        {
-          "term": "organization",
-          "heading": false
-        },
-        {
-          "term": "publication",
           "heading": false
         },
         {
@@ -1179,7 +1270,10 @@
         }
       ],
       "extract": "8. Copyright and disclaimers When a manuscript is accepted for publication by WHO, it becomes the property of the Organization, the author ceding the copyright. The following copyright notice and disclaimers are printed on the verso of the title page of all headquarters publications: The World Health Organization welcomes requests for permission to reproduce or translate its publications, in part or in full.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-030"
+      ]
     },
     {
       "id": "page-031",
@@ -1209,11 +1303,11 @@
           "heading": false
         },
         {
-          "term": "author",
+          "term": "protected",
           "heading": false
         },
         {
-          "term": "protected",
+          "term": "author",
           "heading": false
         },
         {
@@ -1221,12 +1315,15 @@
           "heading": true
         },
         {
-          "term": "considered",
+          "term": "manual",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Ina report of a meeting, a disclaimer along the following lines should be used (in Technical Reports, this appears on the title page): This report contains the collective views of an international group of experts, and does not necessarily represent the decisions or the stated policy of the World Health Organization. Disclaimers are intended to protect the Organization, but particular care",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-031"
+      ]
     },
     {
       "id": "page-032",
@@ -1248,19 +1345,15 @@
           "heading": false
         },
         {
+          "term": "unpublished data",
+          "heading": false
+        },
+        {
           "term": "bibliographies",
           "heading": false
         },
         {
           "term": "numerical system",
-          "heading": false
-        },
-        {
-          "term": "cited",
-          "heading": false
-        },
-        {
-          "term": "subject",
           "heading": false
         },
         {
@@ -1272,12 +1365,19 @@
           "heading": false
         },
         {
-          "term": "authors",
+          "term": "cited",
+          "heading": false
+        },
+        {
+          "term": "subject",
           "heading": false
         }
       ],
       "extract": "9. Reference lists and bibliographies A clear distinction should be made between lists of references and bibliographies. A list of references contains only those works cited in the text as sources of data or other information. It may include unpublished documents, provided that these are available to inter- ested readers. A bibliography is a list of published works relevant to the subject matter of the publication",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-032"
+      ]
     },
     {
       "id": "page-033",
@@ -1295,6 +1395,10 @@
       },
       "keywords": [
         {
+          "term": "vancouver style",
+          "heading": false
+        },
+        {
           "term": "bibliographic style",
           "heading": false
         },
@@ -1303,19 +1407,15 @@
           "heading": false
         },
         {
-          "term": "butler",
-          "heading": false
-        },
-        {
           "term": "ascariasis",
           "heading": false
         },
         {
-          "term": "cambridge",
+          "term": "butler",
           "heading": false
         },
         {
-          "term": "authors",
+          "term": "cambridge",
           "heading": false
         },
         {
@@ -1324,7 +1424,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual in parentheses. The authors’ names may or may not be given: Calvin & Hobbs (12) have reported ... A tecent study in India (3) showed ... Harvard system The references are cited by giving the names of the authors followed by the year of publication in the text. This may be done in one of two ways: Ballance, Butler & Ewart (1989) have reported ... It has been reported (Ballance, Butler &",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-033"
+      ]
     },
     {
       "id": "page-034",
@@ -1342,11 +1445,19 @@
       },
       "keywords": [
         {
+          "term": "experimental hematology",
+          "heading": false
+        },
+        {
           "term": "corporate author",
           "heading": false
         },
         {
-          "term": "international society",
+          "term": "health organization",
+          "heading": false
+        },
+        {
+          "term": "world health",
           "heading": false
         },
         {
@@ -1354,28 +1465,23 @@
           "heading": false
         },
         {
-          "term": "geneva",
+          "term": "international society",
           "heading": false
         },
         {
-          "term": "proceedings",
+          "term": "transplantation",
           "heading": false
         },
         {
-          "term": "ment",
-          "heading": false
-        },
-        {
-          "term": "world",
-          "heading": false
-        },
-        {
-          "term": "organization",
+          "term": "marrow",
           "heading": false
         }
       ],
       "extract": "Reference lists and bibliographies Monograph in a series Cancer pain relief and palliative care. Report of aWHO Expert Commit- tee. Geneva, World Health Organization, 1990 (WHO Technical Report Series, No. 804). WHO Expert Committee on Biological Standardization. Fortieth Report. Geneva, World Health Organization, 1990 (WHO Technical Re- port Series, No. 800). Corporate author Royal Marsden Hospital Bone-Marrow",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-034"
+      ]
     },
     {
       "id": "page-035",
@@ -1405,24 +1511,27 @@
           "heading": false
         },
         {
-          "term": "citation",
+          "term": "style",
           "heading": false
         },
         {
-          "term": "named",
+          "term": "alphabetical",
+          "heading": false
+        },
+        {
+          "term": "citation",
           "heading": false
         },
         {
           "term": "listed",
           "heading": false
-        },
-        {
-          "term": "style",
-          "heading": false
         }
       ],
       "extract": "WHO Fiitorial Style Manual List style Whichever citation system has been used, the references should be listed in order (numerical or alphabetical) at the end of the chapter or full text, as appropriate, before any annexes. If the Harvard system of citation has been used, the format shown in the above examples should be modified slightly, the date being placed in parentheses immediately after the authors’ names:",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-035"
+      ]
     },
     {
       "id": "page-036",
@@ -1444,7 +1553,7 @@
           "heading": false
         },
         {
-          "term": "back cover",
+          "term": "typesetter",
           "heading": false
         },
         {
@@ -1452,11 +1561,7 @@
           "heading": false
         },
         {
-          "term": "typesetter",
-          "heading": false
-        },
-        {
-          "term": "gra",
+          "term": "back cover",
           "heading": false
         },
         {
@@ -1464,16 +1569,23 @@
           "heading": true
         },
         {
-          "term": "prepared",
+          "term": "gra",
           "heading": false
         },
         {
           "term": "headings",
           "heading": false
+        },
+        {
+          "term": "inside",
+          "heading": false
         }
       ],
       "extract": "10. Manuscript mark-up and layout Manuscript mark-up For most manuscripts destined for publication by WHO, the typesetter will have a design specification prepared by the Graphics unit (GRA) ora previous book asa model to work from, so that detailed typographi- cal mark-up is rarely necessary. It is generally sufficient for editors to: © code headings (A, B, C etc.); © identify ambiguous letters, signs and symbols",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-036"
+      ]
     },
     {
       "id": "page-037",
@@ -1507,24 +1619,27 @@
           "heading": false
         },
         {
-          "term": "asterisk",
-          "heading": false
-        },
-        {
           "term": "superscript",
           "heading": false
         },
         {
-          "term": "appear",
+          "term": "asterisk",
           "heading": false
         },
         {
-          "term": "author",
+          "term": "symbols",
+          "heading": false
+        },
+        {
+          "term": "letters",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Tables Tables should be kept as simple as possible, with brief titles and column headings. Restrict the use of rules, unless the table is particularly complex. Vertical lines should generally be avoided, but straddle rules over column headings are useful for clarifying hierarchical arrange- ments. When units of measurement or multiplication factors appear in column headings, ensure that",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-037"
+      ]
     },
     {
       "id": "page-038",
@@ -1550,11 +1665,15 @@
           "heading": false
         },
         {
-          "term": "ranged left",
+          "term": "subheading",
           "heading": false
         },
         {
           "term": "explanatory note",
+          "heading": false
+        },
+        {
+          "term": "ranged left",
           "heading": false
         },
         {
@@ -1568,14 +1687,13 @@
         {
           "term": "centred",
           "heading": false
-        },
-        {
-          "term": "permission",
-          "heading": false
         }
       ],
       "extract": "Manuscript mark-up and layout Source: Ballance & Lauer (12). 3. Notes on specific parts of the table. 4. Acknowledgements. If the entire table is reproduced with little or no change from another source, this should be acknowledged in a statement such as: Reprinted, by permission of the publisher, from Crompton DWT et al., eds. Ascariasis and its public health significance. London, Taylor & Francis, 1985. When",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-038"
+      ]
     },
     {
       "id": "page-039",
@@ -1605,11 +1723,11 @@
           "heading": false
         },
         {
-          "term": "blocked",
+          "term": "bullets",
           "heading": false
         },
         {
-          "term": "bullets",
+          "term": "blocked",
           "heading": false
         },
         {
@@ -1617,16 +1735,19 @@
           "heading": false
         },
         {
-          "term": "items",
+          "term": "format",
           "heading": false
         },
         {
-          "term": "format",
+          "term": "text",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Lists Inaneffort to rationalize the presentation of lists, the following are the styles that should generally be adopted. Where circumstances make any of these inappropriate, clarity and common sense should prevail in selecting an alternative. Format I 1. Where subsequent reference makes it essential that items ina list be numbered, and always for recommendations within a Technical Report,",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-039"
+      ]
     },
     {
       "id": "page-040",
@@ -1673,7 +1794,10 @@
         }
       ],
       "extract": "Manuscript mark-up and layout ¢ In general, such items are likely to consist of one or more complete sentences, and should therefore each begin with a capital letter and end with a full point. ¢ Asin the case of numbered items, where more than one line of text is involved, second and subsequent lines should be blocked to the first tab stop. Format 4 © The style of a particular text may demand that, for lists of this",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-040"
+      ]
     },
     {
       "id": "page-041",
@@ -1691,7 +1815,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-041"
+      ]
     },
     {
       "id": "page-042",
@@ -1725,24 +1852,27 @@
           "heading": false
         },
         {
-          "term": "substances",
-          "heading": false
-        },
-        {
           "term": "chemical",
-          "heading": false
-        },
-        {
-          "term": "familiar",
           "heading": false
         },
         {
           "term": "letters",
           "heading": false
+        },
+        {
+          "term": "substances",
+          "heading": false
+        },
+        {
+          "term": "readers",
+          "heading": false
         }
       ],
       "extract": "1]. Abbreviations and symbols The purpose of abbreviations is to save space in figures and tables or when the same word or phrase occurs many times in an article. All abbreviations should be defined the first time they are used, unless likely to be familiar to readers. A few abbreviations (e.g., i.e., viz., etc.) are so widely used that the complete words are almost never given. However, editors should use their",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-042"
+      ]
     },
     {
       "id": "page-043",
@@ -1772,6 +1902,10 @@
           "heading": false
         },
         {
+          "term": "health organization",
+          "heading": false
+        },
+        {
           "term": "quantities",
           "heading": false
         },
@@ -1780,16 +1914,15 @@
           "heading": false
         },
         {
-          "term": "geneva",
-          "heading": false
-        },
-        {
-          "term": "london",
+          "term": "style",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Monval Further reading Armstrong Lowe D. A guide to international recommendations on names and symbols for quantities and on units of measurement. Geneva, World Health Organization, 1975 (Progress in standardization, No. 2). Baron DN, ed. Units, symbols, and abbreviations; a guide for biological and medical editors and authors, 4th ed. London, Royal Society of Medicine Services, 1988. ISO",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-043"
+      ]
     },
     {
       "id": "page-044",
@@ -1815,15 +1948,15 @@
           "heading": false
         },
         {
+          "term": "international development",
+          "heading": false
+        },
+        {
           "term": "social commission",
           "heading": false
         },
         {
           "term": "international civil",
-          "heading": false
-        },
-        {
-          "term": "international development",
           "heading": false
         },
         {
@@ -1840,7 +1973,10 @@
         }
       ],
       "extract": "Abbreviations and symbols Names of organizations The following abbreviations of international and other organizations are those most frequently encountered in WHO documents and publications. ACC Administrative Committee on Coordination ACHR Advisory Committee on Health Research AGFUND Arab Gulf Programme for United Nations Development Organizations ASEAN = Association of South-East Asian Nations CEC Commission of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-044"
+      ]
     },
     {
       "id": "page-045",
@@ -1886,12 +2022,15 @@
           "heading": false
         },
         {
-          "term": "relief",
+          "term": "trade",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual ITU NORAD OAS OAU OECD OlE PAHO PASB SAREC Sida UICC UNAIDS UNCTAD UNDCP UNDP UNDRO UNEP UNESCO UNFDAC UNFPA UNHCR UNICEF UNIDO UNITAR UNRISD UNRWA UNSCEAR UPU USAID wcc WEP WFUNA WIPO wmo WTO International Telecommunication Union Norwegian Agency for International Development Organization of American States Organization of African Unity Organisation for Economic Co-operation and",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-045"
+      ]
     },
     {
       "id": "page-046",
@@ -1921,10 +2060,6 @@
           "heading": false
         },
         {
-          "term": "minute",
-          "heading": false
-        },
-        {
           "term": "units",
           "heading": false
         },
@@ -1933,12 +2068,19 @@
           "heading": false
         },
         {
-          "term": "degree",
+          "term": "minute",
+          "heading": false
+        },
+        {
+          "term": "measurement",
           "heading": false
         }
       ],
       "extract": "Abbreviations and symbols Units of measurement Detailed lists of the symbols to be used for units of measurement can be found in the reference sources listed on page 38. A list of the most commonly used symbols (including those used for the SI base units) is given below. These symbols should only be used after a quantity expressed in figures, in tables, and in graphs. ampere A metre m becquerel Bq minute (of arc) '",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-046"
+      ]
     },
     {
       "id": "page-047",
@@ -1960,11 +2102,11 @@
           "heading": false
         },
         {
-          "term": "medical sciences",
+          "term": "deoxyribonucleic acid",
           "heading": false
         },
         {
-          "term": "technique",
+          "term": "medical sciences",
           "heading": false
         },
         {
@@ -1980,7 +2122,7 @@
           "heading": false
         },
         {
-          "term": "assay",
+          "term": "technique",
           "heading": false
         },
         {
@@ -1989,7 +2131,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual Abbreviations used in the medical sciences Extensive lists of abbreviations used in the medical sciences are given in the following publications: Heister R. Dictionary of abbreviations in medical sciences. Berlin, Springer Verlag, 1989. Steen EB. Bailligre’s abbreviations in medicine, 5th ed. London, Baillitre Tindall, 1984. The following acronyms and abbreviations are in common use in the",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-047"
+      ]
     },
     {
       "id": "page-048",
@@ -2011,6 +2156,10 @@
           "heading": false
         },
         {
+          "term": "gel electrophoresis",
+          "heading": false
+        },
+        {
           "term": "antibody test",
           "heading": false
         },
@@ -2019,15 +2168,11 @@
           "heading": false
         },
         {
-          "term": "sodium",
-          "heading": false
-        },
-        {
-          "term": "gel",
-          "heading": false
-        },
-        {
           "term": "chromatography",
+          "heading": false
+        },
+        {
+          "term": "histocompatibility",
           "heading": false
         },
         {
@@ -2035,12 +2180,15 @@
           "heading": false
         },
         {
-          "term": "leukocyte",
+          "term": "latex",
           "heading": false
         }
       ],
       "extract": "FSH GABA GH GnRH HAT HBV HCG HIV HLA HPLC HTLV MHC IDT IFAT IFT Ig IR LAT 1D, LFT tH MAb mRNA NSAID PAGE PCV PMSG RAST RFLP RISA RIST RNA* tRNA SDS SDS-PAGE Sp-, Spp.* TCD,, TLC tRNA UV follicle-stimulating hormone gamma-aminobutyric acid growth hormone gonadotropin-releasing hormone haemagglutination antibody test hepatitis B vaccine (virus) human chorionic gonadotropin human immunodeficiency virus",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-048"
+      ]
     },
     {
       "id": "page-049",
@@ -2058,10 +2206,6 @@
       },
       "keywords": [
         {
-          "term": "currency",
-          "heading": false
-        },
-        {
           "term": "monetary unit",
           "heading": false
         },
@@ -2070,11 +2214,15 @@
           "heading": false
         },
         {
-          "term": "symbol",
+          "term": "currency",
           "heading": false
         },
         {
-          "term": "amount",
+          "term": "pounds",
+          "heading": false
+        },
+        {
+          "term": "symbol",
           "heading": false
         },
         {
@@ -2082,12 +2230,15 @@
           "heading": false
         },
         {
-          "term": "million",
+          "term": "amount",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual ‘ Units of currency Lists of the official basic units of currency and the appropriate currency abbreviations are given in: Currency units. New York, United Nations, 1993 (Terminology bulletin no. 346). The currencies listed are those officially in use as at 19 March 1993 and may be subject to change. Further information can be obtained from CTT. The abbreviations used for the various",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-049"
+      ]
     },
     {
       "id": "page-050",
@@ -2109,6 +2260,14 @@
           "heading": false
         },
         {
+          "term": "dakota",
+          "heading": false
+        },
+        {
+          "term": "latitude",
+          "heading": false
+        },
+        {
           "term": "virginia",
           "heading": false
         },
@@ -2119,18 +2278,13 @@
         {
           "term": "north",
           "heading": false
-        },
-        {
-          "term": "south",
-          "heading": false
-        },
-        {
-          "term": "figures",
-          "heading": false
         }
       ],
       "extract": "Abbreviations and symbols Compass points Compass points should be abbreviated in indications of latitude and longitude, and in all tables and figures. Capital letters should be placed immediately after each other without the interposition of full stops or spaces: from latitude 7°10'N to 0°40'S, SSE. States, territories and districts of the United States of America The following two-letter abbreviations may be used",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-050"
+      ]
     },
     {
       "id": "page-051",
@@ -2148,7 +2302,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-051"
+      ]
     },
     {
       "id": "page-052",
@@ -2165,6 +2322,10 @@
         "status": "draft"
       },
       "keywords": [
+        {
+          "term": "four digits",
+          "heading": false
+        },
         {
           "term": "thin space",
           "heading": false
@@ -2186,20 +2347,19 @@
           "heading": false
         },
         {
-          "term": "nine",
+          "term": "symbols",
           "heading": false
         },
         {
           "term": "figures",
           "heading": false
-        },
-        {
-          "term": "four",
-          "heading": false
         }
       ],
       "extract": "12. Numbers, dates, time and units of measurement Numbers In general, words should be used for the numbers one to nine and at the beginning of sentences, and figures for 10 and above; however, editors should use their judgement in individual cases. Figures should never- theless always be used in specific numerical contexts (e.g. “day 3” or “a factor of 2”). Numbers that constitute a series or range should usually be",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-052"
+      ]
     },
     {
       "id": "page-053",
@@ -2221,11 +2381,11 @@
           "heading": false
         },
         {
-          "term": "relative molecular",
+          "term": "mol",
           "heading": false
         },
         {
-          "term": "mol",
+          "term": "relative molecular",
           "heading": false
         },
         {
@@ -2233,24 +2393,27 @@
           "heading": false
         },
         {
-          "term": "concentration",
-          "heading": false
-        },
-        {
-          "term": "temperature",
-          "heading": false
-        },
-        {
           "term": "symbol",
+          "heading": false
+        },
+        {
+          "term": "concentration",
           "heading": false
         },
         {
           "term": "quantities",
           "heading": false
+        },
+        {
+          "term": "temperature",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual plural, and are not followed by a full stop unless they occur at the end of a sentence. Figures should always be used with unit symbols and abbreviations, for example 7 kg not seven kg; the figure should be separated from the unit symbol by a thin space. To avoid ambiguity, no more than one solidus should be used to divide units, for example m/s? (or m-s~?) not m/s/s. When a medial",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-053"
+      ]
     },
     {
       "id": "page-054",
@@ -2272,15 +2435,11 @@
           "heading": false
         },
         {
-          "term": "mathematical",
-          "heading": false
-        },
-        {
           "term": "multiplication",
           "heading": false
         },
         {
-          "term": "signs",
+          "term": "mathematical",
           "heading": false
         },
         {
@@ -2292,12 +2451,19 @@
           "heading": false
         },
         {
-          "term": "except",
+          "term": "symbols",
+          "heading": false
+        },
+        {
+          "term": "letter",
           "heading": false
         }
       ],
       "extract": "13. Mathematics and statistics Mathematical matter and equations Italics should be used for mathematical variables and certain physical constants, roman type for operators (such as +, =, d and multipli- cation and integral signs), abbreviations (such as log, sin and exp) and representations of pure numbers (such as e and i). Badly written or ambiguous symbols and signs should be identified for the typesetter (e.g.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-054"
+      ]
     },
     {
       "id": "page-055",
@@ -2315,11 +2481,11 @@
       },
       "keywords": [
         {
-          "term": "random variable",
+          "term": "standard deviation",
           "heading": false
         },
         {
-          "term": "standard deviation",
+          "term": "random variable",
           "heading": false
         },
         {
@@ -2339,16 +2505,19 @@
           "heading": false
         },
         {
-          "term": "correlation",
+          "term": "coefficient",
           "heading": false
         },
         {
-          "term": "degrees",
+          "term": "variance",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Term Symbol variable in a population XY)... particular or observed value KI ae population or lot size N sample size n range of a sample w,R arithmetic mean of a population X arithmetic mean of a sample RK variance of a random variable or of a population com variance of a sample z standard deviation of a random variable or of a population o standard deviation of a sample 5 coefficient of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-055"
+      ]
     },
     {
       "id": "page-056",
@@ -2382,11 +2551,11 @@
           "heading": false
         },
         {
-          "term": "virus",
+          "term": "common names",
           "heading": false
         },
         {
-          "term": "common names",
+          "term": "latin",
           "heading": false
         },
         {
@@ -2395,7 +2564,10 @@
         }
       ],
       "extract": "14. Scientific terminology The scientific terminology used in WHO publications should be in accordance with the recommendations of the relevant international bodies. Guidance on correct usage can be obtained from CTT. Anatomy In general, the anglicized versions of Latin anatomical terms should be used, as found in the standard medical dictionaries. If, for a specific reason, Latin terms are preferred in a given",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-056"
+      ]
     },
     {
       "id": "page-057",
@@ -2425,7 +2597,15 @@
           "heading": false
         },
         {
+          "term": "systematic bacteriology",
+          "heading": false
+        },
+        {
           "term": "bacterial names",
+          "heading": false
+        },
+        {
+          "term": "international code",
           "heading": false
         },
         {
@@ -2435,18 +2615,13 @@
         {
           "term": "american society",
           "heading": false
-        },
-        {
-          "term": "international code",
-          "heading": false
-        },
-        {
-          "term": "eds",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual It should be noted that the bacterial and viral codes of nomenclature differ substantially; CTT should be consulted for details. A full list of approved bacterial names that have been published in the International journal of systematic bacteriology isavailable under WHOTERM through the WHO Web site. Further reading International code of zoological nomenclature adopted by the 20th General",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-057"
+      ]
     },
     {
       "id": "page-058",
@@ -2489,7 +2664,10 @@
         }
       ],
       "extract": "Scientific terminology Common name 3-letter symbol —_—_I-letter symbol alanine Ala A arginine Arg R asparagine Asn N aspartic acid Asp D cysteine Cys Cc glutamine Gln Q glutamic acid Glu E glycine Gly G histidine His H isoleucine Ile I leucine Leu L lysine Lys K methionine Met M phenylalanine Phe F proline Pro P serine Ser S threonine Thr T tryptophan. Trp WwW tyrosine Tyr Y valine Val Vv unspecified amino acid Xaa",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-058"
+      ]
     },
     {
       "id": "page-059",
@@ -2524,7 +2702,10 @@
         }
       ],
       "extract": "WHO Editorial Style Monval Nucleosides The symbols used for ribonucleoside residues (radicals) are: A. adenosine C cytidine G_ guanosine T ribosylthymine I inosine U_ uridine X xanthosine wy 5-ribosyluracil (pseudouridine). The prefix “t” (for ribo) may be used for emphasis or clarity. The 2'-deoxyribonucleosides can be designated by the same symbols preceded by “d”, for example: dA 2'-deoxyribosyladenine dT",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-059"
+      ]
     },
     {
       "id": "page-060",
@@ -2558,7 +2739,7 @@
           "heading": false
         },
         {
-          "term": "numerals",
+          "term": "albumin",
           "heading": false
         },
         {
@@ -2566,7 +2747,7 @@
           "heading": false
         },
         {
-          "term": "chemical",
+          "term": "numerals",
           "heading": false
         },
         {
@@ -2575,7 +2756,10 @@
         }
       ],
       "extract": "Scientific terminology “Cy, acid” is used to denote an acid containing 20 carbon atoms and “C-3” to denote the carbon atom numbered 3. Oxidation numbers are indicated by roman numerals in parentheses closed up against the name of the element concerned, for example: manganese(IV) Cr(LII). Further reading Budavari S et al., eds. The Merck index, 12th ed. Whitehouse Station, NJ, Merck, 1996. Cahn RS, Dermer OC.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-060"
+      ]
     },
     {
       "id": "page-061",
@@ -2613,11 +2797,11 @@
           "heading": false
         },
         {
-          "term": "cioms",
+          "term": "pesticides",
           "heading": false
         },
         {
-          "term": "pesticides",
+          "term": "nomenclature",
           "heading": false
         },
         {
@@ -2626,7 +2810,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual N-, O-, S- (to indicate an element carrying a substituent). Italics are not, however, used for: allo bis cyclo epi iso nor tris. A lower-case italic prefix at the beginning of a line or after a full stop is not given an initial capital; the next letter becomes a capital instead (e.g. trans-2-Butene). A capitalized italic prefix does not serve as the capital marking the beginning of a",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-061"
+      ]
     },
     {
       "id": "page-062",
@@ -2648,15 +2835,19 @@
           "heading": false
         },
         {
+          "term": "phenotype symbols",
+          "heading": false
+        },
+        {
           "term": "human gene",
           "heading": false
         },
         {
-          "term": "cell genetics",
+          "term": "lower-case letters",
           "heading": false
         },
         {
-          "term": "lower-case letters",
+          "term": "cell genetics",
           "heading": false
         },
         {
@@ -2670,14 +2861,13 @@
         {
           "term": "chromosomes",
           "heading": false
-        },
-        {
-          "term": "symbols",
-          "heading": false
         }
       ],
       "extract": "Scientific terminology Further reading International nonproprietary names (INN) for pharmaceutical substances, cumulative list no. 9. Geneva, World Health Organization, 1996. IPCS, International Programme on Chemical Safety. The WHO recommended classification of pesticides by hazard and guidelines to classification 1996-1997. Geneva, World Health Organization, 1996 (unpublished document WHO/PCS/96.3) [contains an",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-062"
+      ]
     },
     {
       "id": "page-063",
@@ -2707,10 +2897,6 @@
           "heading": false
         },
         {
-          "term": "strain",
-          "heading": false
-        },
-        {
           "term": "genus",
           "heading": false
         },
@@ -2719,16 +2905,23 @@
           "heading": false
         },
         {
-          "term": "host",
+          "term": "italic",
           "heading": false
         },
         {
           "term": "species",
           "heading": false
+        },
+        {
+          "term": "strain",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual associated. A roman prefix may be added: “v-” for viral, “N-” for nuclear and “c-” for the gene’s cellular counterpart (proto-oncogene). Other prefixes and various suffixes are common. For example: Ha-ras-1 N-ras v-erb B yes c-abl fes/fps. Restriction enzymes The generally used nomenclature for restriction enzymes follows, more ot less, the recommendations of Smith & Nathans (1973). The",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-063"
+      ]
     },
     {
       "id": "page-064",
@@ -2758,11 +2951,15 @@
           "heading": false
         },
         {
+          "term": "nomenclature",
+          "heading": false
+        },
+        {
           "term": "haematology",
           "heading": false
         },
         {
-          "term": "bulletin",
+          "term": "international congress",
           "heading": false
         },
         {
@@ -2770,16 +2967,15 @@
           "heading": false
         },
         {
-          "term": "nomenclature",
-          "heading": false
-        },
-        {
-          "term": "igg",
+          "term": "health organiza",
           "heading": false
         }
       ],
       "extract": "Scientific terminology Haemoglobins The term “haemoglobin” is usually represented by the symbol Hb and the various types of haemoglobin by capital letters or the names of the laboratories, hospitals or places in which they were found (e.g. Hb F, Hb S, Hb Hammersmith). The major and minor adult haemoglobins are designated Hb A and Hb A, The four polypeptide chains of normal human haemoglobin are designated by the",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-064"
+      ]
     },
     {
       "id": "page-065",
@@ -2797,11 +2993,19 @@
       },
       "keywords": [
         {
+          "term": "interferon nomenclature",
+          "heading": false
+        },
+        {
           "term": "greek letter",
           "heading": false
         },
         {
-          "term": "nomenclature",
+          "term": "interleukin",
+          "heading": false
+        },
+        {
+          "term": "allergen",
           "heading": false
         },
         {
@@ -2809,24 +3013,19 @@
           "heading": false
         },
         {
+          "term": "world health",
+          "heading": false
+        },
+        {
           "term": "complement",
-          "heading": false
-        },
-        {
-          "term": "attached",
-          "heading": false
-        },
-        {
-          "term": "world",
-          "heading": false
-        },
-        {
-          "term": "journal",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Monval Interferons Interferons are represented by the symbol IFN to which is attached by a hyphen the Greek letter representing its type, for example IFN-a for alpha interferons. Non-allelic variants can be indicated by an arabic number or capital letter (sometimes subscripted) attached to the Greek letter. The prefixes “Hu” and “Mu” may be used to represent “human” and “murine” respectively. For",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-065"
+      ]
     },
     {
       "id": "page-066",
@@ -2856,16 +3055,19 @@
           "heading": false
         },
         {
-          "term": "bulletin",
+          "term": "human complement",
           "heading": false
         },
         {
-          "term": "human complement",
+          "term": "bulletin",
           "heading": false
         }
       ],
       "extract": "Scientific terminology WHO-IUIS Nomenclature Sub-Committee. Nomenclature for hu- man complement component C2. Revised nomenclature for human complement component C4. Nomenclature for human complement factor B. Bulletin of the World Health Organization, 1992, 70:527-528, 531-535, 541-543. HLA system TUIS-WHO Nomenclature Subcommittee. Nomenclature for clusters of differentiation (CD) defined on human leukocyte",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-066"
+      ]
     },
     {
       "id": "page-067",
@@ -2883,7 +3085,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-067"
+      ]
     },
     {
       "id": "page-068",
@@ -2901,15 +3106,11 @@
       },
       "keywords": [
         {
-          "term": "sex discrimination",
-          "heading": false
-        },
-        {
           "term": "non-discriminatory language",
           "heading": false
         },
         {
-          "term": "women",
+          "term": "sex discrimination",
           "heading": false
         },
         {
@@ -2921,11 +3122,15 @@
           "heading": false
         },
         {
-          "term": "men",
+          "term": "women",
           "heading": false
         },
         {
           "term": "man",
+          "heading": false
+        },
+        {
+          "term": "men",
           "heading": false
         },
         {
@@ -2934,7 +3139,10 @@
         }
       ],
       "extract": "15. Non-discriminatory language Of the examples of discrimination that are most likely to be encoun- tered in manuscripts, the most common involve discrimination on the grounds of sex. For this reason, the guidelines presented here concen- trate largely on means of avoiding overt or implied sex discrimination. However, examples of racial or cultural discrimination may also be found, and many of the principles that",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-068"
+      ]
     },
     {
       "id": "page-069",
@@ -2952,6 +3160,10 @@
       },
       "keywords": [
         {
+          "term": "emerging deformities",
+          "heading": false
+        },
+        {
           "term": "skin changes",
           "heading": false
         },
@@ -2960,7 +3172,11 @@
           "heading": false
         },
         {
-          "term": "general well-being",
+          "term": "sexes",
+          "heading": false
+        },
+        {
+          "term": "complain",
           "heading": false
         },
         {
@@ -2972,20 +3188,15 @@
           "heading": false
         },
         {
-          "term": "men",
-          "heading": false
-        },
-        {
-          "term": "onset",
-          "heading": false
-        },
-        {
-          "term": "hearing",
+          "term": "hallucinations",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Non-sexist language — a cumbersome solution? With care, the results of rewriting text to eliminate discriminatory language will be no less concise than the original — but will be unam- biguous and will avoid causing offence. For example: “He may see himself as the pivot of all that happens. Hallucinations, especially of hearing, are common and may comment on the patient or address him.” is",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-069"
+      ]
     },
     {
       "id": "page-070",
@@ -3003,15 +3214,11 @@
       },
       "keywords": [
         {
-          "term": "looked alike",
-          "heading": false
-        },
-        {
-          "term": "boards looked",
-          "heading": false
-        },
-        {
           "term": "discriminatory phrases",
+          "heading": false
+        },
+        {
+          "term": "looked alike",
           "heading": false
         },
         {
@@ -3019,11 +3226,15 @@
           "heading": false
         },
         {
-          "term": "bear examination",
+          "term": "psychological association",
           "heading": false
         },
         {
-          "term": "psychological association",
+          "term": "boards looked",
+          "heading": false
+        },
+        {
+          "term": "bear examination",
           "heading": false
         },
         {
@@ -3031,12 +3242,15 @@
           "heading": false
         },
         {
-          "term": "place car",
+          "term": "common discriminatory",
           "heading": false
         }
       ],
       "extract": "Non-discriminatory language The following table gives some examples of common discriminatory phrases and suggestions for alternatives. Common discriminatory phrases Useful solutions Useful general rules The client is usually the best judge of the value of his counseiiing The client is usually the best judge of the value of counselling The best judge of the value of counselling is the client Delete redundant",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-070"
+      ]
     },
     {
       "id": "page-071",
@@ -3054,6 +3268,18 @@
       },
       "keywords": [
         {
+          "term": "boys chose",
+          "heading": false
+        },
+        {
+          "term": "nutritious meals",
+          "heading": false
+        },
+        {
+          "term": "cook nutritious",
+          "heading": false
+        },
+        {
           "term": "client behaviour",
           "heading": false
         },
@@ -3062,19 +3288,7 @@
           "heading": false
         },
         {
-          "term": "boys",
-          "heading": false
-        },
-        {
-          "term": "men",
-          "heading": false
-        },
-        {
-          "term": "ambitious",
-          "heading": false
-        },
-        {
-          "term": "meals",
+          "term": "daughters",
           "heading": false
         },
         {
@@ -3082,12 +3296,15 @@
           "heading": false
         },
         {
-          "term": "women",
+          "term": "wives",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Common discriminatory phrases Useful solutions Useful general rules Foreman, workman, office girl, policeman Supervisor, worker, secretary, receptionist, office assistant, police officer Use neutral or equivalent job titles Show the mother how to cook nutritious meals Show members of the family how to cook nutritious meals Do not assume that women always do the household chores Ask mothers",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-071"
+      ]
     },
     {
       "id": "page-072",
@@ -3105,10 +3322,6 @@
       },
       "keywords": [
         {
-          "term": "independent living",
-          "heading": false
-        },
-        {
           "term": "cause offence",
           "heading": false
         },
@@ -3121,7 +3334,15 @@
           "heading": false
         },
         {
+          "term": "substituting",
+          "heading": false
+        },
+        {
           "term": "diabetic",
+          "heading": false
+        },
+        {
+          "term": "independent living",
           "heading": false
         },
         {
@@ -3131,14 +3352,13 @@
         {
           "term": "man",
           "heading": false
-        },
-        {
-          "term": "discrimination",
-          "heading": false
         }
       ],
       "extract": "Non-discriminatory language The occasional exception There will be occasions when a term including “man” may be unavoid- able, even when the context is not limited to men. An obvious example is “man-made disasters”, for which no generally acceptable alternative is available. Use of the word “Chairman” rather than the more general “Chair” or “Chairperson” may be obligatory. It would be wrong to be over-dogmatic in",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-072"
+      ]
     },
     {
       "id": "page-073",
@@ -3156,7 +3376,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-073"
+      ]
     },
     {
       "id": "page-074",
@@ -3174,11 +3397,11 @@
       },
       "keywords": [
         {
-          "term": "sensitive topics",
+          "term": "member states",
           "heading": false
         },
         {
-          "term": "member states",
+          "term": "sensitive topics",
           "heading": false
         },
         {
@@ -3190,7 +3413,7 @@
           "heading": false
         },
         {
-          "term": "east",
+          "term": "leg",
           "heading": false
         },
         {
@@ -3198,7 +3421,7 @@
           "heading": false
         },
         {
-          "term": "leg",
+          "term": "east",
           "heading": false
         },
         {
@@ -3207,7 +3430,10 @@
         }
       ],
       "extract": "16. Politically and legally sensitive topics Occasionally, manuscripts contain statements that may cause offence tocertain Member States, or references to geographical entities whose name or ownership is disputed. It would be unrealistic to try to provide a comprehensive list of sensitive topics, and editors need to be alert to potentially controversial issues. These may include, for example, terminology that",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-074"
+      ]
     },
     {
       "id": "page-075",
@@ -3225,7 +3451,7 @@
       },
       "keywords": [
         {
-          "term": "taiwan",
+          "term": "occupied territories",
           "heading": false
         },
         {
@@ -3233,7 +3459,7 @@
           "heading": false
         },
         {
-          "term": "china",
+          "term": "taiwan",
           "heading": false
         },
         {
@@ -3249,12 +3475,15 @@
           "heading": false
         },
         {
-          "term": "territories",
+          "term": "china",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual should not be included in listings bearing the title “country”. Nor- mally, the heading “country or area” can be used in table headings, etc. to cover such cases. If anything is to be said about the status of non-self-governing terri- tories, they should be referred to as “territories that are not responsible for the conduct of their international relations”; the words “colony” and",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-075"
+      ]
     },
     {
       "id": "page-076",
@@ -3276,24 +3505,27 @@
           "heading": false
         },
         {
+          "term": "scotland",
+          "heading": false
+        },
+        {
           "term": "named",
-          "heading": false
-        },
-        {
-          "term": "constituent",
-          "heading": false
-        },
-        {
-          "term": "impli",
           "heading": false
         },
         {
           "term": "trade",
           "heading": false
+        },
+        {
+          "term": "impli",
+          "heading": false
         }
       ],
       "extract": "Politically and legally sensitive topics United Kingdom The term United Kingdom refers to the Member State, but care should be taken in applying it to the legal system or health services, for which separate provisions exist in England and Wales, Northern Ireland, and Scotland. When the context is neither political nor legal, as in addresses and geographical descriptions, the relevant constituent part of the United",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-076"
+      ]
     },
     {
       "id": "page-077",
@@ -3311,7 +3543,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-077"
+      ]
     },
     {
       "id": "page-078",
@@ -3341,28 +3576,31 @@
           "heading": false
         },
         {
-          "term": "report",
-          "heading": false
-        },
-        {
           "term": "title",
-          "heading": false
-        },
-        {
-          "term": "meeting",
-          "heading": false
-        },
-        {
-          "term": "food",
           "heading": false
         },
         {
           "term": "editing",
           "heading": false
+        },
+        {
+          "term": "report",
+          "heading": false
+        },
+        {
+          "term": "mind",
+          "heading": false
+        },
+        {
+          "term": "text",
+          "heading": false
         }
       ],
       "extract": "17. Technical reports Manuscripts submitted for publication in the Technical Report Series should in general be edited in the usual way, in line with the guidelines set out elsewhere in the WHO editorial sryle manual. However, it should be borne in mind that most are the reports of WHO Expert Commit- tees, Study Groups or Scientific Groups, whose members have in theory approved the final text at the time of the",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-078"
+      ]
     },
     {
       "id": "page-079",
@@ -3392,7 +3630,7 @@
           "heading": false
         },
         {
-          "term": "participants",
+          "term": "titles",
           "heading": false
         },
         {
@@ -3404,16 +3642,19 @@
           "heading": false
         },
         {
-          "term": "report",
+          "term": "list",
           "heading": false
         },
         {
-          "term": "titles",
+          "term": "listed",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual List of participants The list of participants should be headed by the name of the expert group, irrespective of the form of the title of the report. The names of members should be listed in alphabetical order, each followed by the title of the post held, the name of the institute/ university department, and its geographical location. Titles, names of institutes, etc. should normally be",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-079"
+      ]
     },
     {
       "id": "page-080",
@@ -3443,7 +3684,15 @@
           "heading": false
         },
         {
+          "term": "specifications",
+          "heading": false
+        },
+        {
           "term": "definitions",
+          "heading": false
+        },
+        {
+          "term": "member states",
           "heading": false
         },
         {
@@ -3453,18 +3702,13 @@
         {
           "term": "avoided",
           "heading": false
-        },
-        {
-          "term": "member states",
-          "heading": false
-        },
-        {
-          "term": "directed",
-          "heading": false
         }
       ],
       "extract": "zation ot of Member States, for example overt criticism of named national governments or criticism relating to WHO's internal organi- zation and to the functioning of specified technical units. Over- generalizations concerning particular professional or population groups and legally contentious issues should be avoided. In case of doubt about specific statements, LEG should be consulted. Specifications",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-080"
+      ]
     },
     {
       "id": "page-081",
@@ -3486,7 +3730,15 @@
           "heading": false
         },
         {
+          "term": "annexes",
+          "heading": false
+        },
+        {
           "term": "indication",
+          "heading": false
+        },
+        {
+          "term": "style",
           "heading": false
         },
         {
@@ -3494,24 +3746,19 @@
           "heading": false
         },
         {
-          "term": "reference",
-          "heading": false
-        },
-        {
-          "term": "annexes",
+          "term": "references",
           "heading": false
         },
         {
           "term": "lists",
           "heading": false
-        },
-        {
-          "term": "style",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual References References should be numbered consecutively throughout the text and should be listed together at the end of the report, before any annexes (which may have their own reference lists). Only if a single reference is cited in the report should it be given in a footnote. The bibliographic style to be followed is given in section 9. Normally references to WHO unpublished documents",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-081"
+      ]
     },
     {
       "id": "page-082",
@@ -3533,15 +3780,15 @@
           "heading": false
         },
         {
-          "term": "williams wilkins",
-          "heading": false
-        },
-        {
           "term": "style manual",
           "heading": false
         },
         {
           "term": "medical dictionary",
+          "heading": false
+        },
+        {
+          "term": "williams wilkins",
           "heading": false
         },
         {
@@ -3554,7 +3801,10 @@
         }
       ],
       "extract": "18. Usetul reference books Dictionaries Thompson D, ed. The concise Oxford dictionary, 9th ed. Oxford, Clarendon Press, 1995. Critchley M, ed. Butterworths medical dictionary, 2nd ed. London, Butterworths, 1978. Dorland’s illustrated medical dictionary, 28th ed. Philadelphia, Saunders, 1994. Collins English dictionary ,4th ed. London, HarperCollins, 1994. Landau SI, ed. International dictionary of medicine and",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-082"
+      ]
     },
     {
       "id": "page-083",
@@ -3588,11 +3838,11 @@
           "heading": false
         },
         {
-          "term": "oxford",
+          "term": "o'connor",
           "heading": false
         },
         {
-          "term": "london",
+          "term": "oxford",
           "heading": false
         },
         {
@@ -3601,7 +3851,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual English usage, style and editing A guide to writing for the United Nations. New York, United Nations, 1984. Bishop C. How to edit.a scientific journal. Philadelphia, ISI Press, 1984. Burchfield RW, ed. The new Fowler’s modern English usage. Oxford, Clarendon Press, 1996. Butcher J. Copy-editing: the Cambridge handbook for authors, editors and indexers, 3rd ed. Cambridge, Cambridge",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-083"
+      ]
     },
     {
       "id": "page-084",
@@ -3635,11 +3888,11 @@
           "heading": false
         },
         {
-          "term": "cioms",
+          "term": "merck",
           "heading": false
         },
         {
-          "term": "merck",
+          "term": "symbols",
           "heading": false
         },
         {
@@ -3647,12 +3900,15 @@
           "heading": false
         },
         {
-          "term": "sciences",
+          "term": "tract",
           "heading": false
         }
       ],
       "extract": "Useful reference books Scientific, technical and medical terminology and usage Armstrong Lowe D. A guide to international recommendations on names and symbols for quantities and on units of measurement. Geneva, World Health Organization, 1975 (Progress in standardization, No. 2). Baron DN, ed. Units, symbols, and abbreviations: a guide for biological and medical editors and authors, 4th ed. London, Royal Society of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-084"
+      ]
     },
     {
       "id": "page-085",
@@ -3686,20 +3942,23 @@
           "heading": false
         },
         {
-          "term": "volume",
-          "heading": false
-        },
-        {
           "term": "chemical",
           "heading": false
         },
         {
-          "term": "oxford",
+          "term": "volume",
+          "heading": false
+        },
+        {
+          "term": "world health",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual International nonproprietary names (INN) for pharmaceutical substances, cumulative list no. 9. Geneva, World Health Organization, 1996. International Statistical Classification of Diseases and Related Health Problems, tenth revision. Volume I: tabular list; Volume 2: instruction manual; Volume 3: alphabetical index. Geneva, World Health Organization, 1992-1994. ISO standards handbook: 2.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-085"
+      ]
     },
     {
       "id": "page-086",
@@ -3717,15 +3976,7 @@
       },
       "keywords": [
         {
-          "term": "oxford",
-          "heading": false
-        },
-        {
-          "term": "york",
-          "heading": false
-        },
-        {
-          "term": "mcgowan",
+          "term": "hirsch",
           "heading": false
         },
         {
@@ -3735,10 +3986,21 @@
         {
           "term": "statesman",
           "heading": false
+        },
+        {
+          "term": "swinscow",
+          "heading": false
+        },
+        {
+          "term": "tdv",
+          "heading": false
         }
       ],
       "extract": "Useful reference books Riegelman RK, Hirsch RP. Studying a study and testing a test: how to read the medical literature, 2nd ed. Boston, Little, Brown & Co., 1989. Skerman VBD, McGowan V, Sneath PHA, eds. Approved lists of bacterial names, amended ed. Washington, DC, American Society for Microbiology, 1989. Steen EB. Bailliére’s abbreviations in medicine, 5th ed. London, Bailliére Tindall, 1984. Swinscow TDV.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-086"
+      ]
     },
     {
       "id": "page-087",
@@ -3756,7 +4018,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-087"
+      ]
     },
     {
       "id": "page-088",
@@ -3790,7 +4055,11 @@
           "heading": false
         },
         {
-          "term": "acquired",
+          "term": "words",
+          "heading": false
+        },
+        {
+          "term": "exceptions",
           "heading": false
         },
         {
@@ -3800,14 +4069,13 @@
         {
           "term": "syndrome",
           "heading": false
-        },
-        {
-          "term": "exceptions",
-          "heading": false
         }
       ],
       "extract": "Annex | Spelling of words that commonly cause difficulty The general rule in WHO is to follow the spelling given in the latest edition of The concise Oxford dictionary; where it gives alternative spellings or forms, use the one given first (e.g. fulfil, fulfill) or the one to which you are referred from an entry giving a variant spelling (e.g. “tire, US var. of tyre”: use “tyre”). There are, however, a number of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-088"
+      ]
     },
     {
       "id": "page-089",
@@ -3825,11 +4093,11 @@
       },
       "keywords": [
         {
-          "term": "blood",
+          "term": "adj",
           "heading": false
         },
         {
-          "term": "adj",
+          "term": "blood",
           "heading": false
         },
         {
@@ -3845,16 +4113,19 @@
           "heading": false
         },
         {
-          "term": "benefit",
+          "term": "every",
           "heading": false
         },
         {
-          "term": "every",
+          "term": "benefit",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual anaesthesia, anaesthetic ancylostomiasis (not ankylo...) animal feed ankylose, ankylosing spondylitis annex (n: & vb) annul, annulled, annulling, annulment Anopheles anopheline mosquitos; anophelines antecedent antedate antemortem antenatal anthelminthic antibacterial anticoagulant anticomplement antiepileptic anti-gas-gangrene antimicrobial(s) antineoplastic antioxidant(s) antiserum,",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-089"
+      ]
     },
     {
       "id": "page-090",
@@ -3871,6 +4142,10 @@
         "status": "draft"
       },
       "keywords": [
+        {
+          "term": "compliment",
+          "heading": false
+        },
         {
           "term": "adj",
           "heading": false
@@ -3890,10 +4165,17 @@
         {
           "term": "ratio",
           "heading": false
+        },
+        {
+          "term": "data",
+          "heading": false
         }
       ],
       "extract": "canvass (solicit) carcass (not carcase) cardiovascular case-finding case history case-load case-study caster (person or machine) castor (oil) catalogue census centimetre (cm) centre, centring century (20th, etc.) cerebrospinal cerebrovascular Chagas disease checklist check up (vb) check-up (n.) cheque (banking) chequered (flag, career) childbearing childbirth child-spacing Chlamydia (but chlamydiae, chlamydial)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-090"
+      ]
     },
     {
       "id": "page-091",
@@ -3923,16 +4205,19 @@
           "heading": false
         },
         {
-          "term": "down",
+          "term": "region",
           "heading": false
         },
         {
-          "term": "region",
+          "term": "down",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual defence defensible, defensive dependant (n.) dependent (adj.) depositary (person) depository (library, place) deprecate (disapprove) depreciate (belittle) dermatotropic (not dermotropic) desiccate device (n.) devise (vb) diarrhoea dilatation (medical) dilation (verbal) diphtheria Diptera dipterous (insects) Director-General disassemble (take to pieces) disc discoloration discolour discreet",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-091"
+      ]
     },
     {
       "id": "page-092",
@@ -3958,7 +4243,7 @@
           "heading": false
         },
         {
-          "term": "falciparum",
+          "term": "adj",
           "heading": false
         },
         {
@@ -3966,11 +4251,11 @@
           "heading": false
         },
         {
-          "term": "adj",
+          "term": "feed",
           "heading": false
         },
         {
-          "term": "feed",
+          "term": "falciparum",
           "heading": false
         },
         {
@@ -3983,7 +4268,10 @@
         }
       ],
       "extract": "F fact-finding faecal, faeces fait accompli falciparum malaria (but Plasmodium falciparum) fallout (n.) fall out (vb) false-positive reaction far-reaching favour, favourable federal (authorities etc; in general contexts) Federal (with specific titles & names) feed (for animals) feed back (vb) feedback (n.) feldsher fetal, fetus fibre (not fiber) fibroadenoma fibroma field test (n.) field-test (vb) field trial",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-092"
+      ]
     },
     {
       "id": "page-093",
@@ -4005,15 +4293,11 @@
           "heading": false
         },
         {
-          "term": "virus associated",
-          "heading": false
-        },
-        {
           "term": "body temperature",
           "heading": false
         },
         {
-          "term": "human immunodeficiency",
+          "term": "virus associated",
           "heading": false
         },
         {
@@ -4021,11 +4305,15 @@
           "heading": false
         },
         {
+          "term": "human immunodeficiency",
+          "heading": false
+        },
+        {
           "term": "deprecated",
           "heading": false
         },
         {
-          "term": "gray",
+          "term": "handicap",
           "heading": false
         },
         {
@@ -4034,7 +4322,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual good will (benevolent interest) goodwill (of firm) gorilla governing body (but Governing. Body of ILO) government (in general contexts) Government (of particular country) gram (g) Gram-positive/negative granddaughter, grandchild, etc. grass roots (n.) grass-roots (adj.) : gray (radiation unit; symbol = Gy) green belt grey (colour; not gray) groundnut groundwater (n. & adj:) growth chart",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-093"
+      ]
     },
     {
       "id": "page-094",
@@ -4069,7 +4360,10 @@
         }
       ],
       "extract": "! i.e. (no comma) illegible ill effect ill-health immunochemistry immunodiagnosis immunological (not immunologic) immunomodulation immunosuppressive impracticable (impossible in practice) impractical (not practical) inasmuch as (2 words) indexes (of texts etc.) indices (mathematical, scientific) ineligible infarct, infarction (of myocardium) inflection (not inflexion) infraction. (of rules) infrared : infrastructure",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-094"
+      ]
     },
     {
       "id": "page-095",
@@ -4095,11 +4389,15 @@
           "heading": false
         },
         {
-          "term": "litre",
+          "term": "sky",
           "heading": false
         },
         {
           "term": "sing",
+          "heading": false
+        },
+        {
+          "term": "litre",
           "heading": false
         },
         {
@@ -4111,16 +4409,15 @@
           "heading": false
         },
         {
-          "term": "length",
-          "heading": false
-        },
-        {
-          "term": "life",
+          "term": "lymph",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual L label, labelled, labelling labour, laborious labour-intensive lacrimal; lacrimate laissez-faire : laissez-passer (invariable sing. & pl.) large-scale (adj.; but on a large scale) larva (pl. larvae) last-mentioned Latin American (n. & adj.) lay out (vb) layout (n.) learned (erudite) least developed countries leptospirosis . leukaemia leukocyte leukopenia liaison licence (n.) license (vb)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-095"
+      ]
     },
     {
       "id": "page-096",
@@ -4146,10 +4443,6 @@
           "heading": false
         },
         {
-          "term": "neisseria",
-          "heading": false
-        },
-        {
           "term": "sing",
           "heading": false
         },
@@ -4158,12 +4451,23 @@
           "heading": false
         },
         {
+          "term": "naive",
+          "heading": false
+        },
+        {
+          "term": "neisseria",
+          "heading": false
+        },
+        {
           "term": "words",
           "heading": false
         }
       ],
       "extract": "millennium millimetre (mm) misspell, misspelt (not mispell, mispelled) molarity (deprecated; use mol/litre) mollusc (not mollusk) molluscicide (not molluscocide) mortality rate mosquitos (not mosquitoes) mould, mouldy (not mold, moldy} mouthwash Mr Mrs Ms MS, MSS (manuscript, sing. & pl.) mucopurulent mucous (adj.) mucus (n.) Muhammad (not Mahomet) multidrug multilateral multinational multipurpose Muslim (not",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-096"
+      ]
     },
     {
       "id": "page-097",
@@ -4185,11 +4489,19 @@
           "heading": false
         },
         {
+          "term": "adj",
+          "heading": false
+        },
+        {
+          "term": "pneumococcus",
+          "heading": false
+        },
+        {
           "term": "cap",
           "heading": false
         },
         {
-          "term": "adj",
+          "term": "diem",
           "heading": false
         },
         {
@@ -4206,7 +4518,10 @@
         }
       ],
       "extract": "WHO Editorial Style Manual old age; old-age pension omission onchocerciasis oncogenic oncoming (traffic, etc.) one-third ophthalmic, ophthalmology (not ophtalmic or opthalmic, etc.) oral rehydration salts, oral rehydra- tion solution ordinance (legal instrument) ordnance (gunnery and, in UK, mapping) Organization (always cap. when referring to WHO, but Organisation in International Labour Organisation and",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-097"
+      ]
     },
     {
       "id": "page-098",
@@ -4248,16 +4563,19 @@
           "heading": false
         },
         {
-          "term": "child",
+          "term": "health worker",
           "heading": false
         },
         {
-          "term": "worker",
+          "term": "child",
           "heading": false
         }
       ],
       "extract": "post-test post-treatment postwar (adj. only) practice (n.) practise (vb) précis, précis-writer preconceive, preconception precondition predominant(ly) (not predominate(ly)) pre-eclampsia pre-eminent pre-empt, pre-emption, pre-emptive preinvestment prenatal prerequisite preschool child(ren) presently (in a short while; now = at present) pre-session pretest pretreatment prewar (adj. only) prima facie ptimary health",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-098"
+      ]
     },
     {
       "id": "page-099",
@@ -4279,15 +4597,7 @@
           "heading": false
         },
         {
-          "term": "school children",
-          "heading": false
-        },
-        {
           "term": "roll-call",
-          "heading": false
-        },
-        {
-          "term": "war",
           "heading": false
         },
         {
@@ -4295,20 +4605,31 @@
           "heading": false
         },
         {
+          "term": "teacher",
+          "heading": false
+        },
+        {
+          "term": "school children",
+          "heading": false
+        },
+        {
           "term": "region",
+          "heading": false
+        },
+        {
+          "term": "war",
           "heading": false
         },
         {
           "term": "same practice",
           "heading": false
-        },
-        {
-          "term": "respect",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Regional Director (same practice as for “Region/region” regarding caps) Regional Office (same practice as for “Region/region” regarding caps) regroup reimplantation reinfect, reinfection reinoculate, reinoculation teinstate reinsure rendezvous (no hyphen) reopen reorganize repairable (can be mended) reparable (loss can be made good) repellent (n. & adj.) re-route resign (give up office;",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-099"
+      ]
     },
     {
       "id": "page-100",
@@ -4334,10 +4655,6 @@
           "heading": false
         },
         {
-          "term": "some time",
-          "heading": false
-        },
-        {
           "term": "south-east",
           "heading": false
         },
@@ -4346,12 +4663,19 @@
           "heading": false
         },
         {
+          "term": "some time",
+          "heading": false
+        },
+        {
           "term": "table",
           "heading": false
         }
       ],
       "extract": "shiftwork shift worker Shigella, shigellae (pl.) shigellosis short-term (adj.; but in the short term) sickbed sick-leave sickle-cell anaemia side-effects siphon (not syphon) skilful sleeping sickness smallpox small-scale (adj.; but on a small scale) snake-bite soakaway so-called (adj.; but it is properly so called) sociocultural socioeconomic some time (at some time) sometime (formerly) sometimes sorption South-East",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-100"
+      ]
     },
     {
       "id": "page-101",
@@ -4373,7 +4697,7 @@
           "heading": false
         },
         {
-          "term": "ton",
+          "term": "trade name",
           "heading": false
         },
         {
@@ -4385,11 +4709,7 @@
           "heading": false
         },
         {
-          "term": "trade name",
-          "heading": false
-        },
-        {
-          "term": "unesco",
+          "term": "ton",
           "heading": false
         },
         {
@@ -4397,12 +4717,19 @@
           "heading": false
         },
         {
-          "term": "prefer",
+          "term": "adj",
+          "heading": false
+        },
+        {
+          "term": "unesco",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual : _ teratogen, teratogenic test-tube textbook text processing, text processor thermonuclear thermostable, thermostability through (not thru) tick-borne time-limit time-scale timetable title page ton (should be preceded by “long” or “short”) tonne (not “metric ton” or “metric tonne”) topsoil total (vb), totalled, totalling towards (not toward) traffic, trafficker, trafficking tranquillize,",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-101"
+      ]
     },
     {
       "id": "page-102",
@@ -4420,10 +4747,6 @@
       },
       "keywords": [
         {
-          "term": "x-ray",
-          "heading": false
-        },
-        {
           "term": "suffix",
           "heading": false
         },
@@ -4432,20 +4755,27 @@
           "heading": false
         },
         {
-          "term": "wave",
+          "term": "waive",
           "heading": false
         },
         {
-          "term": "worldwide",
+          "term": "wave",
           "heading": false
         },
         {
           "term": "western",
           "heading": false
+        },
+        {
+          "term": "x-ray",
+          "heading": false
         }
       ],
       "extract": "Ww wage-eamer, wage-earning wagon (not waggon) waive (the rules; see also wave) waiver (n.; relinquishing a right) wastewater water-bath waterborne watercourse waterworks wave (the flag; see also waive) wavelength waver (vb; falter) weal (not wheal) weekday weekend well-baby clinic well-being well-water western (geographical) Western (political and cultural) Western Pacific Region (of WHO) wet-nurse while (not",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-102"
+      ]
     },
     {
       "id": "page-103",
@@ -4463,7 +4793,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-103"
+      ]
     },
     {
       "id": "page-104",
@@ -4485,36 +4818,39 @@
           "heading": false
         },
         {
+          "term": "andorra",
+          "heading": false
+        },
+        {
+          "term": "antigua",
+          "heading": false
+        },
+        {
+          "term": "barbuda",
+          "heading": false
+        },
+        {
           "term": "republic",
           "heading": false
         },
         {
-          "term": "angola",
+          "term": "argentine",
           "heading": false
         },
         {
-          "term": "armenia",
+          "term": "barbados",
           "heading": false
         },
         {
           "term": "bahamas",
           "heading": false
-        },
-        {
-          "term": "austria",
-          "heading": false
-        },
-        {
-          "term": "bahrain",
-          "heading": false
-        },
-        {
-          "term": "belarus",
-          "heading": false
         }
       ],
       "extract": "Annex 2 Member States of the United Nations, members of specialized agencies or parties to the Statute of the International Court of Justice! Short name Full name Adjective/People Capital city Afghanistan the Islamic State of Afghan Kabul Afghanistan : Albania the Republic of Albania Albanian Tirana Algeria the People’s Democratic Algerian Algiers : Republic of Algeria Andorra the Principality of Andorra Andorran",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-104"
+      ]
     },
     {
       "id": "page-105",
@@ -4536,11 +4872,7 @@
           "heading": false
         },
         {
-          "term": "cook islands",
-          "heading": false
-        },
-        {
-          "term": "cape verde",
+          "term": "brunei darussalam",
           "heading": false
         },
         {
@@ -4548,24 +4880,31 @@
           "heading": false
         },
         {
+          "term": "cook islands",
+          "heading": false
+        },
+        {
+          "term": "céte d'ivoire",
+          "heading": false
+        },
+        {
           "term": "costa rica",
+          "heading": false
+        },
+        {
+          "term": "cape verde",
           "heading": false
         },
         {
           "term": "central african",
           "heading": false
-        },
-        {
-          "term": "botswana",
-          "heading": false
-        },
-        {
-          "term": "burundi",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Short name Full name Adjective/People Capital city Benin the Republic of Benin Beninese Porto-Novo Bhutan the Kingdom of Bhutan Bhutanese Thimphu Bolivia the Republic of Bolivia Bolivian Sucre! Bosnia and Bosnia and (of) Bosnia Sarajevo Herzegovina Herzegovina and Herzegovina Botswana the Republic of Botswana (of) Botswana Gaborone Brazil the Federative Republic Brazilian Brasilia of",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-105"
+      ]
     },
     {
       "id": "page-106",
@@ -4595,7 +4934,7 @@
           "heading": false
         },
         {
-          "term": "djibouti",
+          "term": "fiji",
           "heading": false
         },
         {
@@ -4603,7 +4942,7 @@
           "heading": false
         },
         {
-          "term": "fiji",
+          "term": "djibouti",
           "heading": false
         },
         {
@@ -4616,7 +4955,10 @@
         }
       ],
       "extract": "Annex 2 - Member States Short name Full name Adjective/People Capital city Croatia the Republic of Croatia Croatian Zagreb Cuba the Republic of Cuba Cuban Havana Cyprus the Republic of Cyprus Cypriot Nicosia Czech Republic the Czech Republic Czech Prague (the) Democratic People’s the Democratic People’s of the Democratic Pyongyang Republic of Korea Republic of Korea People’s Republic (the) of Korea Democratic the",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-106"
+      ]
     },
     {
       "id": "page-107",
@@ -4642,32 +4984,35 @@
           "heading": false
         },
         {
+          "term": "grenada",
+          "heading": false
+        },
+        {
+          "term": "guyana",
+          "heading": false
+        },
+        {
+          "term": "jamaica",
+          "heading": false
+        },
+        {
           "term": "guatemala",
           "heading": false
         },
         {
-          "term": "hungary",
+          "term": "italian",
           "heading": false
         },
         {
-          "term": "haiti",
-          "heading": false
-        },
-        {
-          "term": "iran",
-          "heading": false
-        },
-        {
-          "term": "iceland",
-          "heading": false
-        },
-        {
-          "term": "jordan",
+          "term": "honduras",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Short name Full name Adjective/People Capital city Germany the Federal Republic German Berlin! of Germany Ghana the Republic of Ghana Ghanaian Accra Greece the Hellenic Republic Greek Athens Grenada Grenada Grenadian. St George’s Guatemala the Republic of Guatemala Guatemalan Guatemala City Guinea the Republic of Guinea Guinean Conakry Guinea-Bissau the Republic of (of) Guinea-Bissau",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-107"
+      ]
     },
     {
       "id": "page-108",
@@ -4701,24 +5046,27 @@
           "heading": false
         },
         {
-          "term": "lesotho",
-          "heading": false
-        },
-        {
           "term": "kuwait",
           "heading": false
         },
         {
-          "term": "madagascar",
+          "term": "lebanese",
           "heading": false
         },
         {
-          "term": "mexican",
+          "term": "kiribati",
+          "heading": false
+        },
+        {
+          "term": "kyrgyz",
           "heading": false
         }
       ],
       "extract": "Annex 2— Member States Short name Full name Adjective/People Capital city Kazakhstan the Republic of Kazakhstan Kazakh Almaty Kenya the Republic of Kenya Kenyan Nairobi Kiribati Kiribati of Kiribati Tarawa Koren: see Democratic People’s Republic of Korea (the), and Republic of Korea (the) Kuwait the State of Kuwait Kuwaiti Kuwait Kyrgyzstan the Kyrgyz Republic Kyrgyz Bishkek Lao People’s Demo- the Lao People’s Lao,",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-108"
+      ]
     },
     {
       "id": "page-109",
@@ -4740,15 +5088,15 @@
           "heading": false
         },
         {
-          "term": "republic",
-          "heading": false
-        },
-        {
           "term": "micronesia",
           "heading": false
         },
         {
-          "term": "papua",
+          "term": "republic",
+          "heading": false
+        },
+        {
+          "term": "niue",
           "heading": false
         },
         {
@@ -4756,20 +5104,23 @@
           "heading": false
         },
         {
-          "term": "zealand",
-          "heading": false
-        },
-        {
-          "term": "niger",
-          "heading": false
-        },
-        {
           "term": "panama",
+          "heading": false
+        },
+        {
+          "term": "papua",
+          "heading": false
+        },
+        {
+          "term": "palau",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Short name Full name Adjective/People Capital city Micronesia the Federated States of the Federated Palikir (Federated States of)! of Micronesia States of Micronesia Moldova: see Republic of Moldova (the) Monaco the Principality of Monaco Monegasque Monaco Mongolia Mongolia Mongolian Ulaanbaatar Morocco the Kingdom of Morocco Moroccan Rabat Mozambique the Republic of Mozambique Mozambican",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-109"
+      ]
     },
     {
       "id": "page-110",
@@ -4799,11 +5150,11 @@
           "heading": false
         },
         {
-          "term": "sao tome",
+          "term": "san marino",
           "heading": false
         },
         {
-          "term": "saudi arabia",
+          "term": "sao tome",
           "heading": false
         },
         {
@@ -4811,16 +5162,19 @@
           "heading": false
         },
         {
-          "term": "russian federation",
+          "term": "saudi arabia",
           "heading": false
         },
         {
-          "term": "sierra leone",
+          "term": "russian federation",
           "heading": false
         }
       ],
       "extract": "Annex 2— Member States Short name Full name Adjective/People Capital city Philippines (the) the Republic of Philippine, Manila the Philippines a Filipino Poland the Republic of Poland Polish, a Pole Warsaw Portugal the Portuguese Republic Portuguese Lisbon Qatar the State of Qatar (of) Qatar Doha Republic of Korea _ the Republic of Korea of the Republic Seoul (the) of Korea Republic of the Republic of Moldova",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-110"
+      ]
     },
     {
       "id": "page-111",
@@ -4842,19 +5196,15 @@
           "heading": false
         },
         {
+          "term": "syrian arab",
+          "heading": false
+        },
+        {
           "term": "sri lanka",
           "heading": false
         },
         {
           "term": "united arab",
-          "heading": false
-        },
-        {
-          "term": "south africa",
-          "heading": false
-        },
-        {
-          "term": "macedonia",
           "heading": false
         },
         {
@@ -4868,10 +5218,17 @@
         {
           "term": "trinidad",
           "heading": false
+        },
+        {
+          "term": "macedonia",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Short name Full name Adjective/People Capital city Somalia the Somali Democratic Somali Mogadishu Republic South Africa the Republic of South Africa South African Pretoria Spain the Kingdom of Spain Spanish, a Spaniard §Madrid Sri Lanka the Democratic Socialist (of) Sri Lanka, Colombo Republic of Sri Lanka Sri Lankan Sudan (the) the Republic of the Sudan Sudanese Khartoum Suriname the",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-111"
+      ]
     },
     {
       "id": "page-112",
@@ -4893,15 +5250,11 @@
           "heading": false
         },
         {
-          "term": "great britain",
-          "heading": false
-        },
-        {
           "term": "united kingdom",
           "heading": false
         },
         {
-          "term": "viet nam",
+          "term": "great britain",
           "heading": false
         },
         {
@@ -4909,11 +5262,15 @@
           "heading": false
         },
         {
-          "term": "vanuatu",
+          "term": "full name",
           "heading": false
         },
         {
-          "term": "full name",
+          "term": "viet nam",
+          "heading": false
+        },
+        {
+          "term": "venezuela",
           "heading": false
         },
         {
@@ -4922,7 +5279,10 @@
         }
       ],
       "extract": "Annex 2 - Member States Short name Full name Adjective/People Capital city United Kingdom of Great Britain and Northern Ireland (the)! United Republic of Tanzania (the) United States of America (the)? Uruguay Uzbekistan Vanuatu the United Kingdom of Great Britain and Northern Ireland the United Republic of Tanzania the United States of America the Eastern Republic of Uruguay the Republic of Uzbekistan the Republic",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-112"
+      ]
     },
     {
       "id": "page-113",
@@ -4940,7 +5300,10 @@
       },
       "keywords": [],
       "extract": "_(no text on this page)_",
-      "extractCut": false
+      "extractCut": false,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-113"
+      ]
     },
     {
       "id": "page-114",
@@ -4958,11 +5321,11 @@
       },
       "keywords": [
         {
-          "term": "english approved",
+          "term": "approved name",
           "heading": false
         },
         {
-          "term": "approved name",
+          "term": "english approved",
           "heading": false
         },
         {
@@ -4983,7 +5346,10 @@
         }
       ],
       "extract": "Annex 3 Place names Alphabetical list by English/approved names English/approved name Local/other name English /approved name Local/other name Abu Dhabi Addis Ababa Albania* Alexandria Algeria* Almaty Antananarivo Antwerp Athens Azerbaijan* Baghdad Bahrain* Bangkok Bangui Basel Beijing Beirut Belarus* Belgrade Belize* Berne Bhutan* Bosnia & Herzegovina* Brazil* Bruges Brunswick Brussels Bucharest Bulgaria* Abu Zabi",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-114"
+      ]
     },
     {
       "id": "page-115",
@@ -5001,11 +5367,15 @@
       },
       "keywords": [
         {
-          "term": "english approved",
+          "term": "approved name",
           "heading": false
         },
         {
-          "term": "approved name",
+          "term": "name local",
+          "heading": false
+        },
+        {
+          "term": "english approved",
           "heading": false
         },
         {
@@ -5015,14 +5385,13 @@
         {
           "term": "haiti",
           "heading": false
-        },
-        {
-          "term": "name local",
-          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual English/approved name Local/other name English/approved name Local/other name Hague (The) Den Haag, Lvov Lwéw °’s Gravenhage Lyon Lyons Haifa Kaiffa, Khaifa Haiti* Haiti Manama Al-Manamah Hanover Hannover Mantua Mantova Hanoi Hanot Marrakesh Marakesh, Havana Habana (La) Marrakech Helsinki Helsingfors Marseilles Marseille Hungary* Magyarorszag Mauritania* Mauritanie : Mauritius* Ile Maurice",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-115"
+      ]
     },
     {
       "id": "page-116",
@@ -5040,7 +5409,15 @@
       },
       "keywords": [
         {
+          "term": "approved name",
+          "heading": false
+        },
+        {
           "term": "sao",
+          "heading": false
+        },
+        {
+          "term": "name local",
           "heading": false
         },
         {
@@ -5048,19 +5425,11 @@
           "heading": false
         },
         {
-          "term": "approved name",
-          "heading": false
-        },
-        {
-          "term": "saint",
-          "heading": false
-        },
-        {
           "term": "nevis",
           "heading": false
         },
         {
-          "term": "name local",
+          "term": "saint",
           "heading": false
         },
         {
@@ -5069,7 +5438,10 @@
         }
       ],
       "extract": "Annex 3 — Place names English/approved name Local/other name ‘English/approved name Local/other name Romania* Rome Rwanda* Saint Kitts and Nevis* Salonica Samarkand Sana’a Sao Tome* Saragossa Sarajevo Sardinia Seoul Seville Skopje Sofia Sudan* Suriname* Sweden* Szczecin Tajikistan* Tallinn Tbilisi ‘Teheran Roumania, Rumania Roma Ruanda Saint Christopher and Nevis Thessaloniki Samargand Sanaa Sao Thomé, Sao Tomé",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-116"
+      ]
     },
     {
       "id": "page-117",
@@ -5095,11 +5467,7 @@
           "heading": false
         },
         {
-          "term": "english approved",
-          "heading": false
-        },
-        {
-          "term": "ghent",
+          "term": "approved name",
           "heading": false
         },
         {
@@ -5115,12 +5483,19 @@
           "heading": false
         },
         {
-          "term": "belarus",
+          "term": "basel",
+          "heading": false
+        },
+        {
+          "term": "addis",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Alphabetical list by local/other names local/other name English/approved name local/other name English/approved name Abu Zabi Abu Dhabi Brussel, Bruxelles Brussels Ad-Dawhah Doha Bucuresti Bucharest Addis Abeba Addis Ababa Bulgariya Bulgaria* Al-Agsur Luxor Burma Myanmar* Algérie Algeria* Bur Sa’id Port Said Al-Iskandariyah Alexandria Byelorussia Belarus* Al-Maghribiyah, Morocco*",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-117"
+      ]
     },
     {
       "id": "page-118",
@@ -5142,7 +5517,7 @@
           "heading": false
         },
         {
-          "term": "english approved",
+          "term": "approved name",
           "heading": false
         },
         {
@@ -5154,11 +5529,11 @@
           "heading": false
         },
         {
-          "term": "haiti",
+          "term": "hanoi",
           "heading": false
         },
         {
-          "term": "kuwait",
+          "term": "kathmandu",
           "heading": false
         },
         {
@@ -5166,12 +5541,15 @@
           "heading": false
         },
         {
-          "term": "hanoi",
+          "term": "kuwait",
           "heading": false
         }
       ],
       "extract": "Annex 3 — Place names local/other name English/approved name Local/other name English/approved name Habana (La) Havana Liban Lebanon* Haiti Haiti* Libia Libya* Hannover Hanover Lisboa Lisbon Hanoi Hanoi Livorno Leghorn Helsingfors Helsinki Loanda Luanda Holland Netherlands (the)* Luik Liége Luxemburg Luxembourg* Ile Maurice Mauritius* Luzern Lucerne Irak Traq* Lwéw Lvov Island Iceland* Lyons Lyon Ivory Coast (the)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-118"
+      ]
     },
     {
       "id": "page-119",
@@ -5189,19 +5567,15 @@
       },
       "keywords": [
         {
-          "term": "sao",
-          "heading": false
-        },
-        {
           "term": "name english",
           "heading": false
         },
         {
-          "term": "english approved",
+          "term": "approved name",
           "heading": false
         },
         {
-          "term": "saint",
+          "term": "sao",
           "heading": false
         },
         {
@@ -5215,10 +5589,17 @@
         {
           "term": "vilnius",
           "heading": false
+        },
+        {
+          "term": "nevis",
+          "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual Local/other name English/approved name Local/other name English/approved name Rangoon Yangon Tashi Chho Thimphu Reikjavik Reykjavik Dzong Riad Riyadh Tchad. Chad* Roma Rome Tehran Teheran Roumania, Romania* Thessaloniki Salonica Rumania Thimbu Thimphu Ruanda Rwanda* Tiflis Tbilisi Tirané Tirana Saint Christopher Saint Kitts and Torino Turin and Nevis Nevis* Tunisie Tunisia* Samarqand",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-119"
+      ]
     },
     {
       "id": "page-120",
@@ -5236,6 +5617,10 @@
       },
       "keywords": [
         {
+          "term": "sign signe",
+          "heading": false
+        },
+        {
           "term": "page",
           "heading": true
         },
@@ -5244,32 +5629,31 @@
           "heading": false
         },
         {
+          "term": "multiplication",
+          "heading": false
+        },
+        {
           "term": "raised point",
           "heading": false
         },
         {
-          "term": "multiplication",
+          "term": "barre",
+          "heading": false
+        },
+        {
+          "term": "capitales",
           "heading": false
         },
         {
           "term": "verso",
           "heading": false
-        },
-        {
-          "term": "sign",
-          "heading": false
-        },
-        {
-          "term": "capitals",
-          "heading": false
-        },
-        {
-          "term": "plus",
-          "heading": false
         }
       ],
       "extract": "Annex 4 Terms used for manuscript mark-up and proof correction (English/French) English French English French Typography in 2 columns sur 2 colonnes typeface caractére landscape layout a litalienne italic italique not justified en drapeau roman romain full width pleine justification bold gras ona fold-out page en dépliant medium mi-gras tint trame light léger screened tramé small capitals petites capitales (large)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-120"
+      ]
     },
     {
       "id": "page-121",
@@ -5287,6 +5671,10 @@
       },
       "keywords": [
         {
+          "term": "space blanc",
+          "heading": false
+        },
+        {
           "term": "english french",
           "heading": false
         },
@@ -5295,20 +5683,19 @@
           "heading": false
         },
         {
-          "term": "bon",
-          "heading": false
-        },
-        {
           "term": "prime",
           "heading": false
         },
         {
-          "term": "space",
+          "term": "bon",
           "heading": false
         }
       ],
       "extract": "WHO Editorial Style Manual English French English French square bracket crochet ; add ajouter ellipsis [...] points de suspen- insert insérer sion, ellipse centre centrer thin/fine space espace mi-fin transpose transposer prime sign prime align aligner bullet gros point take back [line, passer a la ligne asterisk astérisque word, etc. ] supérieure, a la dagger croix mortuaire , ligne précédente omission bourdon take",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-pub-tps-931/blocks/prose-page-121"
+      ]
     }
   ],
   "checks": {
@@ -5337,19 +5724,7 @@
       "heading": false
     },
     {
-      "term": "united republic",
-      "heading": false
-    },
-    {
-      "term": "common names",
-      "heading": false
-    },
-    {
       "term": "bibliographic style",
-      "heading": false
-    },
-    {
-      "term": "international nomenclature",
       "heading": false
     },
     {
@@ -5357,15 +5732,27 @@
       "heading": false
     },
     {
-      "term": "chemical names",
-      "heading": false
-    },
-    {
       "term": "typographical style",
       "heading": false
     },
     {
-      "term": "approved names",
+      "term": "style monval",
+      "heading": false
+    },
+    {
+      "term": "cbe style",
+      "heading": false
+    },
+    {
+      "term": "vancouver style",
+      "heading": false
+    },
+    {
+      "term": "full name",
+      "heading": false
+    },
+    {
+      "term": "name english",
       "heading": false
     }
   ],
@@ -6098,6 +6485,47 @@
     }
   ],
   "figures": [],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "not-extracted",
+      "note": "split one section per page; no contents was trusted"
+    },
+    {
+      "kind": "sections",
+      "state": "partial",
+      "count": 121,
+      "note": "one per page, not by heading"
+    },
+    {
+      "kind": "figures",
+      "state": "none"
+    },
+    {
+      "kind": "tables",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "a references section is in the text (p2); its entries are not extracted"
+    },
+    {
+      "kind": "glossary",
+      "state": "not-extracted",
+      "note": "a glossary section is in the text (p80); its entries are not extracted"
+    },
+    {
+      "kind": "footnotes",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "summaries",
+      "state": "found",
+      "count": 121,
+      "note": "121 of 121 sections"
+    }
+  ],
   "links": {
     "repo": "litlfred/who-iris",
     "branch": "main",

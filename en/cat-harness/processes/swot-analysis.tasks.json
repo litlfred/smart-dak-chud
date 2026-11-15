@@ -6,84 +6,84 @@
    "id": "A_FrameSubject",
    "name": "Name the subject and the level",
    "left": 21.11,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 15.74,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_ScanExternal",
    "name": "Scan the environment opportunities and threats",
    "left": 32.96,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 27.59,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_ScanInternal",
    "name": "Scan the subject strengths and weaknesses",
    "left": 44.81,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 39.44,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_GroupReview",
    "name": "Pool knowledge across participants",
    "left": 44.81,
-   "top": 67.24,
+   "top": 60.17,
    "box": {
     "left": 39.44,
-    "top": 86.21,
+    "top": 87.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_RecordAmbiguous",
    "name": "Record what did not classify cleanly",
    "left": 56.67,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 51.3,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_Cross",
    "name": "Cross the axes into SO, WO, ST, WT",
    "left": 68.52,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 63.15,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   },
   {
    "id": "A_HandOff",
    "name": "Hand the candidates to a decision methodology",
    "left": 87.78,
-   "top": 18.97,
+   "top": 10.17,
    "box": {
     "left": 82.41,
-    "top": 37.93,
+    "top": 37.79,
     "width": 1.78,
-    "height": 8.28
+    "height": 6.98
    }
   }
  ],
@@ -123,26 +123,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -157,10 +163,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",
@@ -203,26 +211,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -237,10 +251,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",
@@ -283,26 +299,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -317,10 +339,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",
@@ -390,26 +414,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -424,10 +454,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",
@@ -470,26 +502,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -504,10 +542,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",
@@ -544,26 +584,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "crdm-impact-analysis"
+      "name": "crdm-impact-analysis",
+      "href": "../../../en/cat-harness/processes/skills/crdm-impact-analysis.html"
      },
      {
-      "name": "crdm-needs-assessment"
+      "name": "crdm-needs-assessment",
+      "href": "../../../en/cat-harness/processes/skills/crdm-needs-assessment.html"
      },
      {
-      "name": "crdm-recorded-walkthrough"
+      "name": "crdm-recorded-walkthrough",
+      "href": "../../../en/cat-harness/processes/skills/crdm-recorded-walkthrough.html"
      },
      {
-      "name": "crdm-requirements-template"
+      "name": "crdm-requirements-template",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-template.html"
      },
      {
-      "name": "crdm-requirements-workflow"
+      "name": "crdm-requirements-workflow",
+      "href": "../../../en/cat-harness/processes/skills/crdm-requirements-workflow.html"
      },
      {
       "name": "data-modelling",
       "href": "../../../en/cat-harness/processes/skills/data-modelling.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -578,10 +624,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "opening-brief"
+      "name": "opening-brief",
+      "href": "../../../en/cat-harness/processes/skills/opening-brief.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "wireframe-design-review",

@@ -14,26 +14,6 @@
       "dcterms:source": "Tools of smart-base"
     },
     {
-      "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/bpmn-to-fsh",
-      "@type": "skos:Concept",
-      "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools"
-      },
-      "skos:prefLabel": [
-        {
-          "@value": "BPMN → FHIR Shorthand"
-        }
-      ],
-      "skos:definition": [
-        {
-          "@value": "Derive FSH from a DAK's BPMN business processes (the inverse of the extractors)."
-        }
-      ],
-      "skos:notation": "bpmn-to-fsh",
-      "dcterms:source": "smart-base/tools/bpmn-to-fsh/bpmn-to-fsh.ts#bpmn-to-fsh",
-      "skos:note": "candidate"
-    },
-    {
       "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/dak-api-hub",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -50,7 +30,7 @@
         }
       ],
       "skos:notation": "dak-api-hub",
-      "dcterms:source": "smart-base/tools/dak-api-hub/dak-api-hub.ts#dak-api-hub",
+      "dcterms:source": "smart-base/L3/tools/dak-api-hub/dak-api-hub.ts#dak-api-hub",
       "skos:note": "candidate"
     },
     {
@@ -70,47 +50,7 @@
         }
       ],
       "skos:notation": "dak-config-from-sushi",
-      "dcterms:source": "smart-base/tools/dak-config-from-sushi/dak-config-from-sushi.ts#dak-config-from-sushi",
-      "skos:note": "candidate"
-    },
-    {
-      "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/dmn-to-html",
-      "@type": "skos:Concept",
-      "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools"
-      },
-      "skos:prefLabel": [
-        {
-          "@value": "DMN → HTML"
-        }
-      ],
-      "skos:definition": [
-        {
-          "@value": "Render each DMN decision table to an HTML fragment for a page, via `dmn2html.xslt` and `dmn.css`."
-        }
-      ],
-      "skos:notation": "dmn-to-html",
-      "dcterms:source": "smart-base/tools/dmn-to-html/dmn-to-html.ts#dmn-to-html",
-      "skos:note": "candidate"
-    },
-    {
-      "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/dmn-to-questionnaire",
-      "@type": "skos:Concept",
-      "skos:inScheme": {
-        "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools"
-      },
-      "skos:prefLabel": [
-        {
-          "@value": "DMN → FHIR Questionnaire"
-        }
-      ],
-      "skos:definition": [
-        {
-          "@value": "Generate FHIR `Questionnaire` resources from a DAK's DMN decision tables. Authoring, not rendering: the IG Publisher validates and indexes them like any other resource."
-        }
-      ],
-      "skos:notation": "dmn-to-questionnaire",
-      "dcterms:source": "smart-base/tools/dmn-to-questionnaire/dmn-to-questionnaire.ts#dmn-to-questionnaire",
+      "dcterms:source": "smart-base/L2/tools/dak-config-from-sushi/dak-config-from-sushi.ts#dak-config-from-sushi",
       "skos:note": "candidate"
     },
     {
@@ -130,7 +70,7 @@
         }
       ],
       "skos:notation": "extract-dak",
-      "dcterms:source": "smart-base/tools/extract-dak/extract-dak.ts#extract-dak",
+      "dcterms:source": "smart-base/L2/tools/extract-dak/extract-dak.ts#extract-dak",
       "skos:note": "candidate"
     },
     {
@@ -150,7 +90,47 @@
         }
       ],
       "skos:notation": "immz-schedule-app-local",
-      "dcterms:source": "smart-base/tools/immz-schedule-app-local/immz-schedule-app-local.ts#immz-schedule-app-local",
+      "dcterms:source": "smart-base/L4/tools/immz-schedule-app-local/immz-schedule-app-local.ts#immz-schedule-app-local",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/kg-extract-dak",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "dak.json + FSH tree → L2 DAK component graph"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Extract the DAK component layer (L2) from a smart-base-shaped IG (`smart-base/L2/schemas/extract-dak.ts`, ported from WHO smart-kg `tools/extract-dak.mjs`): a `dak` node from dak.json, a `persona` node per ActorDefinition, a `functional`/`non-functional-requirement` node per requirement instance with its `requirement-statement`s, the `hasComponent`/`hasStatement` edges, and the `fulfilledBy` edges that resolve each requirement's `actor = Canonical(...)` against a persona's instance id. Coverage is reported across all nine DAK components, including the empty ones, and files present with no component declaring them are listed. Distinct from the existing `extract-dak` tool (WHO's spreadsheet extractor)."
+        }
+      ],
+      "skos:notation": "kg-extract-dak",
+      "dcterms:source": "smart-base/L2/tools/kg-extract-dak/kg-extract-dak.ts#kg-extract-dak",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools/kg-extract-l3",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/smart-base/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "FHIR IG → L3 knowledge graph"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Extract the L3 index from a SMART Guidelines IG's source tree (`smart-base/L3/schemas/extract-l3.ts`, ported from WHO smart-kg `tools/extract-l3.mjs`): one thin node per FHIR artefact (PlanDefinition, ActivityDefinition, Library, Measure, Questionnaire, StructureMap/Definition, ValueSet, CodeSystem, ConceptMap, ActorDefinition, Requirements, CQL) read from FSH, FML and JSON with RuleSets expanded, the real `uses` and `citesSource` canonical references, and the `implementedBy` edges that tie each artefact to the L2 component its Title names by the SOP's id convention. Coverage is reported across every artefact type."
+        }
+      ],
+      "skos:notation": "kg-extract-l3",
+      "dcterms:source": "smart-base/L3/tools/kg-extract-l3/kg-extract-l3.ts#kg-extract-l3",
       "skos:note": "candidate"
     },
     {
@@ -186,11 +166,11 @@
       ],
       "skos:definition": [
         {
-          "@value": "Find every normative sentence of an ingested `library/` entry (folio-assistant-core's `l1-coverage` markers), flag uncertain readings, and propose the publication's identity. Given an agent's `l1-recommendation-curation/v1`, refuse a non-verbatim statement or an unknown location, and write the recommendations and remarks as an L1 3.0 graph (checked with `kg/src/validate.ts`) with coverage and proposed, unsigned exclusions."
+          "@value": "Find every normative sentence of an ingested `library/` entry (folio-assistant-core's `l1-coverage` markers), flag uncertain readings, and propose the publication's identity. Given an agent's `l1-recommendation-curation/v1`, refuse a non-verbatim statement or an unknown location, and write the recommendations and remarks as an L1 3.0 graph (checked with `L1/schemas/validate.ts`) with coverage and proposed, unsigned exclusions."
         }
       ],
       "skos:notation": "l1-recommendation-candidates",
-      "dcterms:source": "smart-base/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts#l1-recommendation-candidates",
+      "dcterms:source": "smart-base/L1/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts#l1-recommendation-candidates",
       "skos:note": "candidate"
     },
     {
@@ -210,7 +190,7 @@
         }
       ],
       "skos:notation": "l1-recommendation-scenarios",
-      "dcterms:source": "smart-base/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts#l1-recommendation-scenarios",
+      "dcterms:source": "smart-base/L2/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts#l1-recommendation-scenarios",
       "skos:note": "candidate"
     },
     {
@@ -230,7 +210,7 @@
         }
       ],
       "skos:notation": "l1-statement-lists",
-      "dcterms:source": "smart-base/tools/l1-statement-lists/l1-statement-lists.ts#l1-statement-lists",
+      "dcterms:source": "smart-base/L1/tools/l1-statement-lists/l1-statement-lists.ts#l1-statement-lists",
       "skos:note": "candidate"
     },
     {
@@ -250,7 +230,7 @@
         }
       ],
       "skos:notation": "l1-transcription-verbatim",
-      "dcterms:source": "smart-base/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts#l1-transcription-verbatim",
+      "dcterms:source": "smart-base/L1/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts#l1-transcription-verbatim",
       "skos:note": "candidate"
     },
     {
@@ -290,7 +270,7 @@
         }
       ],
       "skos:notation": "smart-liquid-variables",
-      "dcterms:source": "smart-base/tools/smart-liquid-variables/smart-liquid-variables.ts#smart-liquid-variables",
+      "dcterms:source": "smart-base/L3/tools/smart-liquid-variables/smart-liquid-variables.ts#smart-liquid-variables",
       "skos:note": "candidate"
     },
     {
@@ -310,7 +290,7 @@
         }
       ],
       "skos:notation": "terminology-lookup",
-      "dcterms:source": "smart-base/tools/terminology-lookup/terminology-lookup.ts#terminology-lookup",
+      "dcterms:source": "smart-base/L3/tools/terminology-lookup/terminology-lookup.ts#terminology-lookup",
       "skos:note": "candidate"
     }
   ]

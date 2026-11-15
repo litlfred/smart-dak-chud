@@ -94,6 +94,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/fhir-core",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Load the stable FHIR releases' core StructureDefinitions as a graph keyed by canonical URL"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Read each stable FHIR release's core package (`hl7.fhir.r4.core#4.0.1`, `hl7.fhir.r4b.core#4.3.0`, `hl7.fhir.r5.core#5.0.0`) at the version, sha1 and sha512 `fhir-core/pins.json` pins, and keep its resources, complex and primitive types and root types (Base, Element, BackboneElement, DomainResource, Resource) under `fhir-core/<release>/`, keyed by canonical URL. `index` writes the release's manifest (each definition's kind, type, base and sha256); `materialise` writes the bodies byte for byte as the package holds them; `check` holds the two to the pins offline; `resolve` answers which file a canonical URL is kept in. A package that cannot be fetched or verified is recorded as `unread` with the reason, never as an empty graph."
+        }
+      ],
+      "skos:notation": "fhir-core",
+      "dcterms:source": "fhir-harness/tools/fhir-core/fhir-core.ts#fhir-core",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/fhir-package-mirror",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -434,6 +454,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/ig-page-render-qa",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Scan every page of a built IG site in a headless browser for markup shown as text"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The checkout script `ig-site:page-render-qa`, the IG site build's last final step: it serves the built site locally, opens the root pages and the artefact pages (not the JSON views, mappings views or redirect stubs) in headless Chromium, waits for each to draw, and lists every text block that shows markdown as text (bold, list markers, links, images, code, headings, tables, HTML tags), code and preformatted text left out. It writes `assets/fhir-qa/page-render.json` and the script the QA report's \"Page scan\" panel draws it with. It reports and never fails the build: without a browser it writes why."
+        }
+      ],
+      "skos:notation": "ig-page-render-qa",
+      "dcterms:source": "fhir-harness/tools/ig-page-render-qa/ig-page-render-qa.ts#ig-page-render-qa",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/ig-pages",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -451,6 +491,26 @@
       ],
       "skos:notation": "ig-pages",
       "dcterms:source": "fhir-harness/tools/ig-pages/ig-pages.ts#ig-pages",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools/ig-publisher-i18n",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/fhir-harness/v0/ns/glossary/kg-tools"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "Put the IG Publisher's QA messages in each language an IG translates into, from the Publisher's own translations first"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Fetches the IG Publisher's own message bundles (`Messages_<lang>.properties` in `org.hl7.fhir.utilities-<core>.jar`, Maven Central) at exactly the core version the AST recorded, and translates each QA message by its `message-id`: the Publisher's translation where it has one whose placeholders match the English, else this layer's catalogue `translations/<locale>/publisher/messages.po` (machine translation, marked as such), else the English. `needs --merge` appends to each locale's catalogue the strings a build lacks, each with an example and deep links to the rows that print it. The site build (`ig-qa-page.ts`) calls it for every locale the IG translates its pages into and publishes `qa-messages.<locale>.json` and `i18n-usage.json` beside the QA report."
+        }
+      ],
+      "skos:notation": "ig-publisher-i18n",
+      "dcterms:source": "fhir-harness/tools/ig-publisher-i18n/ig-publisher-i18n.ts#ig-publisher-i18n",
       "skos:note": "candidate"
     },
     {

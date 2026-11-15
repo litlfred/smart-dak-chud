@@ -319,6 +319,26 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant-core/v0/ns/glossary/kg-skills/dsa-checksum",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant-core/v0/ns/glossary/kg-skills"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "dsa-checksum"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Compute and record the SHA-256 cryptographic digest of a signed Data Sharing Agreement's legal text as a W3C DCAT 3 `spdx:checksum` (`spdx:Checksum` with `spdx:checksumAlgorithm_sha256` and 64-character lowercase hex `spdx:checksumValue`), verified by `check:dsa-hash` (DSA building block B3, process steps P2.2 `Task_Hash` and P2.2a `Task_HashSummary`)."
+        }
+      ],
+      "skos:notation": "dsa-checksum",
+      "dcterms:source": "folio-assistant-core/skills/content/folio-document-adapter/dsa-checksum.md",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant-core/v0/ns/glossary/kg-skills/dublin-core-renderings",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -451,7 +471,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The content-folio half of the harness's getting-started skill: binds processes/conduct/getting-started.bpmn and decisions/folio-intent.dmn, interprets describeRepository() content-type markers (folio, harness, dak, sushi), and routes new-content and specialised IG/DAK creation requests."
+          "@value": "The content-folio half of the harness's getting-started skill: binds collab/processes/conduct/getting-started.bpmn and decisions/folio-intent.dmn, interprets describeRepository() content-type markers (folio, harness, dak, sushi), and routes new-content and specialised IG/DAK creation requests."
         }
       ],
       "skos:notation": "folio-getting-started",
@@ -526,7 +546,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "Check that an L1 extraction accounted for every normative sentence in its source publication — captured as a node, or excluded for a fixed-list reason a person signed off. Per-page counts, captured %, accounted-for %, and a non-zero exit below 100 % accounted-for. Generic: three input files, nothing folio-specific. Implements smart-kg's docs/COVERAGE.md contract."
+          "@value": "Check that an L1 extraction accounted for every normative sentence in its source publication — captured as a node, or excluded for a fixed-list reason a person signed off. Per-page counts, captured %, accounted-for %, and a non-zero exit below 100 % accounted-for. Generic: three input files, nothing folio-specific. Implements the methodology l1-coverage, the report contract."
         }
       ],
       "skos:notation": "l1-coverage",
@@ -551,6 +571,26 @@
       ],
       "skos:notation": "l1-document-ingestion",
       "dcterms:source": "folio-assistant-core/skills/library/ingestion/l1-document-ingestion.md",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant-core/v0/ns/glossary/kg-skills/mesh-subject-indexing",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant-core/v0/ns/glossary/kg-skills"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "mesh-subject-indexing"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Assign Medical Subject Headings (MeSH) to a work as a DRAFT for a person to review, in the four stages of skill-pipeline-subject-indexing: over-generate concepts, filter them by NLM's own rules, validate every heading against NLM's MeSH authority with Tool `mesh-authority`, and write the reviewed list. Never emits a heading the authority does not hold."
+        }
+      ],
+      "skos:notation": "mesh-subject-indexing",
+      "dcterms:source": "folio-assistant-core/skills/library/cataloguing/mesh-subject-indexing.md",
       "skos:note": "candidate"
     },
     {

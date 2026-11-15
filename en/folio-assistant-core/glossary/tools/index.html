@@ -86,16 +86,15 @@
     "pagesWithTranslations": 0,
     "complete": false
   },
-  "statusSrc":"../../../../assets/translation-status/index.json"
+  "statusSrc":"../../../../assets/translation-status/index.json",
+  "reviewSrc":"../../../../assets/translation-status/review.json"
 }</script><script type="application/json" id="fa-navbar-row" data-fa-row-src="harness-data"></script><script type="application/json" id="fa-site-links">{"kg":"https://litlfred.github.io/folio-assistant/smart-base/","jsonld":"https://litlfred.github.io/folio-assistant/smart-base/smart-base.jsonld","source":"https://github.com/litlfred/smart-dak-chud"}</script><meta name="fa-site-index-src" content="../../../../assets/harness/site.json">
 <meta name="fa-todo-src" content="../../../../assets/todos/index.json"><meta name="fa-todo-graph" content="../../../../todos.jsonld"><meta name="fa-zoom-src" content="../../../../assets/semantic-zoom.json"><meta name="fa-tiles" content="" data-fa-src="harness-data">
-<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
+<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
-<meta name="fa-beans-src" content="../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../build.json"><link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script>
-<script src="../../../../assets/js/vendor/qrcode.js" defer></script>
-<script src="../../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../../assets/js/work-plan.js" defer></script><script src="../../../../assets/js/process-index.js" defer></script><style>
+<meta name="fa-beans-src" content="../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../build.json"><link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=263225e79ed9">
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -280,14 +279,14 @@
 
 <p>Candidate terms extracted from every Tool node: <code class="language-plaintext highlighter-rouge">title</code> as the label, <code class="language-plaintext highlighter-rouge">description</code> as the definition, the Tool id as the code. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: cat-harness-tools 1 (<a href="../../../../assets/glossary/cat-harness-tools--kg-tools.skos.jsonld">SKOS</a>) · fhir-harness 36 (<a href="../../../../assets/glossary/fhir-harness--kg-tools.skos.jsonld">SKOS</a>) · folio-assistant-core 26 (<a href="../../../../assets/glossary/folio-assistant-core--kg-tools.skos.jsonld">SKOS</a>) · smart-base 15 (<a href="../../../../assets/glossary/smart-base--kg-tools.skos.jsonld">SKOS</a>) · who-iris 1 (<a href="../../../../assets/glossary/who-iris--kg-tools.skos.jsonld">SKOS</a>).</p>
+<p>From: cat-harness-tools 1 (<a href="../../../../assets/glossary/cat-harness-tools--kg-tools.skos.jsonld">SKOS</a>) · fhir-harness 39 (<a href="../../../../assets/glossary/fhir-harness--kg-tools.skos.jsonld">SKOS</a>) · folio-assistant-core 30 (<a href="../../../../assets/glossary/folio-assistant-core--kg-tools.skos.jsonld">SKOS</a>) · smart-base 14 (<a href="../../../../assets/glossary/smart-base--kg-tools.skos.jsonld">SKOS</a>) · who-iris 2 (<a href="../../../../assets/glossary/who-iris--kg-tools.skos.jsonld">SKOS</a>).</p>
 
-<p><strong>Size:</strong> this page holds 79 terms and is 81 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 86 terms and is 91 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>77</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>77</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>83</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>83</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -297,7 +296,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">79</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">86</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a> <a href="#letter-E">E</a> <a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-I">I</a> <a href="#letter-L">L</a> <a href="#letter-M">M</a> <a href="#letter-P">P</a> <a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a></nav>
 <h2 id="letter-A">
@@ -321,7 +320,7 @@ Authored L1 → verbatim against transcriptions and image narratives <span class
 </dt>
 <dd>
 <p>Check authored L1 (<code>*.l1.yaml</code>, the measles pattern) for a source with no usable text layer: each statement must be verbatim in the image narrative (<code>images.json</code>) or the <code>transcription</code> block it names; every transcription word (digits aside) must be corroborated by the entry's text layer unless listed under <code>inspectionOnly</code>; keys must be unique.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts"><code>smart-base/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts#l1-transcription-verbatim</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts"><code>smart-base/L1/tools/l1-transcription-verbatim/l1-transcription-verbatim.ts#l1-transcription-verbatim</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-B">
@@ -346,13 +345,6 @@ Block edit and feedback links <span class="fa-gloss-status">candidate, extracted
 <dd>
 <p>Each labelled block's links back to where it can be changed: [edit] opens the block's Markdown source in GitHub's editor on <code>main</code>, and [feedback] opens a new GitHub issue about the block, from the folio's <code>.github/ISSUE_TEMPLATE/block-feedback.yml</code> when it has one (prefilling only the fields it declares: block, section, source, page, url) or as a plain issue whose body carries the same facts. The document build draws these on every block; this Tool prints them as JSON for one block or all. Governed by the <code>block-actions</code> skill.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/block-actions/block-actions.ts"><code>folio-assistant-core/tools/block-actions/block-actions.ts#block-actions</code></a></p>
-</dd>
-<dt id="smart-base--kg-tools--bpmn-to-fsh" data-fa-state="extracted" data-fa-gloss="">
-BPMN → FHIR Shorthand <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>Derive FSH from a DAK's BPMN business processes (the inverse of the extractors).</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/bpmn-to-fsh/bpmn-to-fsh.ts"><code>smart-base/tools/bpmn-to-fsh/bpmn-to-fsh.ts#bpmn-to-fsh</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-tools--bpmn-engine" data-fa-state="extracted" data-fa-gloss="">
 BPMN workflow engine <span class="fa-gloss-status">candidate, extracted</span>
@@ -463,14 +455,21 @@ DAK API hub <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Generate <code>dak-api.html</code>, the DAK API's entry page, and the per-artefact <code>.openapi.json</code> / <code>.displays.json</code> sidecars.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/dak-api-hub/dak-api-hub.ts"><code>smart-base/tools/dak-api-hub/dak-api-hub.ts#dak-api-hub</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L3/tools/dak-api-hub/dak-api-hub.ts"><code>smart-base/L3/tools/dak-api-hub/dak-api-hub.ts#dak-api-hub</code></a></p>
 </dd>
 <dt id="smart-base--kg-tools--extract-dak" data-fa-state="extracted" data-fa-gloss="">
 DAK spreadsheets → DMN, PlanDefinitions, CQL, requirements, logical models <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Run WHO's <code>extract_dak.py</code> in a DAK or IG repository. It reads the DAK template spreadsheets (<code>input/decision-logic/*.xlsx</code> via <code>dt_extractor</code>, <code>input/system-requirements/*.xlsx</code> via <code>req_extractor</code>, <code>input/dictionary/*.xlsx</code> via <code>dd_extractor</code>) and the BPMN, and writes DMN decision tables, CPG recommendation PlanDefinitions with citations, CQL library skeletons, Requirements and logical-model FSH. Per the WHO IG Starter Kit (<code>l3_decisiontables</code>, <code>l3_cql</code>), an adapted decision or scheduling table is an edited copy of the upstream DAK's spreadsheet, never a parallel format.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/extract-dak/extract-dak.ts"><code>smart-base/tools/extract-dak/extract-dak.ts#extract-dak</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L2/tools/extract-dak/extract-dak.ts"><code>smart-base/L2/tools/extract-dak/extract-dak.ts#extract-dak</code></a></p>
+</dd>
+<dt id="smart-base--kg-tools--kg-extract-dak" data-fa-state="extracted" data-fa-gloss="">
+dak.json + FSH tree → L2 DAK component graph <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Extract the DAK component layer (L2) from a smart-base-shaped IG (<code>smart-base/L2/schemas/extract-dak.ts</code>, ported from WHO smart-kg <code>tools/extract-dak.mjs</code>): a <code>dak</code> node from dak.json, a <code>persona</code> node per ActorDefinition, a <code>functional</code>/<code>non-functional-requirement</code> node per requirement instance with its <code>requirement-statement</code>s, the <code>hasComponent</code>/<code>hasStatement</code> edges, and the <code>fulfilledBy</code> edges that resolve each requirement's <code>actor = Canonical(...)</code> against a persona's instance id. Coverage is reported across all nine DAK components, including the empty ones, and files present with no component declaring them are listed. Distinct from the existing <a href="#smart-base--kg-tools--extract-dak"><code>extract-dak</code></a> tool (WHO's spreadsheet extractor).</p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L2/tools/kg-extract-dak/kg-extract-dak.ts"><code>smart-base/L2/tools/kg-extract-dak/kg-extract-dak.ts#kg-extract-dak</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--diig-phases-svg" data-fa-state="extracted" data-fa-gloss="">
 DIIG phases, steps and resources chart <span class="fa-gloss-status">candidate, extracted</span>
@@ -478,20 +477,6 @@ DIIG phases, steps and resources chart <span class="fa-gloss-status">candidate, 
 <dd>
 <p>Draw a DIIG &quot;phases, steps and resources&quot; chart as SVG from <code>diig-phases-figure/v1</code> data on a who-iris library entry (DIIG Fig. 1.1.1, or a handbook's republished version such as the product catalogue handbook's Fig. 4), or from a folio's <code>diig-phases-adaptation/v1</code> file that adds its own tiles and marks itself &quot;(this document)&quot;. Every label comes from the data; tiles link to their library entry or glossary concept.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/diig-phases-svg/diig-phases-svg.ts"><code>folio-assistant-core/tools/diig-phases-svg/diig-phases-svg.ts#diig-phases-svg</code></a></p>
-</dd>
-<dt id="smart-base--kg-tools--dmn-to-questionnaire" data-fa-state="extracted" data-fa-gloss="">
-DMN → FHIR Questionnaire <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>Generate FHIR <code>Questionnaire</code> resources from a DAK's DMN decision tables. Authoring, not rendering: the IG Publisher validates and indexes them like any other resource.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/dmn-to-questionnaire/dmn-to-questionnaire.ts"><code>smart-base/tools/dmn-to-questionnaire/dmn-to-questionnaire.ts#dmn-to-questionnaire</code></a></p>
-</dd>
-<dt id="smart-base--kg-tools--dmn-to-html" data-fa-state="extracted" data-fa-gloss="">
-DMN → HTML <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>Render each DMN decision table to an HTML fragment for a page, via <code>dmn2html.xslt</code> and <code>dmn.css</code>.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/dmn-to-html/dmn-to-html.ts"><code>smart-base/tools/dmn-to-html/dmn-to-html.ts#dmn-to-html</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--dublin-core-render" data-fa-state="extracted" data-fa-gloss="">
 Dublin Core renderings <span class="fa-gloss-status">candidate, extracted</span>
@@ -534,6 +519,13 @@ FHIR AST cache <span class="fa-gloss-status">candidate, extracted</span>
 <p>Restore, verify, seed and diagnose the prebuilt AST artefacts for an IG. Always try <code>restore</code> first: a full AST build via AstExportCli is expensive, a restore is fast. <code>seed</code> commits the IG API a layer above generates from the AST (<code>ig-site:sidecars</code>, via <code>ig-api-cache.ts</code>) as <code>ig-api/</code> beside it, and the artefact index built from that tree (<code>ig-index-cache.ts</code>) as <code>fhir-artifact-index/index.json</code>, so a site reads both by raw URL at the cache commit.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-cache/ig-cache.ts"><code>fhir-harness/tools/ig-cache/ig-cache.ts#ig-cache</code></a></p>
 </dd>
+<dt id="smart-base--kg-tools--kg-extract-l3" data-fa-state="extracted" data-fa-gloss="">
+FHIR IG → L3 knowledge graph <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Extract the L3 index from a SMART Guidelines IG's source tree (<code>smart-base/L3/schemas/extract-l3.ts</code>, ported from WHO smart-kg <code>tools/extract-l3.mjs</code>): one thin node per FHIR artefact (PlanDefinition, ActivityDefinition, Library, Measure, Questionnaire, StructureMap/Definition, ValueSet, CodeSystem, ConceptMap, ActorDefinition, Requirements, CQL) read from FSH, FML and JSON with RuleSets expanded, the real <code>uses</code> and <code>citesSource</code> canonical references, and the <code>implementedBy</code> edges that tie each artefact to the L2 component its Title names by the SOP's id convention. Coverage is reported across every artefact type.</p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L3/tools/kg-extract-l3/kg-extract-l3.ts"><code>smart-base/L3/tools/kg-extract-l3/kg-extract-l3.ts#kg-extract-l3</code></a></p>
+</dd>
 <dt id="folio-assistant-core--kg-tools--figure-coverage" data-fa-state="extracted" data-fa-gloss="">
 Figure coverage and computability <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -553,7 +545,7 @@ Folio block screenshots <span class="fa-gloss-status">candidate, extracted</span
 </dt>
 <dd>
 <p>Picture each changed figure, diagram, table, equation or simulator block on the published main site and on a staging build, and compare the two pictures pixel by pixel in Chromium's canvas. Writes <code>visual-diff.json</code> (<code>folio-visual-diff/v1</code>: per block, the share of pixels changed beyond anti-aliasing, and the before, after and diff pictures) and <code>visual/*.png</code>, which the review page's visual renderer shows. A side that cannot be pictured (page or anchor missing) is recorded as missing, never drawn blank. Drives Chromium through Playwright.</p>
-<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/folio-block-screenshots/folio-block-screenshots.ts"><code>folio-assistant-core/tools/folio-block-screenshots/folio-block-screenshots.ts#folio-block-screenshots</code></a></p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/collab/tools/folio-block-screenshots/folio-block-screenshots.ts"><code>folio-assistant-core/collab/tools/folio-block-screenshots/folio-block-screenshots.ts#folio-block-screenshots</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--folio-changeset" data-fa-state="extracted" data-fa-gloss="">
 Folio ChangeSet <span class="fa-gloss-status">candidate, extracted</span>
@@ -604,7 +596,7 @@ Generate an IG instance's reader-facing pages from its artefact index <span clas
 Glossary and acronyms tables <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Rewrite the glossary and acronyms tables of a document from its folio-glossary/v1 schemes, as <code>glossary/glossary-tables.json</code> (folio-glossary-tables/v1) lists them: terms with their altLabels, definitions and editorial notes, or acronyms (notation and prefLabel). The block's caption and footnotes are left alone. <code>--check</code> writes nothing and fails when a table is stale.</p>
+<p>Rewrite the glossary and acronyms tables of a document from its folio-glossary/v1 schemes, as <code>glossary/glossary-tables.json</code> (folio-glossary-tables/v1) lists them: terms with their altLabels, definitions and editorial notes; acronyms (notation and prefLabel); or element types, the placeholder types an ArchiMate metamodel view shows, with each term's definition and skos:example. The block's caption and footnotes are left alone. <code>--check</code> writes nothing and fails when a table is stale.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/glossary-table/glossary-table.ts"><code>folio-assistant-core/tools/glossary-table/glossary-table.ts#glossary-table</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--glossary-build" data-fa-state="extracted" data-fa-gloss="">
@@ -643,7 +635,7 @@ IG metadata → Liquid variables <span class="fa-gloss-status">candidate, extrac
 </dt>
 <dd>
 <p>Scan the Publisher's <code>output/</code> for <code>&#123;ResourceType}-&#123;id}.json</code> and emit a Liquid include assigning <code>smart__&lt;ResourceType&gt;__&lt;id&gt;__&lt;category&gt;__&lt;key&gt;</code> for each published resource.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/smart-liquid-variables/smart-liquid-variables.ts"><code>smart-base/tools/smart-liquid-variables/smart-liquid-variables.ts#smart-liquid-variables</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L3/tools/smart-liquid-variables/smart-liquid-variables.ts"><code>smart-base/L3/tools/smart-liquid-variables/smart-liquid-variables.ts#smart-liquid-variables</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--ingest-ig-menu" data-fa-state="extracted" data-fa-gloss="">
 Ingest an IG's navigation from its sushi-config <span class="fa-gloss-status">candidate, extracted</span>
@@ -674,13 +666,13 @@ L1 extraction → statement lists <span class="fa-gloss-status">candidate, extra
 </dt>
 <dd>
 <p>The smart-base collector for core's <code>publish-extracted-statements</code> step: an <code>l1-extraction</code> directory's authored L1 sources (<code>recommendations:</code> rows) and scenario-candidate graphs (<code>user-scenario</code> nodes whose <code>evidence.location</code> names a row), written as <code>folio-extracted-statements/v1</code> lists, each statement with the library entry its L1 source names and the page it was read from. Core's <code>statements:pages</code> then renders them with links to the entry and section.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/l1-statement-lists/l1-statement-lists.ts"><code>smart-base/tools/l1-statement-lists/l1-statement-lists.ts#l1-statement-lists</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/tools/l1-statement-lists/l1-statement-lists.ts"><code>smart-base/L1/tools/l1-statement-lists/l1-statement-lists.ts#l1-statement-lists</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-tools--l1-coverage" data-fa-state="extracted" data-fa-gloss="">
 L1 extraction coverage <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Of the normative sentences in a publication (the closed marker list of smart-kg's <code>docs/COVERAGE.md</code> §1), count how many an L1 extraction CAPTURED, how many are EXCLUDED for a fixed-list reason a person signed off, and how many are UNACCOUNTED — per page and in total. Writes the contract's §4 report and exits non-zero below 100% accounted-for.</p>
+<p>Of the normative sentences in a publication (the closed marker list of the methodology <code>l1-coverage</code> §1), count how many an L1 extraction CAPTURED, how many are EXCLUDED for a fixed-list reason a person signed off, and how many are UNACCOUNTED — per page and in total. Writes the contract's §4 report and exits non-zero below 100% accounted-for.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/l1-coverage/l1-coverage.ts"><code>folio-assistant-core/tools/l1-coverage/l1-coverage.ts#l1-coverage</code></a></p>
 </dd>
 <dt id="smart-base--kg-tools--l1-extraction-pages" data-fa-state="extracted" data-fa-gloss="">
@@ -694,15 +686,15 @@ L1 extraction viewer: a hub and a page per instance with <code>l1-extraction</co
 L1 guideline → recommendation candidates (L1 3.0) <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Find every normative sentence of an ingested <code>library/</code> entry (folio-assistant-core's <code>l1-coverage</code> markers), flag uncertain readings, and propose the publication's identity. Given an agent's <code>l1-recommendation-curation/v1</code>, refuse a non-verbatim statement or an unknown location, and write the recommendations and remarks as an L1 3.0 graph (checked with <code>kg/src/validate.ts</code>) with coverage and proposed, unsigned exclusions.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts"><code>smart-base/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts#l1-recommendation-candidates</code></a></p>
+<p>Find every normative sentence of an ingested <code>library/</code> entry (folio-assistant-core's <code>l1-coverage</code> markers), flag uncertain readings, and propose the publication's identity. Given an agent's <code>l1-recommendation-curation/v1</code>, refuse a non-verbatim statement or an unknown location, and write the recommendations and remarks as an L1 3.0 graph (checked with <code>L1/schemas/validate.ts</code>) with coverage and proposed, unsigned exclusions.</p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L1/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts"><code>smart-base/L1/tools/l1-recommendation-candidates/l1-recommendation-candidates.ts#l1-recommendation-candidates</code></a></p>
 </dd>
 <dt id="smart-base--kg-tools--l1-recommendation-scenarios" data-fa-state="extracted" data-fa-gloss="">
 L1 recommendations → L2 user-scenario candidates <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>From an agent's <code>l1-scenario-mapping/v1</code>, write one smart-kg L2 <code>user-scenario</code> candidate per L1 recommendation, joined to a <code>persona</code> and a <code>business-process</code> by smart-kg L2's existing edges. Reuses the guide's own personas and processes, then smart-base's generic <code>DAK.Persona.*</code>; otherwise a glossary candidate or <code>could-not-determine</code>, each with a WARNING. Never invents a process.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts"><code>smart-base/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts#l1-recommendation-scenarios</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L2/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts"><code>smart-base/L2/tools/l1-recommendation-scenarios/l1-recommendation-scenarios.ts#l1-recommendation-scenarios</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--ig-ast-diff" data-fa-state="extracted" data-fa-gloss="">
 List and view the delta between two IG ASTs <span class="fa-gloss-status">candidate, extracted</span>
@@ -710,6 +702,13 @@ List and view the delta between two IG ASTs <span class="fa-gloss-status">candid
 <dd>
 <p>Diff two ASTs by resource key: added, removed, changed (with a structural element-level differential) and version-changed resources, plus edges added and removed; optionally fold in the incremental plan, and render just-the-docs pages (an index that lists, a page per resource that shows) every one of which carries the provisional mark. <code>list &lt;ast&gt;</code> summarises one AST.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-ast-diff/ig-ast-diff.ts"><code>fhir-harness/tools/ig-ast-diff/ig-ast-diff.ts#ig-ast-diff</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-tools--fhir-core" data-fa-state="extracted" data-fa-gloss="">
+Load the stable FHIR releases' core StructureDefinitions as a graph keyed by canonical URL <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Read each stable FHIR release's core package (<code>hl7.fhir.r4.core#4.0.1</code>, <code>hl7.fhir.r4b.core#4.3.0</code>, <code>hl7.fhir.r5.core#5.0.0</code>) at the version, sha1 and sha512 <code>fhir-core/pins.json</code> pins, and keep its resources, complex and primitive types and root types (Base, Element, BackboneElement, DomainResource, Resource) under <code>fhir-core/&lt;release&gt;/</code>, keyed by canonical URL. <code>index</code> writes the release's manifest (each definition's kind, type, base and sha256); <code>materialise</code> writes the bodies byte for byte as the package holds them; <code>check</code> holds the two to the pins offline; <code>resolve</code> answers which file a canonical URL is kept in. A package that cannot be fetched or verified is recorded as <code>unread</code> with the reason, never as an empty graph.</p>
+<p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/fhir-core/fhir-core.ts"><code>fhir-harness/tools/fhir-core/fhir-core.ts#fhir-core</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--logical-model-schemas" data-fa-state="extracted" data-fa-gloss="">
 Logical models → JSON Schema <span class="fa-gloss-status">candidate, extracted</span>
@@ -780,12 +779,33 @@ Populate site.data.fhir for a just-the-docs IG render <span class="fa-gloss-stat
 <p>Write the IG Publisher's Jekyll variables (<code>site.data.fhir.ig.*</code>, <code>packageId</code>, <code>canonical</code>) for ONE implementation guide, from <code>sushi-config.yaml</code> or a published IG's <code>fhir-artifact-index</code>, so pages written for the Publisher render on just-the-docs unchanged. fhir-harness declares <code>site.data</code> as a pass-through Liquid prefix; this is what Jekyll then reads.</p>
 <p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-site-data/ig-site-data.ts"><code>fhir-harness/tools/ig-site-data/ig-site-data.ts#ig-site-data</code></a></p>
 </dd>
+<dt id="who-iris--kg-tools--translation-qa-prune" data-fa-state="extracted" data-fa-gloss="">
+Prune round-trip rulings of removed strings <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Drop the translation-semantic-roundtrip rulings of strings the catalogues no longer hold, and renumber the rest to catalogue order. Rulings are paired with strings by the hash of their msgid, so removing strings invalidates none and needs no agent re-run; this is the upkeep that follows. It only drops or renumbers: a verdict is never changed or invented, and a ruling for a string the ref's history never held (one recorded ahead of its PR) is kept.</p>
+<p class="fa-gloss-meta">Tools of who-iris · source <a href="https://github.com/litlfred/who-iris/blob/main/tools/translation-qa-prune/translation-qa-prune.ts"><code>who-iris/tools/translation-qa-prune/translation-qa-prune.ts#translation-qa-prune</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-tools--public-comment-changesets" data-fa-state="extracted" data-fa-gloss="">
+Public-comment change-sets <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Bring a public review's change-sets back in line with GitHub: open the primary issue of each change-set somebody has engaged with, link the other issues that discuss it, and re-render each issue's change-set section from its <code>changesets/CS-*.json</code> record. The nightly half of what the folio's public-comment workflow does on each issue event (<code>github</code>); <code>check</code> validates the records without writing.</p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/public-comment-changesets/public-comment-changesets.ts"><code>folio-assistant-core/tools/public-comment-changesets/public-comment-changesets.ts#public-comment-changesets</code></a></p>
+</dd>
 <dt id="folio-assistant-core--kg-tools--publish-extracted-statements" data-fa-state="extracted" data-fa-gloss="">
 Publish extracted statements with source links <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Render each declared page (a <code>folio-statement-page/v1</code> spec naming <code>folio-extracted-statements/v1</code> lists) as Markdown: every statement extracted from a library source, verbatim, with its kind and status, linked to its library entry and to the section it came from, labelled in the source's own unit (&quot;Catch up schedule, slide 7&quot;). A statement whose source does not resolve fails the run and nothing is written. <code>--check</code> fails when a committed page is stale.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/publish-extracted-statements/publish-extracted-statements.ts"><code>folio-assistant-core/tools/publish-extracted-statements/publish-extracted-statements.ts#publish-extracted-statements</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-tools--ig-publisher-i18n" data-fa-state="extracted" data-fa-gloss="">
+Put the IG Publisher's QA messages in each language an IG translates into, from the Publisher's own translations first <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Fetches the IG Publisher's own message bundles (<code>Messages_&lt;lang&gt;.properties</code> in <code>org.hl7.fhir.utilities-&lt;core&gt;.jar</code>, Maven Central) at exactly the core version the AST recorded, and translates each QA message by its <code>message-id</code>: the Publisher's translation where it has one whose placeholders match the English, else this layer's catalogue <code>translations/&lt;locale&gt;/publisher/messages.po</code> (machine translation, marked as such), else the English. <code>needs --merge</code> appends to each locale's catalogue the strings a build lacks, each with an example and deep links to the rows that print it. The site build (<code>ig-qa-page.ts</code>) calls it for every locale the IG translates its pages into and publishes <code>qa-messages.&lt;locale&gt;.json</code> and <code>i18n-usage.json</code> beside the QA report.</p>
+<p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-publisher-i18n/ig-publisher-i18n.ts"><code>fhir-harness/tools/ig-publisher-i18n/ig-publisher-i18n.ts#ig-publisher-i18n</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-R">
@@ -797,6 +817,13 @@ Publish extracted statements with source links <span class="fa-gloss-status">can
 </h2>
     
 <dl class="fa-gloss">
+<dt id="folio-assistant-core--kg-tools--c-value-terms" data-fa-state="extracted" data-fa-gloss="">
+Rank candidate glossary terms in prose by C-value <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The scoring step of the <code>automatic-term-extraction</code> method: count the word n-grams of one or more Markdown or text files (not across punctuation, front matter or code), and rank them by C-value as Frantzi &amp; Ananiadou 1996 define it, so nested multi-word terms are not swamped by the longer phrases that contain them. Tested against the paper's own worked example (Table 2). Every row is a candidate; it writes nothing and promotes nothing.</p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/c-value-terms/c-value-terms.ts"><code>folio-assistant-core/tools/c-value-terms/c-value-terms.ts#c-value-terms</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-tools--ig-ast-incremental-build" data-fa-state="extracted" data-fa-gloss="">
 Rebuild only the cone of a change and merge it into the AST <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -817,6 +844,13 @@ Reference list from reference nodes <span class="fa-gloss-status">candidate, ext
 <dd>
 <p>Rewrite each reference-list block of a document (a block whose <code>meta.referenceList</code> is set) from the folio-reference/v1 nodes its <code>cites</code> names, in that order: the node's <code>printed</code> text verbatim when it has one, otherwise WHO style (or the short <code>Authors. Title. Year.</code> form), as a numbered or bulleted list. The block's <code>.md</code> is generated whole. <code>--check</code> writes nothing and fails when a list is stale.</p>
 <p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/references-render/references-render.ts"><code>folio-assistant-core/tools/references-render/references-render.ts#references-render</code></a></p>
+</dd>
+<dt id="folio-assistant-core--kg-tools--references-extract" data-fa-state="extracted" data-fa-gloss="">
+Reference lists to reference nodes <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Split each library entry's reference lists (a References, Bibliography or Further reading section or heading, in the six UN languages and Portuguese) into folio-reference/v1 nodes in the instance's declared <code>references</code> directory, one per cited work, keyed <code>&lt;doc-id&gt;.&lt;section&gt;.&lt;n&gt;</code>: provenance extracted, derivedFrom the section file, printed the entry verbatim, and only the fields read without guessing (URL, DOI, ISBN, year, access date). The bibliography page lists them as the document's own bibliography. <code>--check</code> writes nothing and fails when a node is stale.</p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/references-extract/references-extract.ts"><code>folio-assistant-core/tools/references-extract/references-extract.ts#references-extract</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-tools--ig-ast-refresh" data-fa-state="extracted" data-fa-gloss="">
 Refresh an IG's AST cache on a runner <span class="fa-gloss-status">candidate, extracted</span>
@@ -844,14 +878,14 @@ Reuse-first terminology and code-list lookup <span class="fa-gloss-status">candi
 </dt>
 <dd>
 <p>Look up a concept or code token for a semantic slot across the four reuse-first rungs of the <code>terminology-coding</code> methodology: (1) the target guide's <code>l1-scenario-vocabulary/v1</code>; (2) smart-base's generic personas (<code>DAK.Persona.*</code>), GRADE <code>code-lists/*.json</code> and the <code>guideline-domain</code> SKOS glossary; (3) local WHO/ILO FSH CodeSystems (<code>ISCO08</code>, <code>CDHIv2</code>, <code>CDHIv1</code>, <code>CDSCv2</code>, <code>KGTerminologySystem</code>); (4) a proposed <code>glossary-terms</code> candidate (<code>status: &quot;candidate&quot;</code>), or <code>could-not-determine</code> for <code>business-process</code>.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/terminology-lookup/terminology-lookup.ts"><code>smart-base/tools/terminology-lookup/terminology-lookup.ts#terminology-lookup</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L3/tools/terminology-lookup/terminology-lookup.ts"><code>smart-base/L3/tools/terminology-lookup/terminology-lookup.ts#terminology-lookup</code></a></p>
 </dd>
 <dt id="smart-base--kg-tools--immz-schedule-app-local" data-fa-state="extracted" data-fa-gloss="">
 Run the immunization schedule-check app locally on a WHO or country IG <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>Start litlfred/awho-mcp's schedule-check web form on this machine: a HAPI FHIR server in Docker, the WHO SMART Immunizations IG loaded, then optionally a country adaptation IG (its decision-logic tables replace WHO's; its country profile is generated from its <code>input/l2/dependencies.yaml</code>), the CQL cache warmed, and the form served. Both listen on 127.0.0.1. Unbuilt IGs are built with SUSHI first, and each Library's CQL is embedded from <code>input/cql/</code> as the IG Publisher would. A re-run reuses a server loaded from the same commits; <code>--down</code> stops both.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/immz-schedule-app-local/immz-schedule-app-local.ts"><code>smart-base/tools/immz-schedule-app-local/immz-schedule-app-local.ts#immz-schedule-app-local</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L4/tools/immz-schedule-app-local/immz-schedule-app-local.ts"><code>smart-base/L4/tools/immz-schedule-app-local/immz-schedule-app-local.ts#immz-schedule-app-local</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-S">
@@ -863,6 +897,13 @@ Run the immunization schedule-check app locally on a WHO or country IG <span cla
 </h2>
     
 <dl class="fa-gloss">
+<dt id="fhir-harness--kg-tools--ig-page-render-qa" data-fa-state="extracted" data-fa-gloss="">
+Scan every page of a built IG site in a headless browser for markup shown as text <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The checkout script <code>ig-site:page-render-qa</code>, the IG site build's last final step: it serves the built site locally, opens the root pages and the artefact pages (not the JSON views, mappings views or redirect stubs) in headless Chromium, waits for each to draw, and lists every text block that shows markdown as text (bold, list markers, links, images, code, headings, tables, HTML tags), code and preformatted text left out. It writes <code>assets/fhir-qa/page-render.json</code> and the script the QA report's &quot;Page scan&quot; panel draws it with. It reports and never fails the build: without a browser it writes why.</p>
+<p class="fa-gloss-meta">Tools of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/tools/ig-page-render-qa/ig-page-render-qa.ts"><code>fhir-harness/tools/ig-page-render-qa/ig-page-render-qa.ts#ig-page-render-qa</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-tools--fhir-cache-seed-npm" data-fa-state="extracted" data-fa-gloss="">
 Seed the FHIR package cache from trusted sources (exact versions) <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -924,7 +965,7 @@ sushi-config.yaml → index.config.json#contentTypes.dak <span class="fa-gloss-s
 </dt>
 <dd>
 <p>Derive the DAK configuration from <code>sushi-config.yaml</code> plus repository and branch context.</p>
-<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/tools/dak-config-from-sushi/dak-config-from-sushi.ts"><code>smart-base/tools/dak-config-from-sushi/dak-config-from-sushi.ts#dak-config-from-sushi</code></a></p>
+<p class="fa-gloss-meta">Tools of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/L2/tools/dak-config-from-sushi/dak-config-from-sushi.ts"><code>smart-base/L2/tools/dak-config-from-sushi/dak-config-from-sushi.ts#dak-config-from-sushi</code></a></p>
 </dd>
 </dl>
 <h2 id="letter-V">
@@ -936,6 +977,13 @@ sushi-config.yaml → index.config.json#contentTypes.dak <span class="fa-gloss-s
 </h2>
     
 <dl class="fa-gloss">
+<dt id="folio-assistant-core--kg-tools--mesh-authority" data-fa-state="extracted" data-fa-gloss="">
+Validate draft MeSH headings against NLM's authority <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Stage three of <code>skill-pipeline-subject-indexing</code> for MeSH: look up every candidate heading of a draft (a preferred heading, an entry term, or a descriptor id, with an optional qualifier) in NLM's MeSH authority at id.nlm.nih.gov, current year. Each candidate comes back <code>resolved</code> (in the preferred form), <code>qualifier-not-allowed</code> (descriptor kept, qualifier dropped), <code>ambiguous</code> (options listed for a person) or <code>not-found</code> (dropped). It never adds a heading the draft did not propose and never emits one the authority lacks.</p>
+<p class="fa-gloss-meta">Tools of folio-assistant-core · source <a href="https://github.com/litlfred/folio-assistant-core/blob/main/tools/mesh-authority/mesh-authority.ts"><code>folio-assistant-core/tools/mesh-authority/mesh-authority.ts#mesh-authority</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-tools--jsonld-vocabularies" data-fa-state="extracted" data-fa-gloss="">
 ValueSet expansions → JSON-LD <span class="fa-gloss-status">candidate, extracted</span>
 </dt>

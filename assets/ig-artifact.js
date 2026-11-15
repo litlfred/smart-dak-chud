@@ -39,16 +39,54 @@
   "use strict";
 
   // Two page families share this renderer and its helpers: an artefact's own
-  // page (`ig-artifact-page`) and the IG's list pages, `artifacts.html` and
-  // `toc.html` (`ig-index-page`), which draw the one index node.
+  // page and the IG's list pages, `artifacts.html` and `toc.html`
+  // (`ig-index-page`), which draw the one index node.
+  //
+  // An artefact's page DECLARES its node (cat-harness-tools#1830): RDFa
+  // `resource`/`typeof fhir:<Type>` on its <main>, the JSON-LD node as the
+  // head's `alternate`, and what else it needs as `data-kg-*` on <main>. The
+  // generic renderer (`kg-render.js`) hands it over for any FHIR class. A page
+  // from before that (`ig-artifact-page`) and the list pages carry a config
+  // block, read as before.
+  var FHIR_NS = "http://hl7.org/fhir/";
   var cfgEl = document.getElementById("ig-artifact-page") || document.getElementById("ig-index-page");
-  var indexView = !!cfgEl && cfgEl.id === "ig-index-page";
-  var cfg;
-  try {
-    cfg = JSON.parse(cfgEl.textContent);
-  } catch (_e) {
+  if (cfgEl) {
+    var parsed;
+    try {
+      parsed = JSON.parse(cfgEl.textContent);
+    } catch (_e) {
+      return;
+    }
+    run(parsed, cfgEl.id === "ig-index-page");
     return;
   }
+  (window.kgRenderers = window.kgRenderers || []).push({
+    match: FHIR_NS,
+    render: function (c) {
+      run(declaredConfig(c), false);
+    },
+  });
+
+  // The config a declaring page carries, in the shape the config block had.
+  function declaredConfig(c) {
+    var a = function (k) {
+      var v = c.element.getAttribute("data-kg-" + k);
+      return v === null ? undefined : v;
+    };
+    var cfg = { node: c.alternates["application/ld+json"] || c.iri + ".jsonld" };
+    var plain = { view: "view", home: "home", toc: "toc", footer: "footer", prev: "prev", next: "next", resource: "resource", pages: "pages", index: "index", definitions: "definitions", published: "published", astLoader: "ast-loader" };
+    for (var k in plain) if (a(plain[k]) !== undefined) cfg[k] = a(plain[k]);
+    if (a("views")) cfg.views = a("views").split(/\s+/);
+    if (a("sidecar-jsonld") || a("sidecar-schema")) {
+      cfg.sidecars = {};
+      if (a("sidecar-jsonld")) cfg.sidecars.jsonld = a("sidecar-jsonld");
+      if (a("sidecar-schema")) cfg.sidecars.schema = a("sidecar-schema");
+    }
+    if (a("history-versions")) cfg.history = { versions: a("history-versions"), repository: a("history-repository"), resourceType: a("history-type"), id: a("history-id") };
+    return cfg;
+  }
+
+  function run(cfg, indexView) {
   var body = document.querySelector(".iga-body");
   var state = body && body.querySelector(".iga-state");
 
@@ -84,12 +122,48 @@
     }
   }
 
+  // The page's shared load counter, the object every loader on it uses
+  // (kg-render.js, ig-footer.js, ...): the last to finish marks the page loaded.
+  function loads() {
+    return (window.__kgLoads = window.__kgLoads || {
+      pending: 0,
+      done: function () {
+        if (--this.pending === 0) document.documentElement.setAttribute("data-kg-loaded", "");
+      },
+    });
+  }
+  /* The IG Publisher's metadata table for a canonical resource: Official URL
+     and Version, then its status as of its date and its Computable Name. The
+     same cells as `igMetadataTable` (`ig-version-chrome.ts`), which draws the
+     IG's own row on its home page. No url, no table. */
+  function metadata(r) {
+    if (!r || typeof r.url !== "string" || !r.url) return null;
+    var str = function (v) {
+      return typeof v === "string" && v ? v : null;
+    };
+    var table = el("table", "ig-metadata");
+    var tb = el("tbody");
+    table.append(tb);
+    var row1 = el("tr");
+    var url = el("td", null, "Official URL: ");
+    url.append(el("code", "ig-metadata-url", r.url));
+    row1.append(url);
+    if (str(r.version)) row1.append(el("td", null, "Version: " + r.version));
+    tb.append(row1);
+    var status = str(r.status) ? r.status.charAt(0).toUpperCase() + r.status.slice(1) + (str(r.date) ? " as of " + r.date : "") : str(r.date) ? "As of " + r.date : null;
+    if (status || str(r.name)) {
+      var row2 = el("tr");
+      if (status) row2.append(el("td", null, status));
+      if (str(r.name)) row2.append(el("td", null, "Computable Name: " + r.name));
+      tb.append(row2);
+    }
+    return table;
+  }
   function begin() {
-    window.__kgLoads = (window.__kgLoads || 0) + 1;
+    loads().pending++;
   }
   function end() {
-    window.__kgLoads -= 1;
-    if (window.__kgLoads <= 0) document.documentElement.setAttribute("data-kg-loaded", "");
+    loads().done();
   }
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -97,13 +171,22 @@
     if (text !== undefined && text !== null) e.textContent = String(text);
     return e;
   }
+  /* A link target as an http(s) URL resolved against the page, or null: a
+     value read from the page (a data-kg-* attribute) never becomes a
+     javascript: or data: link. */
   function safe(href) {
-    return /^(https?:|\.{0,2}\/|[^:]*$)/i.test(href);
+    try {
+      var u = new URL(String(href), document.baseURI);
+      return u.protocol === "http:" || u.protocol === "https:" ? u.href : null;
+    } catch (_e) {
+      return null;
+    }
   }
   function link(href, text, external) {
-    if (!href || !safe(href)) return el("span", null, text);
+    var url = href ? safe(href) : null;
+    if (!url) return el("span", null, text);
     var a = el("a", null, text);
-    a.href = href;
+    a.href = url;
     if (external) a.rel = "external";
     return a;
   }
@@ -135,7 +218,6 @@
     }
   }
 
-  /* The description is the IG's markdown: paragraphs and [text](url) links, nothing else is interpreted. */
   /* An HTML line break written into a markdown description (`<br>`, `<br/>`,
      or the malformed `</br>` some IGs carry) starts a new paragraph: the
      renderer writes text, never HTML, so the tag would otherwise show as text. */
@@ -143,24 +225,112 @@
     return String(text || "").replace(/\s*<\/?br\s*\/?>\s*/gi, "\n\n");
   }
 
+  /* The description is the IG's markdown. A small, safe subset is drawn:
+     paragraphs, `-`/`*`/`+` and `1.` lists, [text](url) links, ![alt](data:image/...)
+     inline pictures, **strong**, *emphasis* and `code`. Everything goes in as text through el(); nothing
+     from the markdown is set as HTML. Anything else stays as written. */
+  var LIST_ITEM = /^\s{0,3}(?:([-*+])|(\d{1,9})[.)])\s+(.*)$/;
+  var INLINE = /!\[([^\]]*)\]\(([^)\s]+)\)|`([^`]+)`|\[([^\]]+)\]\(([^)\s]+)\)|\*\*(?=\S)([\s\S]*?\S)\*\*|\*(?=[^\s*])([^*]*?[^\s*])\*/g;
+  /* An image is drawn only from an inline picture, `data:image/<raster or
+     svg+xml>[;base64],...`, as a blob: URL made from its decoded bytes, so no
+     text from the markdown becomes the <img>'s address. In an <img>, an SVG
+     runs no script. Any other source shows its alt text. */
+  var IMAGE_DATA = /^data:(image\/(?:png|jpeg|gif|webp|svg\+xml))(;base64)?,([\s\S]*)$/i;
+  function imageUrl(src) {
+    var m = IMAGE_DATA.exec(src);
+    if (!m || typeof Blob === "undefined" || typeof URL === "undefined" || !URL.createObjectURL) return null;
+    try {
+      var raw = m[2] ? atob(m[3]) : decodeURIComponent(m[3]);
+      var bytes = new Uint8Array(raw.length);
+      for (var i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i) & 255;
+      return URL.createObjectURL(new Blob([bytes], { type: m[1].toLowerCase() }));
+    } catch (_e) {
+      return null;
+    }
+  }
+
+  function inline(parent, text, root) {
+    var re = new RegExp(INLINE.source, "g");
+    var last = 0;
+    var m;
+    while ((m = re.exec(text))) {
+      parent.append(text.slice(last, m.index));
+      if (m[2] !== undefined) {
+        var url = imageUrl(m[2]);
+        if (url) {
+          var img = el("img", "iga-inline-img");
+          img.alt = m[1];
+          img.src = url;
+          parent.append(img);
+        } else parent.append(m[1]);
+      } else if (m[3] !== undefined) {
+        parent.append(el("code", null, m[3]));
+      } else if (m[4] !== undefined) {
+        // An artefact page's name (`<Type>-<id>.html`, a view's too) is a
+        // neighbour of an artefact page: those live together under artifact/.
+        var href = /^[a-z][a-z0-9+.-]*:/i.test(m[5]) || m[5].charAt(0) === "/" || m[5].charAt(0) === "#" ? m[5] : (!indexView && /^[A-Z][A-Za-z]+-[^/]+\.html(#|$)/.test(m[5]) ? "" : root) + m[5];
+        parent.append(link(href, m[4]));
+      } else {
+        var em = el(m[6] !== undefined ? "strong" : "em");
+        inline(em, m[6] !== undefined ? m[6] : m[7], root);
+        parent.append(em);
+      }
+      last = re.lastIndex;
+    }
+    parent.append(text.slice(last));
+  }
+
   function description(text, root) {
     if (root === undefined) root = "../";
     var frag = document.createDocumentFragment();
-    breaks(text).split(/\n\s*\n/).forEach(function (para) {
-      var p = el("p", "iga-desc");
-      var re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
-      var last = 0;
-      var m;
-      while ((m = re.exec(para))) {
-        p.append(para.slice(last, m.index));
-        // An artefact page's name (`<Type>-<id>.html`, a view's too) is a
-        // neighbour of an artefact page: those live together under artifact/.
-        var href = /^[a-z][a-z0-9+.-]*:/i.test(m[2]) || m[2].charAt(0) === "/" || m[2].charAt(0) === "#" ? m[2] : (!indexView && /^[A-Z][A-Za-z]+-[^/]+\.html(#|$)/.test(m[2]) ? "" : root) + m[2];
-        p.append(link(href, m[1]));
-        last = re.lastIndex;
+    breaks(text).split(/\n\s*\n/).forEach(function (block) {
+      var lines = block.split("\n");
+      var para = [];
+      var list = null;
+      var item = null;
+      function flushPara() {
+        if (!para.length) return;
+        var p = el("p", "iga-desc");
+        inline(p, para.join("\n").trim(), root);
+        frag.append(p);
+        para = [];
       }
-      p.append(para.slice(last));
-      frag.append(p);
+      function flushItem() {
+        if (item === null) return;
+        var li = el("li");
+        inline(li, item.join("\n").trim(), root);
+        list.append(li);
+        item = null;
+      }
+      function flushList() {
+        flushItem();
+        if (list) frag.append(list);
+        list = null;
+      }
+      lines.forEach(function (line) {
+        var m = LIST_ITEM.exec(line);
+        // An ordered item other than 1. does not interrupt a paragraph
+        // (CommonMark): "in\n2023. Then" is wrapped text, not a list.
+        if (m && m[2] && m[2] !== "1" && para.length && !list) m = null;
+        if (m) {
+          var tag = m[1] ? "ul" : "ol";
+          if (!list || list.tagName.toLowerCase() !== tag) {
+            flushPara();
+            flushList();
+            list = el(tag, "iga-desc");
+            if (m[2] && m[2] !== "1") list.start = Number(m[2]);
+          }
+          flushItem();
+          item = [m[3]];
+        } else if (item !== null && line.trim()) {
+          item.push(line.trim());
+        } else if (line.trim()) {
+          flushList();
+          para.push(line);
+        }
+      });
+      flushList();
+      flushPara();
     });
     return frag;
   }
@@ -236,6 +406,7 @@
     var frag = document.createDocumentFragment();
     var cols;
     var rows = [];
+    var rowIds = [];
     var title;
     if (resource.resourceType === "StructureDefinition") {
       var list = (resource.differential && resource.differential.element) || (resource.snapshot && resource.snapshot.element) || [];
@@ -248,6 +419,9 @@
       var flat = [];
       (function walk(cs, depth) {
         cs.forEach(function (c) {
+          // Each concept's row is anchored as the IG Publisher anchors it, `<CodeSystem id>-<code>`,
+          // so a link to one code (a diagram's, another guide's) lands on its row.
+          rowIds.push(resource.id + "-" + c.code);
           flat.push([new Array(depth + 1).join("· ") + c.code, c.display || "", c.definition || ""]);
           if (c.concept) walk(c.concept, depth + 1);
         });
@@ -290,8 +464,9 @@
     thead.append(tr);
     t.append(thead);
     var tb = el("tbody");
-    rows.forEach(function (r) {
+    rows.forEach(function (r, n) {
       var x = el("tr");
+      if (rowIds[n]) x.id = rowIds[n];
       r.forEach(function (v, i) {
         x.append(el("td", i === 0 ? "iga-code" : null, v));
       });
@@ -301,6 +476,13 @@
     var wrap = el("div", "iga-scroll");
     wrap.append(t);
     frag.append(wrap);
+    // The rows are drawn after the page loaded, so the browser's own jump to `#<id>` found nothing: jump once they are in.
+    if (rowIds.length && location.hash.length > 1) {
+      setTimeout(function () {
+        var to = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (to) to.scrollIntoView();
+      }, 0);
+    }
     return frag;
   }
 
@@ -540,7 +722,7 @@
         hits.forEach(function (p) {
           var tr = el("tr");
           var name = el("td");
-          name.append(link(String(p["@id"]).split("/").pop().replace(/\.jsonld$/, ".html"), p["dcterms:title"]));
+          name.append(link(String(p["@id"]).split("/").pop().replace(/\.jsonld$/, "") + ".html", p["dcterms:title"]));
           name.append(el("div", "igi-key", p["dcterms:identifier"]));
           tr.append(name, el("td", "igi-type", typeOf(p)));
           tb.append(tr);
@@ -913,7 +1095,7 @@
   }
   /* An entry's page: its node's file name with .html, in the artefact pages' directory. */
   function pageOf(p) {
-    var file = String(p["@id"]).split("/").pop().replace(/\.jsonld$/, ".html");
+    var file = String(p["@id"]).split("/").pop().replace(/\.jsonld$/, "") + ".html";
     return cfg.pages + file;
   }
   /* The first paragraph of a description, as a list row shows it. */
@@ -1243,6 +1425,9 @@
         return;
       }
       var frag = document.createDocumentFragment();
+      // The Publisher's metadata table, filled once the resource is read (owner, 2026-11-14).
+      var meta = el("div", "iga-metadata");
+      frag.append(meta);
       if (node["dcterms:title"] && node["dcterms:title"] !== document.querySelector(".iga h1").textContent) {
         frag.append(el("p", "iga-sub", node["dcterms:title"]));
       }
@@ -1263,6 +1448,8 @@
             return r.json();
           })
           .then(function (resource) {
+            var m = metadata(resource);
+            if (m) meta.append(m);
             var c = content(resource);
             if (c) holder.append(c);
           })
@@ -1278,4 +1465,5 @@
       fail(cfg.node, err);
     })
     .then(end, end);
+  }
 })();

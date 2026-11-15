@@ -5,85 +5,85 @@
   {
    "id": "Task_AgreeReleaseDate",
    "name": "Agree the release date and comment period",
-   "left": 17.08,
-   "top": 6.04,
+   "left": 21.63,
+   "top": 4.35,
    "box": {
-    "left": 12.58,
-    "top": 21.74,
-    "width": 1.49,
-    "height": 5.8
+    "left": 16.41,
+    "top": 25,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "Task_BuildPcRelease",
    "name": "Build the public comment release",
-   "left": 27.64,
-   "top": 66.91,
+   "left": 32.09,
+   "top": 69.57,
    "box": {
-    "left": 23.14,
-    "top": 89.86,
-    "width": 1.49,
-    "height": 5.8
+    "left": 26.86,
+    "top": 90.22,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "Task_SetUpChannels",
    "name": "Set up the comment channels, with instructions and links",
-   "left": 40.06,
-   "top": 37.44,
+   "left": 42.55,
+   "top": 36.96,
    "box": {
-    "left": 34.32,
-    "top": 53.14,
-    "width": 1.49,
-    "height": 5.8
+    "left": 37.32,
+    "top": 57.61,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "Task_WriteAnnouncement",
    "name": "Write the announcement, with links",
-   "left": 50,
-   "top": 37.44,
+   "left": 53,
+   "top": 36.96,
    "box": {
-    "left": 45.5,
-    "top": 53.14,
-    "width": 1.49,
-    "height": 5.8
+    "left": 47.77,
+    "top": 57.61,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "Task_Distribute",
    "name": "Distribute to the public",
-   "left": 60.56,
-   "top": 6.04,
+   "left": 63.46,
+   "top": 4.35,
    "box": {
-    "left": 56.06,
-    "top": 21.74,
-    "width": 1.49,
-    "height": 5.8
+    "left": 58.23,
+    "top": 25,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "CallActivity_PublicComment",
    "name": "Public comment on the release",
-   "left": 72.98,
-   "top": 37.44,
+   "left": 73.92,
+   "top": 36.96,
    "box": {
-    "left": 67.24,
-    "top": 53.14,
-    "width": 1.49,
-    "height": 5.8
+    "left": 68.69,
+    "top": 57.61,
+    "width": 1.73,
+    "height": 5.22
    }
   },
   {
    "id": "Task_ArchiveRelease",
    "name": "Archive the release with the review",
-   "left": 82.92,
-   "top": 66.91,
+   "left": 84.37,
+   "top": 69.57,
    "box": {
-    "left": 78.42,
-    "top": 89.86,
-    "width": 1.49,
-    "height": 5.8
+    "left": 79.14,
+    "top": 90.22,
+    "width": 1.73,
+    "height": 5.22
    }
   }
  ],
@@ -109,17 +109,20 @@
     "title": "Review coordinator",
     "skills": [
      {
-      "name": "rendered-impact"
+      "name": "rendered-impact",
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
      },
      {
       "name": "review-heatmap",
       "href": "../../../en/cat-harness/processes/skills/review-heatmap.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
-      "name": "visual-diff"
+      "name": "visual-diff",
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
      }
     ]
    }
@@ -144,7 +147,8 @@
     "title": "Build pipeline",
     "skills": [
      {
-      "name": "ci-health"
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
      },
      {
       "name": "compiled-artefact-cache",
@@ -159,7 +163,8 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "feature-staging"
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
      },
      {
       "name": "harness-projections",
@@ -170,16 +175,20 @@
       "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
      },
      {
-      "name": "platform-gates"
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
      },
      {
-      "name": "prepare-merge"
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
      },
      {
-      "name": "publish-verification"
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
      },
      {
-      "name": "qa-reports"
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
      },
      {
       "name": "remote-mount",
@@ -194,17 +203,28 @@
       "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
      },
      {
-      "name": "todo-manager"
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "upstream-version-adoption"
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
      },
      {
-      "name": "watch"
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
      }
     ]
    }
@@ -252,6 +272,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -271,11 +292,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -322,6 +349,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -341,11 +369,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -373,17 +407,20 @@
     "title": "Review coordinator",
     "skills": [
      {
-      "name": "rendered-impact"
+      "name": "rendered-impact",
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
      },
      {
       "name": "review-heatmap",
       "href": "../../../en/cat-harness/processes/skills/review-heatmap.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
-      "name": "visual-diff"
+      "name": "visual-diff",
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
      }
     ]
    }
@@ -428,6 +465,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -447,11 +485,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -479,7 +523,8 @@
     "title": "Build pipeline",
     "skills": [
      {
-      "name": "ci-health"
+      "name": "ci-health",
+      "href": "../../../en/cat-harness/processes/skills/ci-health.html"
      },
      {
       "name": "compiled-artefact-cache",
@@ -494,7 +539,8 @@
       "href": "../../../en/cat-harness/processes/skills/content-validate.html"
      },
      {
-      "name": "feature-staging"
+      "name": "feature-staging",
+      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
      },
      {
       "name": "harness-projections",
@@ -505,16 +551,20 @@
       "href": "../../../en/cat-harness/processes/skills/kg-separation.html"
      },
      {
-      "name": "platform-gates"
+      "name": "platform-gates",
+      "href": "../../../en/cat-harness/processes/skills/platform-gates.html"
      },
      {
-      "name": "prepare-merge"
+      "name": "prepare-merge",
+      "href": "../../../en/cat-harness/processes/skills/prepare-merge.html"
      },
      {
-      "name": "publish-verification"
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
      },
      {
-      "name": "qa-reports"
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
      },
      {
       "name": "remote-mount",
@@ -529,17 +579,28 @@
       "href": "../../../en/cat-harness/processes/skills/sub-kg-lifecycle.html"
      },
      {
-      "name": "todo-manager"
+      "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
+     },
+     {
+      "name": "translation-candidate-source",
+      "href": "../../../en/cat-harness/processes/skills/translation-candidate-source.html"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "upstream-version-adoption"
+      "name": "upstream-version-adoption",
+      "href": "../../../en/cat-harness/processes/skills/upstream-version-adoption.html"
      },
      {
-      "name": "watch"
+      "name": "watch",
+      "href": "../../../en/cat-harness/processes/skills/watch.html"
      }
     ]
    }

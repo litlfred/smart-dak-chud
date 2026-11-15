@@ -1,0 +1,126 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [],
+ "current": {
+  "pages": 2191,
+  "counts": {
+   "siteNav": 0,
+   "search": 1173,
+   "navbarRow": 1173,
+   "rail": 1173,
+   "translationMeta": 1174
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "ru",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "candidate": {
+  "pages": 3936,
+  "counts": {
+   "siteNav": 1,
+   "search": 1951,
+   "navbarRow": 1951,
+   "rail": 1951,
+   "translationMeta": 1952
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "ru",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "baseline": {
+  "features": {
+   "pages": 3936,
+   "counts": {
+    "siteNav": 1,
+    "search": 1951,
+    "navbarRow": 1951,
+    "rail": 1951,
+    "translationMeta": 1952
+   },
+   "dirs": [
+    "ar",
+    "artifact",
+    "assets",
+    "cat-harness",
+    "cat-harness-tools",
+    "catalogue",
+    "code",
+    "docs",
+    "en",
+    "es",
+    "fhir-artifact-index",
+    "folio-assistant-core",
+    "fr",
+    "id-lookup",
+    "ru",
+    "smart-base",
+    "who-iris",
+    "zh"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ],
+   "stamp": {
+    "present": true
+   }
+  },
+  "from": "f55e16dcd2e1"
+ }
+}

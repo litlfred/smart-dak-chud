@@ -28,19 +28,11 @@
           "heading": false
         },
         {
-          "term": "healthcare provider",
-          "heading": false
-        },
-        {
-          "term": "client communication",
-          "heading": false
-        },
-        {
           "term": "transmit untargeted",
           "heading": false
         },
         {
-          "term": "verify client",
+          "term": "healthcare provider",
           "heading": false
         },
         {
@@ -48,16 +40,27 @@
           "heading": false
         },
         {
-          "term": "transmit routine",
+          "term": "client health",
           "heading": false
         },
         {
-          "term": "event alerts",
+          "term": "client communication",
+          "heading": false
+        },
+        {
+          "term": "verify client",
+          "heading": false
+        },
+        {
+          "term": "transmit routine",
           "heading": false
         }
       ],
       "extract": "page 1 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions Classification​ ​of​ ​Digital​ ​Health​ ​Interventions v1.0 A shared language to describe the uses of digital technology for health The classification of digital health interventions (DHIs) categorizes the different ways in which digital and mobile technologies are being used to support health system needs. Targeted primarily at",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-001"
+      ]
     },
     {
       "id": "page-002",
@@ -75,11 +78,11 @@
       },
       "keywords": [
         {
-          "term": "classification scheme",
+          "term": "digital health",
           "heading": false
         },
         {
-          "term": "service utilisation",
+          "term": "classification scheme",
           "heading": false
         },
         {
@@ -87,28 +90,31 @@
           "heading": false
         },
         {
+          "term": "health intervention",
+          "heading": false
+        },
+        {
           "term": "system challenges",
+          "heading": false
+        },
+        {
+          "term": "identified health",
+          "heading": false
+        },
+        {
+          "term": "service utilisation",
           "heading": false
         },
         {
           "term": "hsc",
           "heading": false
-        },
-        {
-          "term": "lmis",
-          "heading": false
-        },
-        {
-          "term": "articulate",
-          "heading": false
-        },
-        {
-          "term": "dhis",
-          "heading": false
         }
       ],
       "extract": "page 2 The diverse communities working in digital health—including government stakeholders, technologists, clinicians, implementers, network operators, researchers, donors— have lacked a mutually understandable language with which to assess and articulate functionality. A shared and standardized vocabulary was recognized as necessary to identify gaps and duplication, evaluate effectiveness, and facilitate alignment",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-002"
+      ]
     },
     {
       "id": "page-003",
@@ -126,11 +132,23 @@
       },
       "keywords": [
         {
+          "term": "health commodities",
+          "heading": false
+        },
+        {
+          "term": "digital health",
+          "heading": false
+        },
+        {
+          "term": "health system",
+          "heading": false
+        },
+        {
           "term": "healthcare provider",
           "heading": false
         },
         {
-          "term": "medical record",
+          "term": "health interventions",
           "heading": false
         },
         {
@@ -142,24 +160,15 @@
           "heading": false
         },
         {
-          "term": "dhi",
-          "heading": false
-        },
-        {
-          "term": "commodities",
-          "heading": false
-        },
-        {
-          "term": "client",
-          "heading": false
-        },
-        {
-          "term": "evolve",
+          "term": "medical record",
           "heading": false
         }
       ],
       "extract": "page 3 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions figure 1. Linkages across Health System Challenges, Digital Health Interventions, and System Categories 4.1.2 Data storage and aggregation 2.5.2 Communication and performance feedback to healthcare provider(s) 3.2.1 Manage inventory and distribution of health commodities Health System Challenge (HSC) Need or problem to be",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-003"
+      ]
     },
     {
       "id": "page-004",
@@ -181,6 +190,14 @@
           "heading": false
         },
         {
+          "term": "health commodities",
+          "heading": false
+        },
+        {
+          "term": "health worker",
+          "heading": false
+        },
+        {
           "term": "lack",
           "heading": false
         },
@@ -193,24 +210,19 @@
           "heading": false
         },
         {
-          "term": "commodities",
-          "heading": false
-        },
-        {
           "term": "delayed",
           "heading": false
         },
         {
           "term": "utilization",
           "heading": false
-        },
-        {
-          "term": "adherence",
-          "heading": false
         }
       ],
       "extract": "page 4 3.2.1 Manage inventory and distribution of health commodities 1 Information 3 Quality 6 Efficiency 7 Cost 8 Accountability 2 Availability 4 Acceptability 5 Utilization 1.1 Lack of population denominator 1.2 Delayed reporting of events 1.3 Lack of quality/ reliable data 1.4 Communication roadblocks 1.5 Lack of access to information or data 1.6 Insufficient utilization of data and information 1.7 Lack of unique",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-004"
+      ]
     },
     {
       "id": "page-005",
@@ -236,7 +248,7 @@
           "heading": false
         },
         {
-          "term": "standards organization",
+          "term": "health record",
           "heading": false
         },
         {
@@ -244,24 +256,27 @@
           "heading": false
         },
         {
+          "term": "health organization",
+          "heading": false
+        },
+        {
+          "term": "standards organization",
+          "heading": false
+        },
+        {
+          "term": "world health",
+          "heading": false
+        },
+        {
           "term": "international standards",
-          "heading": false
-        },
-        {
-          "term": "record",
-          "heading": false
-        },
-        {
-          "term": "client",
-          "heading": false
-        },
-        {
-          "term": "iso",
           "heading": false
         }
       ],
       "extract": "page 5 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions References 1. COBIT 5 Illustrative Governance and Management Processes. ISACA; 2017 (https://www.isaca.org/Knowledge-Center/Blog/Lists/Posts/Post. aspx?ID=193, accessed 20 November 2017 ) 2. HL7 EHR System Functional Model: A Major Development Towards Consensus on Electronic Health Record System Functionality. Ann Arbor: Health",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-005"
+      ]
     },
     {
       "id": "page-006",
@@ -283,11 +298,15 @@
           "heading": false
         },
         {
+          "term": "transmit targeted",
+          "heading": false
+        },
+        {
           "term": "client communication",
           "heading": false
         },
         {
-          "term": "transmit targeted",
+          "term": "untargeted health",
           "heading": false
         },
         {
@@ -295,16 +314,15 @@
           "heading": false
         },
         {
-          "term": "undefined",
-          "heading": false
-        },
-        {
-          "term": "manage",
+          "term": "health information",
           "heading": false
         }
       ],
       "extract": "page 6 1.1 Targeted client communication 1.4 Personal health tracking 1.7 Client financial transactions 1.5 Citizen based reporting 1.6 On-demand information services to clients 1.2 Untargeted client communication 1.3 Client to client communication 1.1.1 Transmit health event alerts to specific population group(s) 1.1.2 Transmit targeted health information to client(s) based on health status or demographics 1.1.3",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-006"
+      ]
     },
     {
       "id": "page-007",
@@ -330,11 +348,11 @@
           "heading": false
         },
         {
-          "term": "manage referrals",
+          "term": "client health",
           "heading": false
         },
         {
-          "term": "clinical records",
+          "term": "manage referrals",
           "heading": false
         },
         {
@@ -342,20 +360,23 @@
           "heading": false
         },
         {
-          "term": "diagnostic",
+          "term": "clinical records",
           "heading": false
         },
         {
-          "term": "prescription",
+          "term": "health status",
           "heading": false
         },
         {
-          "term": "medication",
+          "term": "track",
           "heading": false
         }
       ],
       "extract": "page 7 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions 2.1 Client identification and registration 2.5 Healthcare provider communication 2.6 Referral coordination 2.7 Health worker activity planning and scheduling 2.8 Healthcare provider training 2.9 Prescription and medication management 2.10 Laboratory and Diagnostics Imaging Manangement 2.2 Client health records 2.3 Healthcare",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-007"
+      ]
     },
     {
       "id": "page-008",
@@ -377,23 +398,23 @@
           "heading": false
         },
         {
-          "term": "healthcare provider",
-          "heading": false
-        },
-        {
           "term": "birth event",
           "heading": false
         },
         {
-          "term": "commodities",
+          "term": "healthcare provider",
           "heading": false
         },
         {
-          "term": "notify",
+          "term": "health commodities",
           "heading": false
         },
         {
-          "term": "register",
+          "term": "list health",
+          "heading": false
+        },
+        {
+          "term": "health facilities",
           "heading": false
         },
         {
@@ -401,12 +422,15 @@
           "heading": false
         },
         {
-          "term": "certify",
+          "term": "register",
           "heading": false
         }
       ],
       "extract": "page 8 3.1 Human resource management 3.4 Civil Registration and Vital Statistic 3.6 Equipment and asset management 3.7 Facility management 3.5 Health financing 3.2 Supply chain management 3.3 Public health event notification 3.1.1 List health workforce cadres and related identification information 3.1.2 Monitor performance of healthcare provider(s) 3.1.3 Manage certification/ registration of healthcare provider(s)",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-008"
+      ]
     },
     {
       "id": "page-009",
@@ -428,20 +452,23 @@
           "heading": false
         },
         {
-          "term": "de-duplicate",
+          "term": "data exchange",
+          "heading": false
+        },
+        {
+          "term": "data collection",
           "heading": false
         },
         {
           "term": "curate",
           "heading": false
-        },
-        {
-          "term": "parse",
-          "heading": false
         }
       ],
       "extract": "page 9 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions 4.1 Data collection, management, and use 4.3 Location mapping 4.4 Data exchange and interoperability 4.2 Data coding 4.1.1 Non-routine data collection and management 4.1.2 Data storage and aggregation 4.1.3 Data synthesis and visualization 4.1.4 Automated analysis of data to generate new information or predictions on future",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-009"
+      ]
     },
     {
       "id": "page-010",
@@ -467,10 +494,6 @@
           "heading": false
         },
         {
-          "term": "messaging campaign",
-          "heading": false
-        },
-        {
           "term": "sms reminders",
           "heading": false
         },
@@ -479,20 +502,27 @@
           "heading": false
         },
         {
+          "term": "messaging campaign",
+          "heading": false
+        },
+        {
+          "term": "untargeted health",
+          "heading": false
+        },
+        {
+          "term": "event alerts",
+          "heading": false
+        },
+        {
           "term": "event notification",
-          "heading": false
-        },
-        {
-          "term": "mass messaging",
-          "heading": false
-        },
-        {
-          "term": "undefined target",
           "heading": false
         }
       ],
       "extract": "page 10 1.0 Clients Category Interventions Synonyms Illustrative examples* 1.1 Targeted client communication Transmission of targeted health information “in which separate audience segments (often demographic categories) benefit from a shared message.” [1] Targeted communication can also be further customized according to an individual’s specific needs, resulting in “tailored client communication,” whereby message",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-010"
+      ]
     },
     {
       "id": "page-011",
@@ -510,6 +540,10 @@
       },
       "keywords": [
         {
+          "term": "client health",
+          "heading": false
+        },
+        {
           "term": "client personal",
           "heading": false
         },
@@ -522,28 +556,27 @@
           "heading": false
         },
         {
+          "term": "health smartcard",
+          "heading": false
+        },
+        {
           "term": "weighing card",
           "heading": false
         },
         {
-          "term": "wearables",
+          "term": "health record",
           "heading": false
         },
         {
-          "term": "financial transactions",
-          "heading": false
-        },
-        {
-          "term": "airtel",
-          "heading": false
-        },
-        {
-          "term": "smartcard",
+          "term": "health services",
           "heading": false
         }
       ],
       "extract": "page 11 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions Category Interventions Synonyms Illustrative examples* 1.4 Personal health tracking The use of mobile applications by clients, phone based sensors, health records, and wearables for clients to monitor their own health status. This can include wearable sensors, web-tools, and apps that allow clients to review and track their",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-011"
+      ]
     },
     {
       "id": "page-012",
@@ -569,19 +602,15 @@
           "heading": false
         },
         {
+          "term": "client health",
+          "heading": false
+        },
+        {
+          "term": "health record",
+          "heading": false
+        },
+        {
           "term": "medical record",
-          "heading": false
-        },
-        {
-          "term": "register children",
-          "heading": false
-        },
-        {
-          "term": "clinical records",
-          "heading": false
-        },
-        {
-          "term": "catholic relief",
           "heading": false
         },
         {
@@ -589,12 +618,19 @@
           "heading": false
         },
         {
-          "term": "clinical algorithms",
+          "term": "commcare mobile",
+          "heading": false
+        },
+        {
+          "term": "register children",
           "heading": false
         }
       ],
       "extract": "page 12 Category Interventions Synonyms Illustrative examples* 2.1 Client identification and registration Client identity verification and enrollment into health services. 2.1.1 Verify client unique identity - Biometrics, client registry MP3 Youth: “Participant’s biometrics are collected using Mobiotrics, a smartphone-based system for identification and follow-up at the different service delivery point.” [8]",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-012"
+      ]
     },
     {
       "id": "page-013",
@@ -616,15 +652,19 @@
           "heading": false
         },
         {
-          "term": "manage referrals",
-          "heading": false
-        },
-        {
           "term": "phone-based communication",
           "heading": false
         },
         {
-          "term": "chat feature",
+          "term": "manage referrals",
+          "heading": false
+        },
+        {
+          "term": "health enablement",
+          "heading": false
+        },
+        {
+          "term": "client health",
           "heading": false
         },
         {
@@ -632,20 +672,19 @@
           "heading": false
         },
         {
-          "term": "africa teledermatology",
+          "term": "communication system",
           "heading": false
         },
         {
           "term": "referral management",
           "heading": false
-        },
-        {
-          "term": "group chat",
-          "heading": false
         }
       ],
       "extract": "page 13 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions Category Interventions Synonyms Illustrative examples* 2.4 Telemedicine Provision of health-care services at a distance [2]. The delivery of health care services, where patients and providers are separated by distance [3]. 2.4.1 Consultations between remote client and healthcare provider - Remote consultation, tele consultation,",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-013"
+      ]
     },
     {
       "id": "page-014",
@@ -667,23 +706,15 @@
           "heading": false
         },
         {
-          "term": "diagnostic orders",
-          "heading": false
-        },
-        {
           "term": "healthcare provider",
           "heading": false
         },
         {
-          "term": "adverse drug",
+          "term": "diagnostic orders",
           "heading": false
         },
         {
-          "term": "drug reactions",
-          "heading": false
-        },
-        {
-          "term": "blood donations",
+          "term": "mobile phone",
           "heading": false
         },
         {
@@ -691,12 +722,23 @@
           "heading": false
         },
         {
+          "term": "provider training",
+          "heading": false
+        },
+        {
           "term": "educational videos",
+          "heading": false
+        },
+        {
+          "term": "delivery app",
           "heading": false
         }
       ],
       "extract": "page 14 Category Interventions Synonyms Illustrative examples* 2.7 Scheduling and activity planning for healthcare providers Automated scheduling and planning tools to assist in prioritizing provider follow- up. Digital work planning and scheduling tools can take the form of reminders to healthcare providers on upcoming/overdue services and other mechanisms to flag clients that need to be prioritized for service",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-014"
+      ]
     },
     {
       "id": "page-015",
@@ -718,10 +760,6 @@
           "heading": false
         },
         {
-          "term": "drug authenticity",
-          "heading": false
-        },
-        {
           "term": "logging thermometers",
           "heading": false
         },
@@ -730,7 +768,7 @@
           "heading": false
         },
         {
-          "term": "registration certification",
+          "term": "health commodities",
           "heading": false
         },
         {
@@ -738,16 +776,23 @@
           "heading": false
         },
         {
-          "term": "medical commodities",
+          "term": "drug authenticity",
           "heading": false
         },
         {
-          "term": "healthcare provider",
+          "term": "registration certification",
+          "heading": false
+        },
+        {
+          "term": "medical commodities",
           "heading": false
         }
       ],
       "extract": "page 15 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions 3.0 Health System Managers Category Interventions Synonyms Illustrative examples* 3.1 Human resource management Digital approaches to manage the health workforce, including the use of databases to record training levels, certifications, and identification of health workers. 3.1.1 List health workforce cadres and related",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-015"
+      ]
     },
     {
       "id": "page-016",
@@ -773,15 +818,15 @@
           "heading": false
         },
         {
-          "term": "notify death",
-          "heading": false
-        },
-        {
           "term": "event alert",
           "heading": false
         },
         {
-          "term": "death surveillance",
+          "term": "notify death",
+          "heading": false
+        },
+        {
+          "term": "mobile birth",
           "heading": false
         },
         {
@@ -789,7 +834,7 @@
           "heading": false
         },
         {
-          "term": "mobile birth",
+          "term": "registration initiative",
           "heading": false
         },
         {
@@ -798,7 +843,10 @@
         }
       ],
       "extract": "page 16 Category Interventions Synonyms Illustrative examples* 3.4 Civil Registration and Vital Statistics (CRVS) Digital approaches to support the registration of births and deaths, issue birth and death certificates, and compile and disseminate vital statistics, including cause of death information [5]. 3.4.1 Notify birth event - Birth event alert mTika: “Health Assistants can receive birth notifications from",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-016"
+      ]
     },
     {
       "id": "page-017",
@@ -816,11 +864,11 @@
       },
       "keywords": [
         {
-          "term": "map location",
+          "term": "gps mapping",
           "heading": false
         },
         {
-          "term": "gps mapping",
+          "term": "map location",
           "heading": false
         },
         {
@@ -832,24 +880,27 @@
           "heading": false
         },
         {
-          "term": "displayed",
+          "term": "data collection",
           "heading": false
         },
         {
-          "term": "odk",
+          "term": "data warehouse",
           "heading": false
         },
         {
-          "term": "team leaders",
+          "term": "data exchange",
           "heading": false
         },
         {
-          "term": "spray",
+          "term": "data services",
           "heading": false
         }
       ],
       "extract": "page 17 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions Category Interventions Synonyms Illustrative examples* 4.1 Data collection, management, and use Digital approaches to data collection, management, analysis, storage. This can include standalone interventions focusing exclusively on data collection and management, as well as data services to support other interventions, such as",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-017"
+      ]
     },
     {
       "id": "page-018",
@@ -875,19 +926,11 @@
           "heading": false
         },
         {
-          "term": "international conference",
-          "heading": false
-        },
-        {
           "term": "international telecommunication",
           "heading": false
         },
         {
-          "term": "jmir public",
-          "heading": false
-        },
-        {
-          "term": "telecommunication union",
+          "term": "health organization",
           "heading": false
         },
         {
@@ -895,12 +938,23 @@
           "heading": false
         },
         {
-          "term": "medopad",
+          "term": "international conference",
+          "heading": false
+        },
+        {
+          "term": "telecommunication union",
+          "heading": false
+        },
+        {
+          "term": "world health",
           "heading": false
         }
       ],
       "extract": "page 18 References for definitions and illustrative examples of digital health interventions 1. Hawkins, R. P., et al. (2008). Understanding tailoring in communicating about health. Health Education Research, 23(3), 454–466. http://doi.org/10.1093/her/cyn004 2. National eHealth strategy toolkit. Geneva: World Health Organization, International Telecommunication Union; 2012 (https://www.itu.",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-018"
+      ]
     },
     {
       "id": "page-019",
@@ -922,15 +976,11 @@
           "heading": false
         },
         {
-          "term": "concept lab",
-          "heading": false
-        },
-        {
-          "term": "dar",
-          "heading": false
-        },
-        {
           "term": "salaam",
+          "heading": false
+        },
+        {
+          "term": "concept lab",
           "heading": false
         },
         {
@@ -938,20 +988,27 @@
           "heading": false
         },
         {
-          "term": "nairobi",
+          "term": "dar",
           "heading": false
         },
         {
-          "term": "kenya",
+          "term": "health organization",
           "heading": false
         },
         {
-          "term": "html",
+          "term": "world health",
+          "heading": false
+        },
+        {
+          "term": "website",
           "heading": false
         }
       ],
       "extract": "page 19 World Health Organization Classification​ ​of​ ​Digital​ ​Health​ ​Interventions 26. Online Platform Modernizes Ethiopia’s Import Permit Process. Boston: John Snow, Inc.; 2017 (http://www.jsi.com/JSIInternet/ Newsroom/newsitem/display.cfm?a=1&id=2272, accessed 24 November 2017). 27. In the United Republic of Tanzania, a new solution for birth registration. Dar es Salaam: UNICEF; 2017 (https://www.unicef.org/",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-019"
+      ]
     },
     {
       "id": "page-020",
@@ -977,11 +1034,11 @@
           "heading": false
         },
         {
-          "term": "igo",
+          "term": "health organization",
           "heading": false
         },
         {
-          "term": "consultant",
+          "term": "world health",
           "heading": false
         },
         {
@@ -989,20 +1046,23 @@
           "heading": false
         },
         {
+          "term": "igo",
+          "heading": false
+        },
+        {
           "term": "derek",
           "heading": false
         },
         {
-          "term": "michael",
-          "heading": false
-        },
-        {
-          "term": "independent",
+          "term": "consultant",
           "heading": false
         }
       ],
       "extract": "Dr. Garrett Mehl | mehlg@who.int Tigest Tamrat | tamratt@who.int For questions or feedback, please contact Development of this document was coordinated by Garrett Mehl, Tigest Tamrat, Maeghan Orton, and Lale Say of the Department of Reproductive Health and Research, in collaboration with Edward Kelley and Diana Zandi of the Department of Service Delivery and Safety, of the World Health Organization (WHO). WHO is",
-      "extractCut": true
+      "extractCut": true,
+      "blocks": [
+        "library/who-rhr-1806-eng/blocks/prose-page-020"
+      ]
     }
   ],
   "checks": {},
@@ -1010,7 +1070,15 @@
   "pagesCovered": 20,
   "keywords": [
     {
+      "term": "client health",
+      "heading": false
+    },
+    {
       "term": "manage client",
+      "heading": false
+    },
+    {
+      "term": "transmit health",
       "heading": false
     },
     {
@@ -1018,44 +1086,77 @@
       "heading": false
     },
     {
+      "term": "digital health",
+      "heading": false
+    },
+    {
       "term": "track client",
       "heading": false
     },
     {
-      "term": "client insurance",
+      "term": "health system",
       "heading": false
     },
     {
-      "term": "client medication",
+      "term": "health management",
       "heading": false
     },
     {
-      "term": "untargeted client",
+      "term": "health information",
       "heading": false
     },
     {
-      "term": "client unstructured",
+      "term": "mobile health",
       "heading": false
     },
     {
-      "term": "client identification",
+      "term": "health data",
       "heading": false
     },
     {
-      "term": "healthcare provider",
+      "term": "health event",
       "heading": false
+    }
+  ],
+  "coverage": [
+    {
+      "kind": "contents",
+      "state": "not-extracted",
+      "note": "split one section per page; no contents was trusted"
     },
     {
-      "term": "client personal",
-      "heading": false
+      "kind": "sections",
+      "state": "partial",
+      "count": 20,
+      "note": "one per page, not by heading"
     },
     {
-      "term": "targeted client",
-      "heading": false
+      "kind": "figures",
+      "state": "none"
     },
     {
-      "term": "remote client",
-      "heading": false
+      "kind": "tables",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "references",
+      "state": "not-extracted",
+      "note": "a references section is in the text (p5); its entries are not extracted"
+    },
+    {
+      "kind": "glossary",
+      "state": "none",
+      "note": "no such heading in the text"
+    },
+    {
+      "kind": "footnotes",
+      "state": "not-extracted"
+    },
+    {
+      "kind": "summaries",
+      "state": "found",
+      "count": 20,
+      "note": "20 of 20 sections"
     }
   ],
   "links": {

@@ -5,121 +5,121 @@
   {
    "id": "Task_Plan",
    "name": "Plan scope, team, artifacts",
-   "left": 15.25,
-   "top": 1.56,
+   "left": 19.89,
+   "top": 2.36,
    "box": {
-    "left": 12.04,
-    "top": 8.98,
-    "width": 1.06,
-    "height": 1.88
+    "left": 14.74,
+    "top": 13.58,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Task_SeedBeans",
    "name": "Seed the work plan",
-   "left": 25.19,
-   "top": 36.33,
+   "left": 46.53,
+   "top": 20.07,
    "box": {
-    "left": 20.88,
-    "top": 41.41,
-    "width": 1.06,
-    "height": 1.88
+    "left": 41.38,
+    "top": 31.29,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "CallActivity_Editing",
    "name": "Editing and HCI validation",
-   "left": 32.92,
-   "top": 46.88,
+   "left": 57.9,
+   "top": 20.07,
    "box": {
-    "left": 29.72,
-    "top": 54.3,
-    "width": 1.06,
-    "height": 1.88
+    "left": 52.75,
+    "top": 31.29,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Task_Test",
    "name": "Integration test and QA sweep",
-   "left": 41.76,
-   "top": 58.59,
+   "left": 57.9,
+   "top": 37.78,
    "box": {
-    "left": 38.56,
-    "top": 66.02,
-    "width": 1.06,
-    "height": 1.88
+    "left": 52.75,
+    "top": 49,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "CallActivity_Publication",
    "name": "Draft, review and publish",
-   "left": 50.6,
-   "top": 82.03,
+   "left": 57.9,
+   "top": 73.2,
    "box": {
-    "left": 47.39,
-    "top": 89.45,
-    "width": 1.06,
-    "height": 1.88
+    "left": 52.75,
+    "top": 84.42,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Task_Feedback",
    "name": "Triage published feedback",
-   "left": 59.66,
-   "top": 70.31,
+   "left": 70.69,
+   "top": 55.49,
    "box": {
-    "left": 56.45,
-    "top": 77.73,
-    "width": 1.06,
-    "height": 1.88
+    "left": 65.54,
+    "top": 66.71,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Task_FeedbackBeans",
    "name": "File feedback as beans",
-   "left": 68.05,
-   "top": 36.33,
+   "left": 70.69,
+   "top": 20.07,
    "box": {
-    "left": 64.63,
-    "top": 41.41,
-    "width": 1.06,
-    "height": 1.88
+    "left": 65.54,
+    "top": 31.29,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Task_Retire",
    "name": "Retire or archive",
-   "left": 81.97,
-   "top": 1.56,
+   "left": 80.99,
+   "top": 2.36,
    "box": {
-    "left": 78.77,
-    "top": 8.98,
-    "width": 1.06,
-    "height": 1.88
+    "left": 75.84,
+    "top": 13.58,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Call_BeanOpen",
    "name": "Open the bean",
-   "left": 24.08,
-   "top": 13.05,
+   "left": 19.89,
+   "top": 20.07,
    "box": {
-    "left": 20.88,
-    "top": 20.47,
-    "width": 1.06,
-    "height": 1.88
+    "left": 14.74,
+    "top": 31.29,
+    "width": 1.71,
+    "height": 2.83
    }
   },
   {
    "id": "Call_BeanClose",
    "name": "Close the bean",
-   "left": 91.03,
-   "top": 1.56,
+   "left": 91.65,
+   "top": 2.36,
    "box": {
-    "left": 87.83,
-    "top": 8.98,
-    "width": 1.06,
-    "height": 1.88
+    "left": 86.49,
+    "top": 13.58,
+    "width": 1.71,
+    "height": 2.83
    }
   }
  ],
@@ -145,7 +145,8 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -156,10 +157,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning"
+      "name": "release-epic-planning",
+      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
      },
      {
-      "name": "release-lifecycle"
+      "name": "release-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
      }
     ]
    }
@@ -174,7 +177,8 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_Lifecycle/lane/Lane_Editors",
    "skills": [
     {
-     "name": "todo-manager"
+     "name": "todo-manager",
+     "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
     }
    ],
    "shared": {
@@ -202,6 +206,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -221,11 +226,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -281,6 +292,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -300,11 +312,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -344,7 +362,8 @@
       "href": "../../../en/cat-harness/processes/skills/kg-affordances.html"
      },
      {
-      "name": "qa-reports"
+      "name": "qa-reports",
+      "href": "../../../en/cat-harness/processes/skills/qa-reports.html"
      }
     ]
    }
@@ -382,27 +401,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-review.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "instance-publication",
       "href": "../../../en/cat-harness/processes/skills/instance-publication.html"
      },
      {
-      "name": "package-release"
+      "name": "package-release",
+      "href": "../../../en/cat-harness/processes/skills/package-release.html"
      },
      {
-      "name": "publish-verification"
+      "name": "publish-verification",
+      "href": "../../../en/cat-harness/processes/skills/publish-verification.html"
      },
      {
-      "name": "qa-report-signing"
+      "name": "qa-report-signing",
+      "href": "../../../en/cat-harness/processes/skills/qa-report-signing.html"
      },
      {
       "name": "render-kg-to-cdn",
       "href": "../../../en/cat-harness/processes/skills/render-kg-to-cdn.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      }
     ]
    }
@@ -427,7 +451,8 @@
     "title": "Reviewer / SME",
     "skills": [
      {
-      "name": "adjudication"
+      "name": "adjudication",
+      "href": "../../../en/cat-harness/processes/skills/adjudication.html"
      },
      {
       "name": "content-feedback",
@@ -438,26 +463,32 @@
       "href": "../../../en/cat-harness/processes/skills/content-review.html"
      },
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
-      "name": "narrative-asserts-code"
+      "name": "narrative-asserts-code",
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
      },
      {
-      "name": "rendered-impact"
+      "name": "rendered-impact",
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
      },
      {
-      "name": "staging-review"
+      "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
      },
      {
       "name": "translation-manager",
       "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
      },
      {
-      "name": "visual-diff"
+      "name": "visual-diff",
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
      },
      {
-      "name": "voice-overlay-review"
+      "name": "voice-overlay-review",
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
      }
     ]
    }
@@ -472,7 +503,8 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_Lifecycle/lane/Lane_Editors",
    "skills": [
     {
-     "name": "todo-manager"
+     "name": "todo-manager",
+     "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
     },
     {
      "name": "content-feedback",
@@ -500,6 +532,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -519,11 +552,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -551,7 +590,8 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -562,10 +602,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning"
+      "name": "release-epic-planning",
+      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
      },
      {
-      "name": "release-lifecycle"
+      "name": "release-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
      }
     ]
    }
@@ -580,11 +622,14 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_Lifecycle/lane/Lane_Editors",
    "skills": [
     {
-     "name": "bean-coordination"
+     "name": "bean-coordination",
+     "href": "../../../en/cat-harness/processes/skills/bean-coordination.html"
     }
    ],
    "calls": {
-    "name": "Process_BeanOpen"
+    "name": "Open the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanOpen",
+    "diagram": "bean-open.html"
    },
    "role": {
     "name": "editor",
@@ -607,6 +652,7 @@
      },
      {
       "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html",
       "via": "author"
      },
      {
@@ -626,11 +672,17 @@
      },
      {
       "name": "staging-review",
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
       "via": "author"
      },
      {
       "name": "todo-manager",
+      "href": "../../../en/cat-harness/processes/skills/todo-manager.html",
       "via": "author"
+     },
+     {
+      "name": "translation-adjudication",
+      "href": "../../../en/cat-harness/processes/skills/translation-adjudication.html"
      },
      {
       "name": "voice-authoring-guidance"
@@ -648,11 +700,14 @@
    "laneHref": "https://litlfred.github.io/folio-assistant/folio-assistant-core/process/Process_Lifecycle/lane/Lane_ProgMgr",
    "skills": [
     {
-     "name": "todo-manager"
+     "name": "todo-manager",
+     "href": "../../../en/cat-harness/processes/skills/todo-manager.html"
     }
    ],
    "calls": {
-    "name": "Process_BeanClose"
+    "name": "Close the bean",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/process/Process_BeanClose",
+    "diagram": "bean-close.html"
    },
    "role": {
     "name": "programme-manager",
@@ -660,7 +715,8 @@
     "title": "Programme manager",
     "skills": [
      {
-      "name": "decision-audit"
+      "name": "decision-audit",
+      "href": "../../../en/cat-harness/processes/skills/decision-audit.html"
      },
      {
       "name": "decision-methodology-selector",
@@ -671,10 +727,12 @@
       "href": "../../../en/cat-harness/processes/skills/methodology-adoption.html"
      },
      {
-      "name": "release-epic-planning"
+      "name": "release-epic-planning",
+      "href": "../../../en/cat-harness/processes/skills/release-epic-planning.html"
      },
      {
-      "name": "release-lifecycle"
+      "name": "release-lifecycle",
+      "href": "../../../en/cat-harness/processes/skills/release-lifecycle.html"
      }
     ]
    }

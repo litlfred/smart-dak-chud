@@ -86,16 +86,15 @@
     "pagesWithTranslations": 0,
     "complete": false
   },
-  "statusSrc":"../../../../../assets/translation-status/index.json"
+  "statusSrc":"../../../../../assets/translation-status/index.json",
+  "reviewSrc":"../../../../../assets/translation-status/review.json"
 }</script><script type="application/json" id="fa-navbar-row" data-fa-row-src="harness-data"></script><script type="application/json" id="fa-site-links">{"kg":"https://litlfred.github.io/folio-assistant/smart-base/","jsonld":"https://litlfred.github.io/folio-assistant/smart-base/smart-base.jsonld","source":"https://github.com/litlfred/smart-dak-chud"}</script><meta name="fa-site-index-src" content="../../../../../assets/harness/site.json">
 <meta name="fa-todo-src" content="../../../../../assets/todos/index.json"><meta name="fa-todo-graph" content="../../../../../todos.jsonld"><meta name="fa-zoom-src" content="../../../../../assets/semantic-zoom.json"><meta name="fa-tiles" content="" data-fa-src="harness-data">
-<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;processes&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
+<meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
-<meta name="fa-beans-src" content="../../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../../build.json"><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=7d7d00921e0f">
-<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=3dc1393d297a"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/work-plan.css?v=bd8c73337b01"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=05433996459b"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","processes","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script>
-<script src="../../../../../assets/js/vendor/qrcode.js" defer></script>
-<script src="../../../../../assets/js/vendor/qrcode_UTF8.js" defer></script><script src="../../../../../assets/js/kg-render.js" defer></script><script src="../../../../../assets/js/navbar-row.js?v=cc1885e41c70" defer></script>
-<script src="../../../../../assets/js/docs-ui.js?v=4d45b88bbab8" defer></script><script src="../../../../../assets/js/edit-links.js?v=9c6835feddf7" defer></script><script src="../../../../../assets/js/work-plan.js" defer></script><script src="../../../../../assets/js/process-index.js" defer></script><style>
+<meta name="fa-beans-src" content="../../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../../build.json"><link rel="stylesheet" href="../../../../../assets/css/navbar-row.css?v=263225e79ed9">
+<link rel="stylesheet" href="../../../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../../assets/js/harness-data.js" defer></script><script src="../../../../../assets/js/kg-render.js" defer></script><script src="../../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -281,16 +280,16 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2481 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 149 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 207 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 33 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2554 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 162 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 208 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 50 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 215 terms and is 127 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 227 terms and is 134 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2877</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -300,7 +299,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">215</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">227</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-D">D</a> <a href="#letter-E">E</a></nav>
 <h2 id="letter-D">
@@ -1568,6 +1567,55 @@ EquationBlock.tex <span class="fa-gloss-status">candidate, extracted</span>
 <p>Inline TeX for the equation (short enough to live in .ts).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/types.ts"><code>cat-harness-tools/schemas/types.ts#EquationBlock.tex</code></a></p>
 </dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.block" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.block <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The block that prints it, e.g. <code>library/&lt;slug&gt;/blocks/prose-sec-003</code>, when one does.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.block</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.evidence" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.evidence <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>What shows it is an error, in a form a person can check: the other page, table or edition that disagrees, quoted or cited.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.evidence</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.id" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.id <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Stable within the entry: <code>e1</code>, <code>e2</code>, ... Never reused for another erratum.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.id</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.narrative" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.narrative <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The explanation a reader is shown, with its state and author.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.narrative</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.page" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.page <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The physical PDF page (1-based) it is printed on, when known.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.page</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.quote" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.quote <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The words as printed, verbatim, so the place can be found and checked.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.quote</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--document-errata.erratumschema.reading" data-fa-state="extracted" data-fa-gloss="">
+ErratumSchema.reading <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The reading the evidence supports, when there is one. Never substituted for <code>quote</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/document-errata.ts"><code>cat-harness-tools/schemas/content/document-errata.ts#ErratumSchema.reading</code></a></p>
+</dd>
 <dt id="cat-harness-tools--kg-schema-fields--types.exampleblock.interprets" data-fa-state="extracted" data-fa-gloss="">
 ExampleBlock.interprets <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -1826,6 +1874,41 @@ ExtractionSchema.readAt <span class="fa-gloss-status">candidate, extracted</span
 <dd>
 <p>When THIS record was written — a fact about the reading, not the file.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/content/extraction.ts"><code>cat-harness-tools/schemas/content/extraction.ts#ExtractionSchema.readAt</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--entry-extraction.extractionstepschema.at" data-fa-state="extracted" data-fa-gloss="">
+ExtractionStepSchema.at <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>When it ran, ISO date or date-time.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/entry-extraction.ts"><code>cat-harness-tools/schemas/library/entry-extraction.ts#ExtractionStepSchema.at</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--entry-extraction.extractionstepschema.count" data-fa-state="extracted" data-fa-gloss="">
+ExtractionStepSchema.count <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>How many were found. Required above 0 for <code>found</code>; 0 or absent for <code>none</code>; absent for <code>not-extracted</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/entry-extraction.ts"><code>cat-harness-tools/schemas/library/entry-extraction.ts#ExtractionStepSchema.count</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--entry-extraction.extractionstepschema.note" data-fa-state="extracted" data-fa-gloss="">
+ExtractionStepSchema.note <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Why, for <code>partial</code> and <code>not-extracted</code>; a note otherwise.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/entry-extraction.ts"><code>cat-harness-tools/schemas/library/entry-extraction.ts#ExtractionStepSchema.note</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--entry-extraction.extractionstepschema.tool" data-fa-state="extracted" data-fa-gloss="">
+ExtractionStepSchema.tool <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The step that ran, as its script or tool name.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/entry-extraction.ts"><code>cat-harness-tools/schemas/library/entry-extraction.ts#ExtractionStepSchema.tool</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--entry-extraction.extractionstepschema.version" data-fa-state="extracted" data-fa-gloss="">
+ExtractionStepSchema.version <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The tool's version — for a script, the first 12 hex of its sha256.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/library/entry-extraction.ts"><code>cat-harness-tools/schemas/library/entry-extraction.ts#ExtractionStepSchema.version</code></a></p>
 </dd>
 </dl>
 <script>
