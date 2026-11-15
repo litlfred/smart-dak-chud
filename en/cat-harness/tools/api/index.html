@@ -163,7 +163,7 @@
 
 <link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-1r2cl14hhdb.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content="../../../.."></head>
 
-<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-1r2cl14hhdb","here":"/en/cat-harness/tools/api/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#operations-269","label":"Operations (269)"},{"href":"#mcp-tools-34","label":"MCP tools (34)"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">SMART DAK CHUD</a></nav>
+<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-1r2cl14hhdb","here":"/en/cat-harness/tools/api/","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#operations-272","label":"Operations (272)"},{"href":"#mcp-tools-34","label":"MCP tools (34)"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">SMART DAK CHUD</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="svg-link" viewBox="0 0 24 24">
@@ -265,10 +265,10 @@
   <li><a href="../openapi.json"><code class="language-plaintext highlighter-rouge">openapi.json</code></a> — OpenAPI 3.1.0, one operation per Tool. Open it in Swagger UI or Redoc, or generate a client from it. The paths are the Tools’ call contracts, not HTTP endpoints: each operation’s <code class="language-plaintext highlighter-rouge">x-invoke</code> says how the Tool is really reached.</li>
   <li><a href="../mcp-tools.json"><code class="language-plaintext highlighter-rouge">mcp-tools.json</code></a> — the answer an MCP server gives to <code class="language-plaintext highlighter-rouge">tools/list</code>: each tool’s name, description and input schema, read from the registrar that serves it.</li>
 </ul>
-<h2 id="operations-269">
+<h2 id="operations-272">
   
   
-    <a href="#operations-269" class="anchor-heading" aria-labelledby="operations-269"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Operations (269)
+    <a href="#operations-272" class="anchor-heading" aria-labelledby="operations-272"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Operations (272)
   
   
 </h2>
@@ -531,6 +531,20 @@
       <td>shell</td>
     </tr>
     <tr>
+      <td><a id="ci-iris-cdn"></a><a href="../who-iris/ci-iris-cdn/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/ci-iris-cdn</code></a></td>
+      <td>Run the IRIS CDN export</td>
+      <td><code class="language-plaintext highlighter-rouge">repo</code>?: RepoFullName, <code class="language-plaintext highlighter-rouge">ref</code>?: Branch</td>
+      <td><code class="language-plaintext highlighter-rouge">run</code>?: Text</td>
+      <td>shell</td>
+    </tr>
+    <tr>
+      <td><a id="ci-iris-cover-pdfs"></a><a href="../who-iris/ci-iris-cover-pdfs/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/ci-iris-cover-pdfs</code></a></td>
+      <td>Fetch IRIS cover PDFs</td>
+      <td><code class="language-plaintext highlighter-rouge">repo</code>?: RepoFullName, <code class="language-plaintext highlighter-rouge">ref</code>?: Branch</td>
+      <td><code class="language-plaintext highlighter-rouge">run</code>?: Text</td>
+      <td>shell</td>
+    </tr>
+    <tr>
       <td><a id="ci-merge-main"></a><a href="../cat-harness/ci-merge-main/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/ci-merge-main</code></a></td>
       <td>Merge main into opted-in PRs</td>
       <td><code class="language-plaintext highlighter-rouge">repo</code>?: RepoFullName, <code class="language-plaintext highlighter-rouge">ref</code>?: Branch</td>
@@ -742,7 +756,7 @@
     </tr>
     <tr>
       <td><a id="fhir-core"></a><a href="../fhir-harness/fhir-core/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/fhir-core</code></a></td>
-      <td>Load the stable FHIR releases’ core StructureDefinitions as a graph keyed by canonical URL</td>
+      <td>Refer to HL7’s published FHIR core definitions by canonical URL, and derive their UML class model</td>
       <td><code class="language-plaintext highlighter-rouge">root</code>?: RepoPath, <code class="language-plaintext highlighter-rouge">release</code>?: Slug, <code class="language-plaintext highlighter-rouge">tgz-dir</code>?: RepoPath</td>
       <td><code class="language-plaintext highlighter-rouge">definitions</code>?: Count</td>
       <td>shell</td>
@@ -1971,6 +1985,13 @@
       <td><code class="language-plaintext highlighter-rouge">path_in_repo</code>?: RepoPath, <code class="language-plaintext highlighter-rouge">index_ref</code>?: Branch, <code class="language-plaintext highlighter-rouge">tools_ref</code>?: Text</td>
       <td><code class="language-plaintext highlighter-rouge">pull_request</code>?: Url, <code class="language-plaintext highlighter-rouge">summary</code>?: Markdown</td>
       <td>manual</td>
+    </tr>
+    <tr>
+      <td><a id="translation-candidates"></a><a href="../cat-harness/translation-candidates/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/translation-candidates</code></a></td>
+      <td>Collect candidate translations from open engines</td>
+      <td><code class="language-plaintext highlighter-rouge">instance</code>?: RepoPath, <code class="language-plaintext highlighter-rouge">engines</code>: IdList, <code class="language-plaintext highlighter-rouge">url</code>?: Url, <code class="language-plaintext highlighter-rouge">locales</code>?: IdList, <code class="language-plaintext highlighter-rouge">init</code>?: Flag, <code class="language-plaintext highlighter-rouge">noCreateNode</code>?: Flag, <code class="language-plaintext highlighter-rouge">noMask</code>?: Flag, <code class="language-plaintext highlighter-rouge">dryRun</code>?: Flag</td>
+      <td><code class="language-plaintext highlighter-rouge">candidates</code>?: RepoPath, <code class="language-plaintext highlighter-rouge">catalogues</code>?: RepoPath</td>
+      <td>shell</td>
     </tr>
     <tr>
       <td><a id="translation-candidates-agent"></a><a href="../cat-harness/translation-candidates-agent/"><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/tools/translation-candidates-agent</code></a></td>

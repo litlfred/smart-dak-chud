@@ -4,6 +4,7 @@
   "title": "smart.who.int.dak-chud — artefact index (from the IG Publisher AST cache)",
   "packageId": "smart.who.int.dak-chud",
   "version": "0.1.0",
+  "status": "draft",
   "canonicalBase": "http://smart.who.int/dak-chud",
   "source": {
     "kind": "output",

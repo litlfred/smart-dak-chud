@@ -284,7 +284,7 @@
 
 <p>One of 3 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/bpmn-activities/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 431 terms and is 350 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 431 terms and is 351 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
@@ -560,7 +560,7 @@ Read the pin registry upstream-pins.json <span class="fa-gloss-status">candidate
 Read the queue, acknowledge requests <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Read live, never from a stored copy: the open PRs (draft, head, mergeable, owed checks, open owner decisions), the queued and running runs with the age of the oldest, the latest main push run, each PR owner's last push or comment, and every harness repository's open main-red issue with its newest failed runs on main and gh-pages, whether or not the lane holds a PR there (gh api repos/&lt;owner&gt;/&lt;repo&gt;/actions/runs?branch=&lt;default&gt;&amp;event=push: the latest completed push run per workflow, conclusion failure). One sweep runs merge:watch over every repository it holds. Liveness duty: acknowledge each new merge request within holding.heartbeatMinutes, and post a heartbeat with each sweep, so siblings can tell a live merge manager from a stalled one. A repin+merge: request is re-pinned by the merge manager itself, as its own re-pin PR in a re-pin train, before the requested PR lands; only the merge manager merges or re-pins, and a scheduled routine never merges (owner rulings, 2026-11-13).</p>
+<p>Read live, never from a stored copy: the open PRs (draft, head, mergeable, owed checks, open owner decisions), the queued and running runs with the age of the oldest, the latest main push run, each PR owner's last push or comment, and every harness repository's open main-red issue with its newest failed runs on main and gh-pages, whether or not the lane holds a PR there (gh api repos/&lt;owner&gt;/&lt;repo&gt;/actions/runs?branch=&lt;default&gt;&amp;event=push: the latest completed push run per workflow, conclusion failure). One sweep runs merge:watch over every repository it holds, in dependency order (lowest first); merge:watch leaves out PRs labelled content. Liveness duty: acknowledge each new merge request within holding.heartbeatMinutes, and post a heartbeat with each sweep, so siblings can tell a live merge manager from a stalled one. A repin+merge: request is re-pinned by the merge manager itself, as its own re-pin PR in a re-pin train, before the requested PR lands; only the merge manager merges or re-pins, and a scheduled routine never merges (owner rulings, 2026-11-13).</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/sdlc/processes/merge-manager-watch.bpmn"><code>cat-harness/sdlc/processes/merge-manager-watch.bpmn#Task_Read</code></a></p>
 </dd>
 <dt id="folio-assistant-core--kg-bpmn-activities--process_gettingstarted.task_readfacts" data-fa-state="extracted" data-fa-gloss="">
@@ -2869,14 +2869,14 @@ Translate narrative and resource metadata <span class="fa-gloss-status">candidat
 Translate new and fuzzy only <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>Only the empty and fuzzy entries, in every locale, with the terms the term base fixes. A finished string is not touched.</p>
+<p>Only the empty and fuzzy entries, in every locale, with the terms the term base fixes. A finished string is not touched. Candidates for the empty and fuzzy entries may come first from <code>translation:candidates</code> (Tool translation-candidates: open engines, OPUS-MT and/or self-hosted LibreTranslate), recorded in &lt;catalogue&gt;.candidates.json; an empty entry also gets the first good candidate, fuzzy, until it is re-translated here or a person picks or accepts one on the review page.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/library/processes/translation-refresh.bpmn"><code>cat-harness/library/processes/translation-refresh.bpmn#Task_TR_Translate</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_multilocaletranslation.task_ml_translate" data-fa-state="extracted" data-fa-gloss="">
 Translate one locale <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>From the merged templates, with the locale term base: <code>translations/&lt;locale&gt;/**.po</code>, a translation-node manifest beside each (<code>official: false</code>, <code>generatedBy: &quot;agent&quot;</code>; no <code>status.json</code>), and the FHIR terms as CodeSystem supplements, all in one file for the locale rather than edits inside the resources.</p>
+<p>From the merged templates, with the locale term base: <code>translations/&lt;locale&gt;/**.po</code>, a translation-node manifest beside each (<code>official: false</code>, <code>generatedBy: &quot;agent&quot;</code>, or <code>&quot;machine&quot;</code> where <code>translation:candidates</code> filled an empty entry with its first candidate, which stays fuzzy; no <code>status.json</code>), and the FHIR terms as CodeSystem supplements, all in one file for the locale rather than edits inside the resources.</p>
 <p class="fa-gloss-meta">BPMN activities of cat-harness · source <a href="https://github.com/litlfred/cat-harness/blob/main/library/processes/multi-locale-translation.bpmn"><code>cat-harness/library/processes/multi-locale-translation.bpmn#Task_ML_Translate</code></a></p>
 </dd>
 <dt id="cat-harness--kg-bpmn-activities--process_humantranslation.task_translateintool" data-fa-state="extracted" data-fa-gloss="">

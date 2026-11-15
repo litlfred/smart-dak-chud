@@ -602,7 +602,7 @@
       <td><a id="step-Task_TR_Translate"></a><strong>Translate new and fuzzy only</strong><br /><code class="language-plaintext highlighter-rouge">Task_TR_Translate</code></td>
       <td>Locale translator</td>
       <td><a href="../../../en/cat-harness/processes/skills/translation-manager.html"><code class="language-plaintext highlighter-rouge">translation-manager</code></a></td>
-      <td>Only the empty and fuzzy entries, in every locale, with the terms the term base fixes. A finished string is not touched.</td>
+      <td>Only the empty and fuzzy entries, in every locale, with the terms the term base fixes. A finished string is not touched. Candidates for the empty and fuzzy entries may come first from <code class="language-plaintext highlighter-rouge">translation:candidates</code> (Tool translation-candidates: open engines, OPUS-MT and/or self-hosted LibreTranslate), recorded in &lt;catalogue&gt;.candidates.json; an empty entry also gets the first good candidate, fuzzy, until it is re-translated here or a person picks or accepts one on the review page.</td>
     </tr>
     <tr>
       <td><a id="step-Task_TR_Gates"></a><strong>Re-run the gates</strong><br /><code class="language-plaintext highlighter-rouge">Task_TR_Gates</code></td>

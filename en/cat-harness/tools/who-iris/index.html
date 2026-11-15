@@ -298,9 +298,9 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>2</b><span>Tool nodes</span></a>
-<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>2</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>2</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#every-tool"><b>4</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>4</b><span>skills satisfied</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>4</b><span>invoked as a shell command</span></a>
 <a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>0</b><span>reachable over MCP</span></a>
 </div>
 
@@ -325,7 +325,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell" data-surface="shell">cli</span></td>
-      <td>2</td>
+      <td>4</td>
     </tr>
   </tbody>
 </table></div>
@@ -338,6 +338,10 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">cli</code></td>
+      <td>2</td>
+    </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
       <td>2</td>
@@ -353,7 +357,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>2</strong> skills named across <strong>2</strong> tools resolve to a
+<p>Yes — all <strong>4</strong> skills named across <strong>4</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -365,7 +369,7 @@ tool advertising a capability the graph cannot locate.</p>
 </h2>
     
 
-<div class="tg-filter" id="tg-filter" role="group" aria-label="Filter by how a tool is reached"><span>Reached as:</span><button type="button" aria-pressed="true" data-surface="">all</button><button type="button" aria-pressed="false" data-surface="shell">cli (2)</button><span><span id="tg-shown">2</span> of 2 shown</span></div>
+<div class="tg-filter" id="tg-filter" role="group" aria-label="Filter by how a tool is reached"><span>Reached as:</span><button type="button" aria-pressed="true" data-surface="">all</button><button type="button" aria-pressed="false" data-surface="shell">cli (4)</button><span><span id="tg-shown">4</span> of 4 shown</span></div>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -379,6 +383,22 @@ tool advertising a capability the graph cannot locate.</p>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a id="ci-iris-cdn"></a><a href="ci-iris-cdn/"><code class="language-plaintext highlighter-rouge">ci-iris-cdn</code></a> · <a href="https://litlfred.github.io/folio-assistant/who-iris/tools/ci-iris-cdn.jsonld">JSON-LD</a><br />Run the IRIS CDN export</td>
+      <td>Dispatch <code class="language-plaintext highlighter-rouge">iris-cdn.yml</code>: the nightly change ingest or the weekly reconciliation of the IRIS CDN (<code class="language-plaintext highlighter-rouge">scripts/iris-cdn/run.ts</code>), then verify the signed release. Started with the standard GitHub CLI; the run is watched with <code class="language-plaintext highlighter-rouge">gh run watch</code>.</td>
+      <td><span class="tg-tag tg-shell" data-surface="shell">cli</span></td>
+      <td><code class="language-plaintext highlighter-rouge">iris-cdn-exporter</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-dak-chud/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="ci-iris-cover-pdfs"></a><a href="ci-iris-cover-pdfs/"><code class="language-plaintext highlighter-rouge">ci-iris-cover-pdfs</code></a> · <a href="https://litlfred.github.io/folio-assistant/who-iris/tools/ci-iris-cover-pdfs.jsonld">JSON-LD</a><br />Fetch IRIS cover PDFs</td>
+      <td>Dispatch <code class="language-plaintext highlighter-rouge">iris-cover-pdfs.yml</code>: fetch the PDFs the replica’s home page references (<code class="language-plaintext highlighter-rouge">scripts/iris-covers/fetch-referenced-pdfs.py</code>) and render their cover previews (<code class="language-plaintext highlighter-rouge">scripts/iris-covers/render-previews.py</code>). Started with the standard GitHub CLI; the run is watched with <code class="language-plaintext highlighter-rouge">gh run watch</code>.</td>
+      <td><span class="tg-tag tg-shell" data-surface="shell">cli</span></td>
+      <td><code class="language-plaintext highlighter-rouge">iris-dspace</code></td>
+      <td>2 in / 1 out</td>
+      <td><a href="https://github.com/litlfred/smart-dak-chud/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
     <tr>
       <td><a id="iris-pages"></a><a href="iris-pages/"><code class="language-plaintext highlighter-rouge">iris-pages</code></a> · <a href="https://litlfred.github.io/folio-assistant/who-iris/tools/iris-pages.jsonld">JSON-LD</a><br />who-iris catalogue and docs pages</td>
       <td>Render who-iris’s docs pages, the catalogue visualiser at its declared route (what the catalogue knows, and what it records that it does not know), the library’s withheld list, and the IRIS replica’s home page.</td>

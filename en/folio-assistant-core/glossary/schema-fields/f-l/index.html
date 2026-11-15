@@ -280,16 +280,16 @@
 
 <p>Candidate terms extracted from every schema field with a doc comment: <code class="language-plaintext highlighter-rouge">&lt;Declaration&gt;.&lt;field&gt;</code> as the label, the comment’s first paragraph as the definition. Each is the asset’s own text, verbatim and not curated, and carries the badge “candidate, extracted”. A person promotes one by authoring it. Authored terms are on their owning instance’s page, and those pages, the counts and the sources are linked from the <a href="../../../../../en/folio-assistant-core/glossary/">glossary index</a>.</p>
 
-<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2554 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 162 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 208 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 50 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
+<p>From: bootstrap-tools 45 (<a href="../../../../../assets/glossary/bootstrap-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · cat-harness-tools 2562 (<a href="../../../../../assets/glossary/cat-harness-tools--kg-schema-fields.skos.jsonld">SKOS</a>) · fhir-harness 180 (<a href="../../../../../assets/glossary/fhir-harness--kg-schema-fields.skos.jsonld">SKOS</a>) · folio-assistant-core 208 (<a href="../../../../../assets/glossary/folio-assistant-core--kg-schema-fields.skos.jsonld">SKOS</a>) · smart-base 113 (<a href="../../../../../assets/glossary/smart-base--kg-schema-fields.skos.jsonld">SKOS</a>).</p>
 
 <p>One of 7 pages of this type, split by the first letter of the label: <a href="../../../../../en/folio-assistant-core/glossary/schema-fields/">all parts</a>.</p>
 
-<p><strong>Size:</strong> this page holds 635 terms and is 374 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
+<p><strong>Size:</strong> this page holds 654 terms and is 385 KB before compression, fetched in one request, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it.</p>
 
 <div class="table-wrapper"><table class="fa-gloss-mapping">
 <caption>Already somebody else's concept? — <code>check:term-mapping</code>, bean <code>7wou</code></caption>
 <thead><tr><th>target</th><th>mapped</th><th>unmapped</th><th>undetermined</th><th>why undetermined</th></tr></thead>
-<tbody><tr><td><code>fhir</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2915</td><td>0</td><td>—</td></tr></tbody>
+<tbody><tr><td><code>fhir</code></td><td>0</td><td>2911</td><td>0</td><td>—</td></tr><tr><td><code>skos</code></td><td>0</td><td>2911</td><td>0</td><td>—</td></tr></tbody>
 </table></div>
 <p class="fa-gloss-mapping-note"><strong>Undetermined is never “no match”.</strong> 
 A vocabulary that could not be reached has said nothing, and the column above keeps that 
@@ -299,7 +299,7 @@ be a term this corpus is right to coin.</p>
 
 <p><label for="fa-gloss-q">Filter terms</label>
 <input id="fa-gloss-q" type="search" autocomplete="off" style="min-height:44px;width:100%;max-width:32rem" /></p>
-<p aria-live="polite"><span id="fa-gloss-n">635</span> shown</p>
+<p aria-live="polite"><span id="fa-gloss-n">654</span> shown</p>
 
 <nav aria-label="Letters"><a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-H">H</a> <a href="#letter-I">I</a> <a href="#letter-J">J</a> <a href="#letter-K">K</a> <a href="#letter-L">L</a></nav>
 <h2 id="letter-F">
@@ -388,6 +388,13 @@ FhirArtifactIndexSchema.sidecarsUnbound <span class="fa-gloss-status">candidate,
 <p>Sidecars an enumeration listed that bound to no artefact. Absent means none; an empty array is not written. See &#123;@link UnboundSidecarSchema} for why these are recorded rather than warned about and forgotten.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-artifact-index.ts"><code>fhir-harness/schemas/fhir-artifact-index.ts#FhirArtifactIndexSchema.sidecarsUnbound</code></a></p>
 </dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-artifact-index.fhirartifactindexschema.status" data-fa-state="extracted" data-fa-gloss="">
+FhirArtifactIndexSchema.status <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The IG's own publication status (<code>draft</code>, <code>active</code>, <code>retired</code>), from its ImplementationGuide resource.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-artifact-index.ts"><code>fhir-harness/schemas/fhir-artifact-index.ts#FhirArtifactIndexSchema.status</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-schema-fields--fhir-artifact-index.fhirartifactschema.canonical" data-fa-state="extracted" data-fa-gloss="">
 FhirArtifactSchema.canonical <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -465,12 +472,61 @@ FhirChangeSchema.spec <span class="fa-gloss-status">candidate, extracted</span>
 <p>The base standard's page.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/process/user-scenario.ts"><code>cat-harness-tools/schemas/process/user-scenario.ts#FhirChangeSchema.spec</code></a></p>
 </dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircoreclassmodelobject.derivation" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreClassModelObject.derivation <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The rule the writer applies, in words.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreClassModelObject.derivation</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircoreclassmodelobject.derivedfrom" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreClassModelObject.derivedFrom <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>HL7's package every class is read from, by URL and sha1.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreClassModelObject.derivedFrom</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircoremirrorschema.note" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreMirrorSchema.note <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>How this copy relates to HL7's bytes, as checked when the mirror was pinned.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreMirrorSchema.note</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepackageschema.integrity" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePackageSchema.integrity <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>sha512 of HL7's bytes.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema.integrity</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepackageschema.shasum" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePackageSchema.shasum <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>sha1 of HL7's bytes, hex.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema.shasum</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepackageschema.tarball" data-fa-state="extracted" data-fa-gloss="">
 FhirCorePackageSchema.tarball <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>packages.fhir.org's URL for the exact version.</p>
+<p>HL7's own URL for the package: <code>https://hl7.org/fhir/&lt;release&gt;/hl7.fhir.&lt;r&gt;.core.tgz</code>.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePackageSchema.tarball</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepinobject.spec" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePinObject.spec <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>HL7's published specification for this release.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePinObject.spec</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepinsobject.authority" data-fa-state="extracted" data-fa-gloss="">
+FhirCorePinsObject.authority <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Whose publication the definitions are: HL7's, always.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCorePinsObject.authority</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorepinsobject.note" data-fa-state="extracted" data-fa-gloss="">
 FhirCorePinsObject.note <span class="fa-gloss-status">candidate, extracted</span>
@@ -493,6 +549,13 @@ FhirCoreReleaseObject.definitions <span class="fa-gloss-status">candidate, extra
 <p><code>read</code> only, and never empty. An <code>unread</code> release has NO <code>definitions</code>: unread is not empty.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.definitions</code></a></p>
 </dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.package" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.package <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>HL7's package the manifest was read from: always HL7's own bytes, never a mirror's.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.package</code></a></p>
+</dd>
 <dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.reason" data-fa-state="extracted" data-fa-gloss="">
 FhirCoreReleaseObject.reason <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
@@ -506,6 +569,13 @@ FhirCoreReleaseObject.selection <span class="fa-gloss-status">candidate, extract
 <dd>
 <p>The rule &#123;@link isCoreDefinition} applies, in words.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.selection</code></a></p>
+</dd>
+<dt id="fhir-harness--kg-schema-fields--fhir-core.fhircorereleaseobject.spec" data-fa-state="extracted" data-fa-gloss="">
+FhirCoreReleaseObject.spec <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>HL7's published specification for this release: the authority.</p>
+<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/fhir-core.ts"><code>fhir-harness/schemas/fhir-core.ts#FhirCoreReleaseObject.spec</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--device-screen.fieldsblockschema.columns" data-fa-state="extracted" data-fa-gloss="">
 FieldsBlockSchema.columns <span class="fa-gloss-status">candidate, extracted</span>
@@ -1286,6 +1356,76 @@ GlossarySenseVerdictSchema.term <span class="fa-gloss-status">candidate, extract
 <dd>
 <p>The term's id: its IRI, or <code>&lt;subject area&gt;#&lt;label&gt;</code> for a terminology pin.</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/glossary-sense.ts"><code>cat-harness-tools/schemas/kg/glossary-sense.ts#GlossarySenseVerdictSchema.term</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.archimateelementiri" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.archimateElementIri <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Link to the corresponding <code>smart-ra</code> ArchiMate Business Role, Actor, or Collaboration IRI.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.archimateElementIri</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.chairorleadroleiri" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.chairOrLeadRoleIri <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>IRI of the chairing or leading role/actor.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.chairOrLeadRoleIri</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.decisionrights" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.decisionRights <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Explicit decision rights or approval authorities held by this body/role.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.decisionRights</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.id" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.id <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Stable identifier for the governance role or body (e.g. <code>&quot;SFP-GOV-01&quot;</code>).</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.id</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.mandate" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.mandate <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Mandate, terms of reference, or core responsibility statement.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.mandate</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.meetingcadence" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.meetingCadence <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Stated meeting cadence or review frequency (e.g. <code>&quot;Quarterly&quot;</code>, <code>&quot;Monthly during rollout&quot;</code>).</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.meetingCadence</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.memberroleiris" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.memberRoleIris <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>IRIs of constituent member roles or stakeholder organisations.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.memberRoleIris</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.name" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.name <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Human-readable name of the governance body or leadership role.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.name</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.roletype" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.roleType <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>Classification of the governance body or leadership role.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.roleType</code></a></p>
+</dd>
+<dt id="smart-base--kg-schema-fields--dth-planning-schemas.governanceroleschema.sourceref" data-fa-state="extracted" data-fa-gloss="">
+GovernanceRoleSchema.sourceRef <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>L1 handbook citation from which this governance role was extracted.</p>
+<p class="fa-gloss-meta">Schema fields of smart-base · source <a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/dth-planning-schemas.ts"><code>smart-base/schemas/dth-planning-schemas.ts#GovernanceRoleSchema.sourceRef</code></a></p>
 </dd>
 <dt id="bootstrap-tools--kg-schema-fields--graph-export.graphexportschema.at-graph" data-fa-state="extracted" data-fa-gloss="">
 GraphExportSchema.@graph <span class="fa-gloss-status">candidate, extracted</span>
@@ -2179,7 +2319,7 @@ IgChromeRuleSchema.selector <span class="fa-gloss-status">candidate, extracted</
 IgChromeSchema.id <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
-<p>The chain's TOP layer — the template package an IG names — e.g. <code>who.template.root</code>. v1 put the id of the IG it was ingested beside here; v2 keys the chrome by the template, because every IG building with that chain wears it. An IG's own id and status are <code>ig-identity.json</code>'s.</p>
+<p>The chain's TOP layer — the template package an IG names — e.g. <code>who.template.root</code>. v1 put the id of the IG it was ingested beside here; v2 keys the chrome by the template, because every IG building with that chain wears it. An IG's own id and status are its artefact index's.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-chrome.ts"><code>fhir-harness/schemas/ig-chrome.ts#IgChromeSchema.id</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-schema-fields--ig-chrome.igchromeschema.layers" data-fa-state="extracted" data-fa-gloss="">
@@ -2231,40 +2371,12 @@ IgIdentitySchema.canonical <span class="fa-gloss-status">candidate, extracted</s
 <p>The IG's canonical URL, where it declares one.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-metadata-index.ts"><code>fhir-harness/schemas/ig-metadata-index.ts#IgIdentitySchema.canonical</code></a></p>
 </dd>
-<dt id="fhir-harness--kg-schema-fields--ig-identity.igidentityschema.id" data-fa-state="extracted" data-fa-gloss="">
-IgIdentitySchema.id <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>The IG's <code>id</code> from <code>sushi-config.yaml</code>; SUSHI's <code>packageId</code> defaults to it.</p>
-<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-identity.ts"><code>fhir-harness/schemas/ig-identity.ts#IgIdentitySchema.id</code></a></p>
-</dd>
 <dt id="fhir-harness--kg-schema-fields--ig-metadata-index.igidentityschema.packageid" data-fa-state="extracted" data-fa-gloss="">
 IgIdentitySchema.packageId <span class="fa-gloss-status">candidate, extracted</span>
 </dt>
 <dd>
 <p>The NPM-style package id, e.g. <code>who.smart.trust</code>.</p>
 <p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-metadata-index.ts"><code>fhir-harness/schemas/ig-metadata-index.ts#IgIdentitySchema.packageId</code></a></p>
-</dd>
-<dt id="fhir-harness--kg-schema-fields--ig-identity.igidentityschema.readat" data-fa-state="extracted" data-fa-gloss="">
-IgIdentitySchema.readAt <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>When it was read. A status is a fact at a moment, not forever.</p>
-<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-identity.ts"><code>fhir-harness/schemas/ig-identity.ts#IgIdentitySchema.readAt</code></a></p>
-</dd>
-<dt id="fhir-harness--kg-schema-fields--ig-identity.igidentityschema.readfrom" data-fa-state="extracted" data-fa-gloss="">
-IgIdentitySchema.readFrom <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p>Where it was read: a repository and file, so the claim can be re-checked.</p>
-<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-identity.ts"><code>fhir-harness/schemas/ig-identity.ts#IgIdentitySchema.readFrom</code></a></p>
-</dd>
-<dt id="fhir-harness--kg-schema-fields--ig-identity.igidentityschema.status" data-fa-state="extracted" data-fa-gloss="">
-IgIdentitySchema.status <span class="fa-gloss-status">candidate, extracted</span>
-</dt>
-<dd>
-<p><code>draft</code>, <code>active</code>, <code>retired</code> … — what selects the template's watermark.</p>
-<p class="fa-gloss-meta">Schema fields of fhir-harness · source <a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-identity.ts"><code>fhir-harness/schemas/ig-identity.ts#IgIdentitySchema.status</code></a></p>
 </dd>
 <dt id="fhir-harness--kg-schema-fields--ig-metadata-index.igidentityschema.version" data-fa-state="extracted" data-fa-gloss="">
 IgIdentitySchema.version <span class="fa-gloss-status">candidate, extracted</span>
@@ -4080,6 +4192,27 @@ LaTeXLocation.number <span class="fa-gloss-status">candidate, extracted</span>
 <dd>
 <p>Rendered theorem number (e.g., &quot;4.12&quot;).</p>
 <p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/formalization-types.ts"><code>cat-harness-tools/schemas/formalization-types.ts#LaTeXLocation.number</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--publishing-profile.layerpublishschema.id" data-fa-state="extracted" data-fa-gloss="">
+LayerPublishSchema.id <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The layer's path under <code>publishedRoot</code> (for an IG, the id in its canonical).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/publishing-profile.ts"><code>cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.id</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--publishing-profile.layerpublishschema.profile" data-fa-state="extracted" data-fa-gloss="">
+LayerPublishSchema.profile <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p>The profile file, checkout-relative (usually in a mounted layer).</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/publishing-profile.ts"><code>cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.profile</code></a></p>
+</dd>
+<dt id="cat-harness-tools--kg-schema-fields--publishing-profile.layerpublishschema.stage" data-fa-state="extracted" data-fa-gloss="">
+LayerPublishSchema.stage <span class="fa-gloss-status">candidate, extracted</span>
+</dt>
+<dd>
+<p><code>staging</code> until the layer is published; then <code>published</code>.</p>
+<p class="fa-gloss-meta">Schema fields of cat-harness-tools · source <a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/publishing-profile.ts"><code>cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.stage</code></a></p>
 </dd>
 <dt id="cat-harness-tools--kg-schema-fields--node-kind-index.layerratchet.foreign" data-fa-state="extracted" data-fa-gloss="">
 LayerRatchet.foreign <span class="fa-gloss-status">candidate, extracted</span>

@@ -326,9 +326,9 @@ is <code class="language-plaintext highlighter-rouge">satisfies</code>, and it r
 to do that</em>, never <em>this skill is a tool</em>.</p>
 
 <div class="tg-grid">
-<a class="tg-stat" href="#every-tool"><b>183</b><span>Tool nodes</span></a>
-<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>76</b><span>skills satisfied</span></a>
-<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>153</b><span>invoked as a shell command</span></a>
+<a class="tg-stat" href="#every-tool"><b>184</b><span>Tool nodes</span></a>
+<a class="tg-stat" href="#does-every-satisfies-name-a-skill-that-exists"><b>77</b><span>skills satisfied</span></a>
+<a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>154</b><span>invoked as a shell command</span></a>
 <a class="tg-stat" href="#how-they-are-invoked-and-installed"><b>29</b><span>reachable over MCP</span></a>
 </div>
 
@@ -353,7 +353,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><span class="tg-tag tg-shell" data-surface="shell">cli</span></td>
-      <td>153</td>
+      <td>154</td>
     </tr>
     <tr>
       <td><span class="tg-tag tg-inproc" data-surface="inProcess">inProcess</span></td>
@@ -380,7 +380,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
   <tbody>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">none</code></td>
-      <td>159</td>
+      <td>160</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">cli</code></td>
@@ -401,7 +401,7 @@ to do that</em>, never <em>this skill is a tool</em>.</p>
 </h2>
     
 
-<p>Yes — all <strong>76</strong> skills named across <strong>183</strong> tools resolve to a
+<p>Yes — all <strong>77</strong> skills named across <strong>184</strong> tools resolve to a
 skill document in this checkout. A <code class="language-plaintext highlighter-rouge">satisfies</code> pointing at nothing would be a
 tool advertising a capability the graph cannot locate.</p>
 <h2 id="every-tool">
@@ -413,7 +413,7 @@ tool advertising a capability the graph cannot locate.</p>
 </h2>
     
 
-<div class="tg-filter" id="tg-filter" role="group" aria-label="Filter by how a tool is reached"><span>Reached as:</span><button type="button" aria-pressed="true" data-surface="">all</button><button type="button" aria-pressed="false" data-surface="action">github action (6)</button><button type="button" aria-pressed="false" data-surface="inProcess">inProcess (34)</button><button type="button" aria-pressed="false" data-surface="manual">manual (9)</button><button type="button" aria-pressed="false" data-surface="mcp">mcp (29)</button><button type="button" aria-pressed="false" data-surface="shell">cli (153)</button><span><span id="tg-shown">183</span> of 183 shown</span></div>
+<div class="tg-filter" id="tg-filter" role="group" aria-label="Filter by how a tool is reached"><span>Reached as:</span><button type="button" aria-pressed="true" data-surface="">all</button><button type="button" aria-pressed="false" data-surface="action">github action (6)</button><button type="button" aria-pressed="false" data-surface="inProcess">inProcess (34)</button><button type="button" aria-pressed="false" data-surface="manual">manual (9)</button><button type="button" aria-pressed="false" data-surface="mcp">mcp (29)</button><button type="button" aria-pressed="false" data-surface="shell">cli (154)</button><span><span id="tg-shown">184</span> of 184 shown</span></div>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1681,6 +1681,14 @@ tool advertising a capability the graph cannot locate.</p>
       <td><span class="tg-tag tg-manual" data-surface="manual">manual</span></td>
       <td><code class="language-plaintext highlighter-rouge">translation-adjudication</code></td>
       <td>3 in / 2 out</td>
+      <td><a href="https://github.com/litlfred/smart-dak-chud/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
+    </tr>
+    <tr>
+      <td><a id="translation-candidates"></a><a href="translation-candidates/"><code class="language-plaintext highlighter-rouge">translation-candidates</code></a> · <a href="https://litlfred.github.io/folio-assistant/cat-harness/tools/translation-candidates.jsonld">JSON-LD</a><br />Collect candidate translations from open engines</td>
+      <td>Ask one or more open, self-hosted machine translators — OPUS-MT (Helsinki-NLP Marian models, CC-BY 4.0, run locally) and/or a self-hosted LibreTranslate (AGPL, Argos models) — for CANDIDATE translations of each empty or fuzzy string, so no freemium API quota is involved. Candidates are appended to <code class="language-plaintext highlighter-rouge">&lt;locale&gt;/&lt;catalogue&gt;.candidates.json</code> (<code class="language-plaintext highlighter-rouge">translation-candidates/v1</code>) for a reviewer to choose among on the translation review page; a candidate whose placeholders or markup do not round-trip is not recorded. Candidates are never a barrier to having a translation: an EMPTY msgstr gets the first good candidate, marked <code class="language-plaintext highlighter-rouge">#, fuzzy</code>; a non-empty msgstr is never overwritten. The translation node records the source (<code class="language-plaintext highlighter-rouge">generatedBy: "machine"</code>, model, time); <code class="language-plaintext highlighter-rouge">official</code> is never set, and a candidate is never a verdict. A catalogue that says DO NOT MACHINE-FILL, or whose node is official, gets candidates but no fill.</td>
+      <td><span class="tg-tag tg-shell" data-surface="shell">cli</span></td>
+      <td><code class="language-plaintext highlighter-rouge">translation-candidate-source</code><br /><code class="language-plaintext highlighter-rouge">translation-refresh</code></td>
+      <td>8 in / 2 out</td>
       <td><a href="https://github.com/litlfred/smart-dak-chud/blob/cat/cat-harness/qa-reports/index.json"><code class="language-plaintext highlighter-rouge">qa-reports</code></a></td>
     </tr>
     <tr>

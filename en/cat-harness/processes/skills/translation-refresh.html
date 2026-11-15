@@ -367,8 +367,8 @@ takes <code class="language-plaintext highlighter-rouge">--instance &lt;root&gt;
     </tr>
     <tr>
       <td>4. translate new and fuzzy</td>
-      <td>by hand or by agent, with the locale term base</td>
-      <td>no empty or fuzzy entry is left</td>
+      <td>optionally candidates first: <code class="language-plaintext highlighter-rouge">translation:candidates --instance &lt;root&gt; --engine opus-mt</code> (Tool <a href="https://github.com/litlfred/cat-harness/blob/main/tools/translation-candidates/translation-candidates.json"><code class="language-plaintext highlighter-rouge">translation-candidates</code></a>), then by hand or by agent, with the locale term base</td>
+      <td>no empty entry is left, and every fuzzy entry is either re-translated or a candidate awaiting review</td>
     </tr>
     <tr>
       <td>5. gates</td>
@@ -493,9 +493,23 @@ worded it differently today. Translate with the locale term base
 a term a lower layer fixes keeps its fixed form. Clear <code class="language-plaintext highlighter-rouge">#, fuzzy</code> only on an
 entry you have actually re-translated.</p>
 
+<p><strong>Machine candidates are allowed, and stay drafts.</strong> <code class="language-plaintext highlighter-rouge">bun run cat
+translation:candidates --instance &lt;root&gt; --engine opus-mt</code> (add
+<code class="language-plaintext highlighter-rouge">,libretranslate --url &lt;self-hosted&gt;</code> for a second source) asks open engines
+for candidates for the empty and fuzzy entries, never a hosted freemium API.
+The candidates go to <code class="language-plaintext highlighter-rouge">&lt;catalogue&gt;.candidates.json</code> for the review page. An
+EMPTY entry also gets the first good candidate, <code class="language-plaintext highlighter-rouge">#, fuzzy</code>, so it is never left
+untranslated. A candidate whose placeholders do not round-trip is not
+recorded. The tool does not change a fuzzy entry that already has text, a
+plural entry, a catalogue that says <code class="language-plaintext highlighter-rouge">DO NOT MACHINE-FILL</code>, or a catalogue whose
+node is official (those get candidates only). Its strings stay fuzzy until you
+re-translate them or a person picks or accepts one on the review page. Do not
+clear the flag because a machine wrote the string.</p>
+
 <p>FHIR terms go into the locale’s one CodeSystem supplement, never into the
-resource. Translation-node manifests stay <code class="language-plaintext highlighter-rouge">official: false</code>,
-<code class="language-plaintext highlighter-rouge">generatedBy: "agent"</code>. Write no <code class="language-plaintext highlighter-rouge">status.json</code>.</p>
+resource. Translation-node manifests stay <code class="language-plaintext highlighter-rouge">official: false</code>, with
+<code class="language-plaintext highlighter-rouge">generatedBy: "agent"</code>, or <code class="language-plaintext highlighter-rouge">"machine"</code> where the candidates step filled an
+empty entry. Write no <code class="language-plaintext highlighter-rouge">status.json</code>.</p>
 
 <p><strong>A mistake in the source is not fixed here.</strong> Translate what the source says,
 and note the location for step 10.</p>

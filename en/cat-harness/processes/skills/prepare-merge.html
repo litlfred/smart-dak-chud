@@ -163,7 +163,7 @@
 
 <link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-1r2cl14hhdb.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content="../../../.."></head>
 
-<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-1r2cl14hhdb","here":"/en/cat-harness/processes/skills/prepare-merge.html","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#fsh-guts-must-not-reach-publication","label":"fsh-guts must not reach publication"},{"href":"#recipe","label":"Recipe"},{"href":"#what-a-green-local-run-entitles-you-to-claim","label":"What a green LOCAL run entitles you to claim"},{"href":"#a-new-gate-in-a-lower-layer-must-pass-downstream-strict","label":"A new gate in a lower layer must pass downstream (STRICT)"},{"href":"#a-clean-merge-can-produce-a-wrong-artefact-strict","label":"A clean merge can produce a wrong artefact (STRICT)","children":[{"href":"#submodules-check-the-pointers-before-you-stage-the-merge-strict","label":"Submodules: check the pointers BEFORE you stage the merge (STRICT)","depth":1}],"fold":"1 sub-section"},{"href":"#conflicts-in-testresults-and-testattestations--regenerate-one-read-the-other","label":"Conflicts in test/results/ and test/attestations/ — regenerate one, read the other"},{"href":"#a-change-that-moves-a-cached-steps-key--publish-what-ci-can-verify","label":"A change that moves a cached step’s key — publish what CI can verify"},{"href":"#shipping-is-not-merging--hand-over-on-the-pr-itself","label":"Shipping is not merging — hand over on the PR itself"},{"href":"#opening-the-pr-only-when-asked","label":"Opening the PR (only when asked)"},{"href":"#guardrails","label":"Guardrails"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">SMART DAK CHUD</a></nav>
+<body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-1r2cl14hhdb","here":"/en/cat-harness/processes/skills/prepare-merge.html","documentIndex":{"label":"On this page","icon":"§","items":[{"href":"#fsh-guts-must-not-reach-publication","label":"fsh-guts must not reach publication"},{"href":"#recipe","label":"Recipe"},{"href":"#what-a-green-local-run-entitles-you-to-claim","label":"What a green LOCAL run entitles you to claim"},{"href":"#a-new-gate-in-a-lower-layer-must-pass-downstream-strict","label":"A new gate in a lower layer must pass downstream (STRICT)"},{"href":"#a-clean-merge-can-produce-a-wrong-artefact-strict","label":"A clean merge can produce a wrong artefact (STRICT)","children":[{"href":"#submodules-check-the-pointers-before-you-stage-the-merge-strict","label":"Submodules: check the pointers BEFORE you stage the merge (STRICT)","depth":1}],"fold":"1 sub-section"},{"href":"#conflicts-in-testresults-and-testattestations--regenerate-one-read-the-other","label":"Conflicts in test/results/ and test/attestations/ — regenerate one, read the other"},{"href":"#a-change-that-moves-a-cached-steps-key--publish-what-ci-can-verify","label":"A change that moves a cached step’s key — publish what CI can verify"},{"href":"#content-prs-label-content-and-document-the-review-before-ready-strict","label":"Content PRs: label content, and document the review before ready (STRICT)"},{"href":"#shipping-is-not-merging--hand-over-on-the-pr-itself","label":"Shipping is not merging — hand over on the PR itself"},{"href":"#opening-the-pr-only-when-asked","label":"Opening the PR (only when asked)"},{"href":"#guardrails","label":"Guardrails"}],"collapsible":true}}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">SMART DAK CHUD</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="svg-link" viewBox="0 0 24 24">
@@ -453,7 +453,9 @@ measured”</strong>, never 0. Never count resolved comments as coverage: a
 resolved comment is not a reviewer’s verdict on the block.</p>
 
     <p>This REPORTS; it does not merge or refuse. The gate belongs to the review
-process, and the committee decides the outcome. Say so when coverage could
+process, and the committee decides the outcome. A branch like this is a
+content PR: label it <code class="language-plaintext highlighter-rouge">content</code> and write its <code class="language-plaintext highlighter-rouge">## Content review</code> section
+before it is ready (§”Content PRs”). Say so when coverage could
 not be measured, because a branch passed with unmeasured coverage reads as
 “reviewed”.</p>
   </li>
@@ -613,6 +615,13 @@ and its result.</li>
 
 <p>Without all three, the gate waits. It never lands for the next re-pin to
 discover.</p>
+
+<p>The converse holds too: <strong>a gate judges a repository against its own
+dependencies, never against a dependent’s pins of it.</strong> A gate that mounts a
+downstream index and so tests an older copy of the repository under review
+is a defect in the gate, and its red never holds the lower PR
+(<a href="merge-queue.html"><code class="language-plaintext highlighter-rouge">merge-queue</code></a> §”A lower repository never waits on a
+higher one”).</p>
 <h2 id="a-clean-merge-can-produce-a-wrong-artefact-strict">
   
   
@@ -791,6 +800,71 @@ before pushing, so CI only verifies the entry instead of rebuilding it. Today
 that is <code class="language-plaintext highlighter-rouge">cat-mount</code> when <code class="language-plaintext highlighter-rouge">index.lock.json</code> changes. Verdicts are never
 published this way. The rule, the trust classes and the budget are in
 <a href="cache-first-ci.html"><code class="language-plaintext highlighter-rouge">cache-first-ci</code></a>.</p>
+<h2 id="content-prs-label-content-and-document-the-review-before-ready-strict">
+  
+  
+    <a href="#content-prs-label-content-and-document-the-review-before-ready-strict" class="anchor-heading" aria-labelledby="content-prs-label-content-and-document-the-review-before-ready-strict"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Content PRs: label <code class="language-plaintext highlighter-rouge">content</code>, and document the review before ready (STRICT)
+  
+  
+</h2>
+    
+
+<p>Owner, 2026-11-15: “content PRs get a label and that indicates a content
+review process needs to be documented as part of making it ready”.</p>
+
+<p><strong>What is content.</strong> A PR is a content PR when it changes folio content
+text or what a reader of the folio sees as its substance: block wording,
+tables, figures and the models they are drawn from (ArchiMate, BPMN, DMN),
+glossary terms and definitions, references, a change set (<code class="language-plaintext highlighter-rouge">CS-</code>), a public
+comment response, or a re-derivation of a content layer’s generated
+summaries. It is not content when it changes only harness or tool code, workflows, pins
+(<code class="language-plaintext highlighter-rouge">index.lock.json</code>), work items, tests or docs about the platform. A PR that
+regenerates a content table or figure from its source is content too: what
+the reader sees changes. When in doubt, label it <code class="language-plaintext highlighter-rouge">content</code>; the owner can
+take the label off.</p>
+
+<p><strong>What the agent does.</strong></p>
+
+<ol>
+  <li><strong>Label it <code class="language-plaintext highlighter-rouge">content</code> when you open it</strong> (or as soon as you see it is
+content). The label exists in every content repository; create it with
+colour <code class="language-plaintext highlighter-rouge">0e8a16</code> if a new repository lacks it.</li>
+  <li><strong>Open it as a draft, and keep it a draft</strong> until the review is
+documented. Never merge it, and never ask the merge manager to: content is
+the owner’s or the committee’s decision
+(<a href="merge-manager-watcher.html"><code class="language-plaintext highlighter-rouge">merge-manager-watcher</code></a> §”Safety rules”).</li>
+  <li><strong>Before marking it ready, add a <code class="language-plaintext highlighter-rouge">## Content review</code> section</strong> to the PR
+body that says which review process it went through and points to its
+record. One or more of:
+    <ul>
+      <li>the owner’s decision card id (<code class="language-plaintext highlighter-rouge">Q-…</code>) approving the wording, or a
+corpus-gate waiver card;</li>
+      <li>the committee decision or public-comment review-log entry (a link);</li>
+      <li>the editing-hci-validation instance of the changed blocks (its path or
+work item), the record <code class="language-plaintext highlighter-rouge">check:corpus-gate</code> reads;</li>
+      <li>the review page of the preview with its verdicts (a link), and the
+review coverage numbers of §”Recipe” step 5.
+Say what is still open, if anything. A placeholder (“TODO”, “pending”)
+is not a record. Never invent a review step that did not happen: a
+recorded waiver is better than a made-up history.</li>
+    </ul>
+  </li>
+  <li><strong>Then mark it ready.</strong> <code class="language-plaintext highlighter-rouge">merge:guard</code> check 9 (<code class="language-plaintext highlighter-rouge">content-review</code>) reads
+that section: a content draft without it is <code class="language-plaintext highlighter-rouge">pending</code>, and a content PR
+marked ready without it is a <code class="language-plaintext highlighter-rouge">failure</code>.</li>
+</ol>
+
+<p><strong>Keep functional changes out of it.</strong> A code, configuration, pin, schema,
+CI or tooling change found inside a content PR is split into its own
+non-content PR, and removed from the content PR with an ordinary revert
+commit. Bring a content PR up to current main only after every repository it
+depends on is stable (<a href="merge-manager-watcher.html"><code class="language-plaintext highlighter-rouge">merge-manager-watcher</code></a>
+§”Merging across dependent repositories”, rules 4 and 5).</p>
+
+<p><strong>What the merge manager does.</strong> <code class="language-plaintext highlighter-rouge">merge:watch</code>, both the report and
+<code class="language-plaintext highlighter-rouge">--queue</code>, leaves out every PR labelled <code class="language-plaintext highlighter-rouge">content</code>, so content never appears
+in the merge manager’s status table, even with <code class="language-plaintext highlighter-rouge">ready-to-merge</code> on it.
+Content PRs go to the owner one by one, by card.</p>
 <h2 id="shipping-is-not-merging--hand-over-on-the-pr-itself">
   
   
@@ -799,6 +873,9 @@ published this way. The rule, the trust classes and the budget are in
   
 </h2>
     
+
+<p>A PR is handed over when it is <strong>ready to merge</strong> as defined in
+<a href="merge-queue.html"><code class="language-plaintext highlighter-rouge">merge-queue</code></a> §”What ‘ready to merge’ means”.</p>
 
 <p>What happens after the handover is <a href="merge-to-main.html"><code class="language-plaintext highlighter-rouge">merge-to-main</code></a>, called
 by <code class="language-plaintext highlighter-rouge">merge-train.bpmn</code> for a queued PR and by <code class="language-plaintext highlighter-rouge">crdm-close.bpmn</code> for a CRDM
