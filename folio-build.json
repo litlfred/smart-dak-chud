@@ -2,14 +2,14 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-dak-chud",
   "platform": {
-    "commit": "6d272fac1ea08f5d22d3fd68bf84baaf8f73b83a"
+    "commit": "418672b09492c6c742a4f9bd09038288a29edfab"
   },
   "source": {
     "repo": "litlfred/smart-dak-chud",
     "ref": "main",
-    "commit": "3741d407f9ca044820001cf936b1edc5650e45b6"
+    "commit": "cf964712200b40997e18ee72f658b87aba86ca70"
   },
-  "builtAt": "2026-11-15T21:18:24.545Z",
+  "builtAt": "2026-11-16T01:08:53.442Z",
   "ast": {
     "commit": "c481b5b80a472d1805ea48e46a966fd9a282341a",
     "verdict": "valid",
